@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xlingpaper PUBLIC "-//XMLmind//DTD XLingPap//EN"
+"XLingPap.dtd">
+<xlingpaper
+version="2.24.0"
+><styledPaper
+><lingPaper
+automaticallywrapinterlinears="yes"
+version="2.28.0"
+><frontMatter
+><title
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore</titleContent
+><titleContent
+contentType="fr"
+>SayMore</titleContent
+></titleContentChoices
+></title
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Saymore</titleContent
+><titleContent
+contentType="fr"
+>Saymore</titleContent
+></titleContentChoices
+></shortTitle
+><subtitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Supporters Manual (English)</titleContent
+><titleContent
+contentType="fr"
+>Manuel d'Administrateur (Français)</titleContent
+></titleContentChoices
+><img
+src="images/saymoreicon.jpg"
+></img
+></subtitle
+><author
+>NGONO Louis Pascal</author
+><author
+>John Roettele</author
+><affiliation
+>SIL International</affiliation
+><date
+>May. 2017</date
+><contents
+label="Contenu"
+showLevel="3"
+><labelContentChoices
+><labelContent
+contentType="en"
+>Table of Contents</labelContent
+><labelContent
+contentType="fr"
+>Contenu</labelContent
+></labelContentChoices
+></contents
+></frontMatter
+><part
+id="SayMSuppMan"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore Manual</titleContent
+><titleContent
+contentType="fr"
+>Manuel de SayMore</titleContent
+></titleContentChoices
+></secTitle
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore ManP1</titleContent
+><titleContent
+contentType="fr"
+>SayMore ManP1</titleContent
+></titleContentChoices
+></shortTitle
+><chapter
+id="sCRStart"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Getting Started</titleContent
+><titleContent
+contentType="fr"
+>Titre en Francais</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></chapter
+><chapter
+id="sCR"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Recording a Session</titleContent
+><titleContent
+contentType="fr"
+>la Session d'enrege</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>Hello World</p
+><p
+contentType="fr"
+>Bonjour tout le monde</p
+><p
+></p
+></chapter
+></part
+><backMatter
+><endnotes
+></endnotes
+></backMatter
+><languages
+><language
+id="lVernacular"
+name="vernacular"
+></language
+><language
+id="lGloss"
+name="gloss"
+></language
+><language
+id="len"
+></language
+></languages
+><types
+><comment
+>The following types are provided as pre-set examples. You may well want to create your own types that refer to one or more of these. You do that by typing in the names of the types in the types attribute of your type.</comment
+><type
+XeLaTeXSpecial="underline"
+color="#0033cc"
+cssSpecial="text-decoration:underline"
+font-style="normal"
+font-weight="normal"
+id="tlink"
+xsl-foSpecial="text-decoration=&quot;underline&quot;"
+></type
+><type
+font-style="italic"
+id="tresult"
+></type
+><type
+font-weight="bold"
+id="tmenu"
+></type
+><type
+id="t-en"
+></type
+><type
+id="t-fr"
+></type
+><type
+before="XLingPaper"
+id="tXLingPaper"
+></type
+><type
+before="XMLmind"
+id="tXMLmind"
+></type
+><type
+font-weight="bold"
+id="tBold"
+></type
+><type
+font-style="italic"
+font-weight="bold"
+id="tBoldItalic"
+></type
+><type
+font-weight="bold"
+id="tEmphasis"
+></type
+><type
+id="tGrammaticalGloss"
+types="tSmallCaps"
+></type
+><type
+font-style="italic"
+id="tItalic"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoOverline"
+xsl-foSpecial="text-decoration=&quot;no-overline&quot;"
+></type
+><type
+font-variant="normal"
+id="tNoSmallCaps"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoStrikethrough"
+xsl-foSpecial="text-decoration=&quot;no-line-through&quot;"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoUnderline"
+xsl-foSpecial="text-decoration=&quot;no-underline&quot;"
+></type
+><type
+cssSpecial="text-decoration:overline"
+id="tOverline"
+xsl-foSpecial="text-decoration=&quot;overline&quot;"
+></type
+><type
+font-style="normal"
+font-variant="normal"
+font-weight="normal"
+id="tRegular"
+></type
+><type
+font-family="Charis SIL Small Caps"
+id="tSmallCaps"
+></type
+><type
+XeLaTeXSpecial="line-through"
+cssSpecial="text-decoration:line-through"
+id="tStrikethrough"
+xsl-foSpecial="text-decoration=&quot;line-through&quot;"
+></type
+><type
+XeLaTeXSpecial="subscript"
+cssSpecial="vertical-align:sub;"
+font-size="65%"
+id="tsubscript"
+xsl-foSpecial="baseline-shift='sub'"
+></type
+><type
+XeLaTeXSpecial="superscript"
+cssSpecial="vertical-align:super;"
+font-size="65%"
+id="tSuperscript"
+xsl-foSpecial="baseline-shift='super'"
+></type
+><type
+XeLaTeXSpecial="underline"
+cssSpecial="text-decoration:underline"
+id="tUnderline"
+xsl-foSpecial="text-decoration=&quot;underline&quot;"
+></type
+><type
+before="Paratext 8"
+id="tPT"
+></type
+><type
+before="Paratext 7"
+id="tPTPrev"
+></type
+><type
+font-size="10pt"
+font-style="italic"
+font-weight="bold"
+id="tsub"
+></type
+><type
+font-family="Courier New"
+id="ttyped"
+></type
+><comment
+>Add your custom types here.</comment
+></types
+><framedTypes
+><framedType
+align="left"
+backgroundcolor="#FFE6FF"
+description="Teacher Note"
+id="tTeacher"
+indent-after="2cm"
+indent-before="2cm"
+innerbottommargin=".03in"
+innerleftmargin=".125in"
+innerrightmargin=".125in"
+innertopmargin=".03in"
+spaceafter="3pt"
+spacebefore="3pt"
+></framedType
+></framedTypes
+><publishingInfo
+><keywords
+><keyword
+>Paratext 8</keyword
+><keyword
+>SIL International</keyword
+><keyword
+>United Bible Societies</keyword
+><keyword
+>Bible Translation</keyword
+></keywords
+></publishingInfo
+><contentControl
+showOnlyChosenItemsInEditor="no"
+><contentTypes
+><contentType
+id="en"
+>english</contentType
+><contentType
+id="fr"
+>french</contentType
+><contentType
+id="dn"
+>Developer's Note</contentType
+></contentTypes
+><contentControlChoices
+><contentControlChoice
+active="no"
+>-Export Everything</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="en dn"
+>Exclude English and Developer's Notes</contentControlChoice
+><contentControlChoice
+active="yes"
+exclude="fr dn"
+>Exclude French and Developer's Notes</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="fr"
+>Exclude French</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="en"
+>Exclude English</contentControlChoice
+></contentControlChoices
+></contentControl
+></lingPaper
+><xi:include
+href="publisherstylesheets/SILInternationalBookletStylesheet.xml"
+xpointer="element(/1)"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+></xi:include
+></styledPaper
+></xlingpaper
+>
