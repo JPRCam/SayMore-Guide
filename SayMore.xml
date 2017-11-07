@@ -98,7 +98,7 @@ contentType="en"
 >Getting Started</titleContent
 ><titleContent
 contentType="fr"
->présentation des tâches de base </titleContent
+>présentation des tâches de base</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -107,27 +107,6 @@ contentType="en"
 ><p
 contentType="fr"
 >utilisation de l'onglet</p
-><section1
-id="s"
-><secTitle
-></secTitle
-><p
-></p
-></section1
-><section1
-id="s"
-><secTitle
-></secTitle
-><p
-></p
-><section2
-id="s"
-><secTitle
-></secTitle
-><p
-></p
-></section2
-></section1
 ></chapter
 ><chapter
 id="sCR"
@@ -135,18 +114,210 @@ id="sCR"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Recording a Session</titleContent
+>Menus</titleContent
 ><titleContent
 contentType="fr"
->la Session d'enrege</titleContent
+>Présentation des menus</titleContent
+></titleContentChoices
+></secTitle
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Project</titleContent
+><titleContent
+contentType="fr"
+>Menu: Projet</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
 contentType="en"
->Hello World</p
+></p
 ><p
 contentType="fr"
->Bonjour tout le monde</p
+>Dans cet onglet projet, nous avons la faculté de créer les projets. pour celà, nous devons ouvrir: Créer un projet</p
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Open / Create Project</titleContent
+><titleContent
+contentType="fr"
+>Ouvrir / créer un projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Export Sessions</titleContent
+><titleContent
+contentType="fr"
+>Exporter des séssions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Export People</titleContent
+><titleContent
+contentType="fr"
+>Exporter des gens</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Archive using IMDI</titleContent
+><titleContent
+contentType="fr"
+>Achiver avec IMDI</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Change user interface language</titleContent
+><titleContent
+contentType="fr"
+>Changer la langue d'interface utilisateur</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Quit</titleContent
+><titleContent
+contentType="fr"
+>Quitter</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Tâches de l'onglet Sessions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Tâches d'onglet Personnes</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
 ><p
 ></p
 ></chapter
@@ -351,11 +522,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice

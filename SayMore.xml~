@@ -84,6 +84,11 @@ contentType="fr"
 >SayMore ManP1</titleContent
 ></titleContentChoices
 ></shortTitle
+><p
+></p
+><p
+contentType="fr"
+>En tant que Documenter de langue, vous accumulez rapidement un grand nombre d'enregistrements source et d'artefacts basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. SayMore peut aider avec tout cela.</p
 ><chapter
 id="sCRStart"
 ><secTitle
@@ -93,11 +98,15 @@ contentType="en"
 >Getting Started</titleContent
 ><titleContent
 contentType="fr"
->Titre en Francais</titleContent
+>présentation des tâches de base</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
 ></p
+><p
+contentType="fr"
+>utilisation de l'onglet</p
 ></chapter
 ><chapter
 id="sCR"
@@ -105,18 +114,210 @@ id="sCR"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Recording a Session</titleContent
+>Menus</titleContent
 ><titleContent
 contentType="fr"
->la Session d'enrege</titleContent
+>Présentation des menus</titleContent
+></titleContentChoices
+></secTitle
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Project</titleContent
+><titleContent
+contentType="fr"
+>Menu: Projet</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
 contentType="en"
->Hello World</p
+></p
 ><p
 contentType="fr"
->Bonjour tout le monde</p
+>Dans cet onglet projet, nous avons la faculté de créer les projets. pour celà, nous devons ouvrir: Créer un projet</p
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Open / Create Project</titleContent
+><titleContent
+contentType="fr"
+>Ouvrir / créer un projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Exporter des séssions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Exporter des gens</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Achiver avec IMDI</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Changer la langue d'interface utilisateur</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Quitter</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Tâches de l'onglet Sessions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+>Tâches d'onglet Personnes</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
 ><p
 ></p
 ></chapter
@@ -159,6 +360,7 @@ font-weight="bold"
 id="tmenu"
 ></type
 ><type
+color="#3333ff"
 id="t-en"
 ></type
 ><type
@@ -320,11 +522,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice
