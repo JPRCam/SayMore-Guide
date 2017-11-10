@@ -613,13 +613,16 @@ interlinearsourcestyle="AfterFirstLine"
 ><figureLayout
 captionLocation="after"
 ><figureLabelLayout
+font-style="italic"
 textafter=" "
 ></figureLabelLayout
 ><figureNumberLayout
+font-style="italic"
 showchapternumber="yes"
 textbetweenchapterandnumber="."
 ></figureNumberLayout
 ><figureCaptionLayout
+font-style="italic"
 textbefore=" "
 ></figureCaptionLayout
 ></figureLayout

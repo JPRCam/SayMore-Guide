@@ -163,7 +163,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Export Sessions</titleContent
 ><titleContent
 contentType="fr"
 >Exporter des séssions</titleContent
@@ -182,7 +182,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Export People</titleContent
 ><titleContent
 contentType="fr"
 >Exporter des gens</titleContent
@@ -201,7 +201,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Archive using IMDI</titleContent
 ><titleContent
 contentType="fr"
 >Achiver avec IMDI</titleContent
@@ -220,7 +220,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Change user interface language</titleContent
 ><titleContent
 contentType="fr"
 >Changer la langue d'interface utilisateur</titleContent
@@ -238,7 +238,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Quit</titleContent
 ><titleContent
 contentType="fr"
 >Quitter</titleContent
