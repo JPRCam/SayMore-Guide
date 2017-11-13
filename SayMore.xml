@@ -85,7 +85,7 @@ contentType="fr"
 ></titleContentChoices
 ></shortTitle
 ><p
->            SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data.  SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
+>SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
 ><p
 contentType="fr"
 >En tant que Documenter de langue, vous accumulez rapidement un grand nombre d'enregistrements source et d'artefacts basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. SayMore peut aider avec tout cela.</p
@@ -103,16 +103,16 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->   SayMore can be downloaded from <link
+>SayMore can be downloaded from <link
 href="???"
 >https://software.sil.org/saymore/download/ </link
-> .  Pay attention to the requirements and also the other added information about being away from fast Internet. </p
+> . Pay attention to the requirements and also the other added information about being away from fast Internet.</p
 ><p
 contentType="en"
 >After installation open the SayMore application. You will see this screen:</p
 ><figure
 contentType="en"
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
 ><chart
 ><img
 description="Clean Open"
