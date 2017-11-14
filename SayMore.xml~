@@ -9,6 +9,11 @@ automaticallywrapinterlinears="yes"
 version="2.28.0"
 ><frontMatter
 ><title
+><img
+src="images/SayMore5.jpg"
+></img
+><br
+></br
 ><titleContentChoices
 ><titleContent
 contentType="en"
@@ -37,9 +42,6 @@ contentType="en"
 contentType="fr"
 >Manuel d'Administrateur (Français)</titleContent
 ></titleContentChoices
-><img
-src="images/saymoreicon.jpg"
-></img
 ></subtitle
 ><author
 >NGONO Louis Pascal</author
@@ -85,10 +87,13 @@ contentType="fr"
 ></titleContentChoices
 ></shortTitle
 ><p
->            SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data.  SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
+>SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
 ><p
 contentType="fr"
->En tant que Documenter de langue, vous accumulez rapidement un grand nombre d'enregistrements source et d'artefacts basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. SayMore peut aider avec tout cela.</p
+>En tant que préparateur des documents relatifs à l'organisation et au foncfionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
+><p
+contentType="fr"
+>En résumé, SayMore est un outil qui vous aide à organiser vidéo, audio, image et divers autres fichiers avec les métadonnées.</p
 ><chapter
 id="sCRStart"
 ><secTitle
@@ -103,16 +108,16 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->   SayMore can be downloaded from <link
+>SayMore can be downloaded from <link
 href="???"
 >https://software.sil.org/saymore/download/ </link
-> .  Pay attention to the requirements and also the other added information about being away from fast Internet. </p
+> . Pay attention to the requirements and also the other added information about being away from fast Internet.</p
 ><p
 contentType="en"
 >After installation open the SayMore application. You will see this screen:</p
 ><figure
 contentType="en"
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
 ><chart
 ><img
 description="Clean Open"
@@ -138,6 +143,37 @@ contentType="fr"
 >Présentation des menus</titleContent
 ></titleContentChoices
 ></secTitle
+><p
+contentType="en"
+> SayMore has only four menu items and three tabs. The menu <object
+type="tmenu"
+>Session</object
+> is greyed out until you click on the <object
+type="tmenu"
+>Sessions</object
+> tab. This is the same for menu <object
+type="tmenu"
+>Person</object
+> and tab <object
+type="tmenu"
+>People</object
+>.</p
+><figure
+id="f"
+><chart
+><img
+src="images/en/MenusAndTabs.png"
+></img
+></chart
+><caption
+>Menu and Tab items</caption
+></figure
+><p
+contentType="en"
+>The next sections will go over what you can find and do in the Menus.</p
+><p
+contentType="fr"
+></p
 ><section1
 id="s"
 ><secTitle
@@ -152,7 +188,34 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>When you click on <object
+type="tmenu"
+>Project</object
+> you will see:</p
+><figure
+id="f"
+><chart
+><img
+src="images/en/mnuProject_en.png"
+></img
+></chart
+><caption
+>Project Menu</caption
+></figure
+><framedUnit
+framedtype="tTeacher"
+><p
+contentType="en"
+>Note:</p
+><ul
+><li
+contentType="en"
+>As you can see there is no Save option. This is because SayMore saves for you.</li
+><li
+contentType="en"
+>There is no Delete command that deletes a project. Instead, you can delete the project folder in your Windows Explorer (File Explorer).</li
+></ul
+></framedUnit
 ><p
 contentType="fr"
 >Dans cet onglet projet, nous avons la faculté de créer les projets. pour celà, nous devons ouvrir: Créer un projet</p
@@ -170,7 +233,47 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>When you click on <object
+type="tmenu"
+>Open / Create Project</object
+> you will see</p
+><figure
+id="f"
+><chart
+><img
+src="images/en/Open_Create_en.png"
+></img
+></chart
+><caption
+>Open / Create Project</caption
+></figure
+><p
+contentType="en"
+>Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project.  When clicking on <object
+type="tmenu"
+>Create new, Blank project...</object
+> you will see a dialogue box asking you for a name. Fill in the blank and press <object
+type="tmenu"
+>Okay</object
+>.  Below the name you have chosen you will see the path to where the project will be saved.</p
+><figure
+id="f"
+><chart
+><img
+src="images/en/NewProjectName_en.png"
+></img
+></chart
+><caption
+>New Project Name</caption
+></figure
+><p
+contentType="en"
+>To continue go to section <sectionRef
+contentType="en"
+sec="c"
+showTitle="numberOnly"
+></sectionRef
+>.</p
 ><p
 contentType="fr"
 ></p
@@ -315,7 +418,7 @@ id="c"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Starting a New Project</titleContent
 ><titleContent
 contentType="fr"
 ></titleContent

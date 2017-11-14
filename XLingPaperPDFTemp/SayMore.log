@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (Web2C 2010) (format=xelatex 2010.11.15)  6 NOV 2017 09:56
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (Web2C 2010) (format=xelatex 2010.11.15)  14 NOV 2017 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,12 +1367,7 @@ LaTeX Info: Redefining \nameref on input line 73.
 \XLingPaperspaceavailable=\dimen188
 \XLingPaperspaceneeded=\dimen189
 \XLingPaperspaceavailable=\dimen190
-
-Overfull \hbox (73.2623pt too wide) in paragraph at lines 204--206
- \EU1/TimesNewRoman(0)/bx/n/14 (Français)[] 
- []
-
-[1
+ [1
 
 
 ]
@@ -1380,11 +1375,6 @@ Overfull \hbox (73.2623pt too wide) in paragraph at lines 204--206
 \XLingPaperspaceavailable=\dimen192
 \XLingPaperspaceneeded=\dimen193
 \XLingPaperspaceavailable=\dimen194
-
-Overfull \hbox (73.2623pt too wide) in paragraph at lines 211--213
- \EU1/TimesNewRoman(0)/bx/n/14 (Français)[] 
- []
-
 \XLingPaperspaceneeded=\dimen195
 \XLingPaperspaceavailable=\dimen196
 \XLingPaperspaceneeded=\dimen197
@@ -1394,7 +1384,7 @@ Overfull \hbox (73.2623pt too wide) in paragraph at lines 211--213
 \XLingPaperspaceneeded=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
 \XLingPaperspaceavailable=\dimen256
-[2
+ [2
 
 ]
 \XLingPaperspaceneeded=\dimen257
@@ -1410,36 +1400,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \XLingPapertempdim=\dimen263
 \XLingPapertempdim=\dimen264
 \XLingPapertempdim=\dimen265
+\XLingPapertempdim=\dimen266
+\XLingPapertempdim=\dimen267
+\XLingPapertempdim=\dimen268
+\XLingPapertempdim=\dimen269
+\XLingPapertempdim=\dimen270
+\XLingPapertempdim=\dimen271
  [3
 
 ]
-\XLingPaperspaceneeded=\dimen266
-\XLingPaperspaceavailable=\dimen267
-\XLingPaperspaceneeded=\dimen268
-\XLingPaperspaceavailable=\dimen269
-
-Overfull \hbox (24.57985pt too wide) in paragraph at lines 246--246
-[]\zf@basefont En tant que Documenter de langue, vous accumulez rapidement un g
-rand nombre d'enregistrements
- []
-
-[1
-
-
-]
-\XLingPaperspaceneeded=\dimen270
-\XLingPaperspaceavailable=\dimen271
 \XLingPaperspaceneeded=\dimen272
 \XLingPaperspaceavailable=\dimen273
- [2
-
-]
 \XLingPaperspaceneeded=\dimen274
 \XLingPaperspaceavailable=\dimen275
+ [1
+
+
+]
 \XLingPaperspaceneeded=\dimen276
 \XLingPaperspaceavailable=\dimen277
 \XLingPaperspaceneeded=\dimen278
 \XLingPaperspaceavailable=\dimen279
+ [2
+
+]
 \XLingPaperspaceneeded=\dimen280
 \XLingPaperspaceavailable=\dimen281
 \XLingPaperspaceneeded=\dimen282
@@ -1450,30 +1434,63 @@ rand nombre d'enregistrements
 \XLingPaperspaceavailable=\dimen287
 \XLingPaperspaceneeded=\dimen288
 \XLingPaperspaceavailable=\dimen289
+\XLingPaperspaceneeded=\dimen290
+\XLingPaperspaceavailable=\dimen291
  [3
 
 ]
-\XLingPaperspaceneeded=\dimen290
-\XLingPaperspaceavailable=\dimen291
 \XLingPaperspaceneeded=\dimen292
 \XLingPaperspaceavailable=\dimen293
- [4
 
-]
+[4]
 \XLingPaperspaceneeded=\dimen294
 \XLingPaperspaceavailable=\dimen295
 \XLingPaperspaceneeded=\dimen296
 \XLingPaperspaceavailable=\dimen297
- [5
+\XLingPaperspaceneeded=\dimen298
+\XLingPaperspaceavailable=\dimen299
+\XLingPaperspaceneeded=\dimen300
+\XLingPaperspaceavailable=\dimen301
+\XLingPaperspaceneeded=\dimen302
+\XLingPaperspaceavailable=\dimen303
+\XLingPaperspaceneeded=\dimen304
+\XLingPaperspaceavailable=\dimen305
+\XLingPaperspaceneeded=\dimen306
+\XLingPaperspaceavailable=\dimen307
+\XLingPaperspaceneeded=\dimen308
+\XLingPaperspaceavailable=\dimen309
+\XLingPaperspaceneeded=\dimen310
+\XLingPaperspaceavailable=\dimen311
+\XLingPaperspaceneeded=\dimen312
+\XLingPaperspaceavailable=\dimen313
+\XLingPaperspaceneeded=\dimen314
+\XLingPaperspaceavailable=\dimen315
+\XLingPaperspaceneeded=\dimen316
+\XLingPaperspaceavailable=\dimen317
+\XLingPaperspaceneeded=\dimen318
+\XLingPaperspaceavailable=\dimen319
+ [5]
+\XLingPaperspaceneeded=\dimen320
+\XLingPaperspaceavailable=\dimen321
+\XLingPaperspaceneeded=\dimen322
+\XLingPaperspaceavailable=\dimen323
+ [6
+
+]
+\XLingPaperspaceneeded=\dimen324
+\XLingPaperspaceavailable=\dimen325
+\XLingPaperspaceneeded=\dimen326
+\XLingPaperspaceavailable=\dimen327
+ [7
 
 ] (./SayMore.aux) ) 
 Here is how much of TeX's memory you used:
- 24985 strings out of 494535
- 452203 string characters out of 3159869
- 535558 words of memory out of 3000000
- 27755 multiletter control sequences out of 15000+200000
- 3970 words of font info for 43 fonts, out of 3000000 for 9000
+ 24994 strings out of 494535
+ 452364 string characters out of 3159869
+ 536553 words of memory out of 3000000
+ 27756 multiletter control sequences out of 15000+200000
+ 3978 words of font info for 44 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 68i,11n,65p,832b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,12n,65p,826b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SayMore.pdf (8 pages).
+Output written on SayMore.pdf (10 pages).

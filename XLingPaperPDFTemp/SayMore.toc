@@ -1,10 +1,21 @@
 <toc>
 <tocline ref="rXLingPapContents" page="iii"/>
 <tocline ref="sCRStart" page="2"/>
+<tocline ref="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1." page="2"/>
 <tocline ref="sCR" page="3"/>
+<tocline ref="f" page="3"/>
 <tocline ref="s" page="3"/>
+<tocline ref="f" page="3"/>
 <tocline ref="s" page="3"/>
-<tocline ref="s" page="3"/>
-<tocline ref="c" page="4"/>
-<tocline ref="c" page="5"/>
+<tocline ref="f" page="3"/>
+<tocline ref="f" page="4"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="s" page="5"/>
+<tocline ref="c" page="6"/>
+<tocline ref="c" page="7"/>
 </toc>
