@@ -87,6 +87,7 @@ contentType="fr"
 ></titleContentChoices
 ></shortTitle
 ><p
+contentType="en"
 >SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
 ><p
 contentType="fr"
@@ -145,7 +146,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-> SayMore has only four menu items and three tabs. The menu <object
+>SayMore has only four menu items and three tabs. The menu <object
 type="tmenu"
 >Session</object
 > is greyed out until you click on the <object
@@ -159,7 +160,8 @@ type="tmenu"
 >People</object
 >.</p
 ><figure
-id="f"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..figure.1."
 ><chart
 ><img
 src="images/en/MenusAndTabs.png"
@@ -193,7 +195,8 @@ type="tmenu"
 >Project</object
 > you will see:</p
 ><figure
-id="f"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.1."
 ><chart
 ><img
 src="images/en/mnuProject_en.png"
@@ -203,6 +206,7 @@ src="images/en/mnuProject_en.png"
 >Project Menu</caption
 ></figure
 ><framedUnit
+contentType="en"
 framedtype="tTeacher"
 ><p
 contentType="en"
@@ -238,7 +242,8 @@ type="tmenu"
 >Open / Create Project</object
 > you will see</p
 ><figure
-id="f"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.1."
 ><chart
 ><img
 src="images/en/Open_Create_en.png"
@@ -249,15 +254,16 @@ src="images/en/Open_Create_en.png"
 ></figure
 ><p
 contentType="en"
->Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project.  When clicking on <object
+>Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project. When clicking on <object
 type="tmenu"
 >Create new, Blank project...</object
 > you will see a dialogue box asking you for a name. Fill in the blank and press <object
 type="tmenu"
 >Okay</object
->.  Below the name you have chosen you will see the path to where the project will be saved.</p
+>. Below the name you have chosen you will see the path to where the project will be saved.</p
 ><figure
-id="f"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.2."
 ><chart
 ><img
 src="images/en/NewProjectName_en.png"
@@ -272,6 +278,11 @@ contentType="en"
 contentType="en"
 sec="c"
 showTitle="numberOnly"
+></sectionRef
+> <sectionRef
+contentType="en"
+sec="c"
+showTitle="full"
 ></sectionRef
 >.</p
 ><p
@@ -643,11 +654,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice
