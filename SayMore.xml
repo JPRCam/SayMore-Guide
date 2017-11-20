@@ -91,7 +91,7 @@ contentType="en"
 >SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
 ><p
 contentType="fr"
->En tant que préparateur des documents relatifs à l'organisation et au foncfionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
+>En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
 ><p
 contentType="fr"
 >En résumé, SayMore est un outil qui vous aide à organiser vidéo, audio, image et divers autres fichiers avec les métadonnées.</p
@@ -110,12 +110,57 @@ contentType="fr"
 ><p
 contentType="en"
 >SayMore can be downloaded from <link
-href="???"
+href="https://software.sil.org/saymore/download/ "
 >https://software.sil.org/saymore/download/ </link
-> . Pay attention to the requirements and also the other added information about being away from fast Internet.</p
+> . Pay attention to the technical requirements (at time of writing, Saymore requires Windows 7, 8, or 10, a PDF reader, and Microsoft .Net 4.6).</p
+><p
+contentType="fr"
+>Saymore peut être téléchargé par le lien <link
+href="https://software.sil.org/saymore/download/ "
+>https://software.sil.org/saymore/download/</link
+> . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6</p
 ><p
 contentType="en"
->After installation open the SayMore application. You will see this screen:</p
+>If you are going to be away from fast Internet, go ahead and download <object
+type="tmenu"
+>FFmpeg</object
+>. <object
+type="tmenu"
+>FFMpeg</object
+> is the open source tool SayMore uses to convert media files from the ones your device outputs to what you want for archiving.<br
+></br
+><br
+></br
+>Also if you are holding a workshop go ahead and download <object
+type="tmenu"
+>.Net 4.6 Standalone Installer</object
+> and take it with you in case some participants don't have it.</p
+><p
+contentType="en"
+>After installation, open the SayMore application. You will see this screen:</p
+><p
+contentType="fr"
+>Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé <object
+type="tmenu"
+>FFmpeg</object
+>. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion Internet.</p
+><p
+contentType="fr"
+>Après instillations, vous va reguardez:</p
+><figure
+contentType="fr"
+id="f"
+><chart
+><img
+src="images/fr/NouveauOuvrir_fr.png"
+></img
+></chart
+><caption
+></caption
+></figure
+><p
+contentType="fr"
+></p
 ><figure
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
@@ -303,16 +348,16 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-> </p
+></p
 ><ol
 contentType="en"
 ><li
->Open the project that has the session data you want to export. </li
+>Open the project that has the session data you want to export.</li
 ><li
 >On the Project menu, click Export Sessions.<br
 ></br
 >The Export Data dialog box appears:<figure
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.2..figure.1."
 ><chart
 ><img
 src="images/en/ExportSessions_en.png"
@@ -323,19 +368,19 @@ src="images/en/ExportSessions_en.png"
 ></figure
 ></li
 ><li
-> In the dialog box, click the File name box, and then type a name. <br
+>In the dialog box, click the File name box, and then type a name. <br
 ></br
->Leave the Save as type selection as CSV (Comma delimited)(*.csv). Also, it is recommended that you save the file in the project folder, which is the default location. </li
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). Also, it is recommended that you save the file in the project folder, which is the default location.</li
 ><li
 >Click Save. <br
 ></br
->The session data in the open project is exported to a file. The file is then shown in the folder. </li
+>The session data in the open project is exported to a file. The file is then shown in the folder.</li
 ><li
 >To open the file, open the folder, and then double-click the file. <br
 ></br
 >The export file opens with the program specified as the default program for the file type. <br
 ></br
-> </li
+></li
 ></ol
 ><p
 contentType="en"
@@ -362,19 +407,19 @@ contentType="en"
 ><ol
 contentType="en"
 ><li
->Open the project that has the people you want to export. </li
+>Open the project that has the people you want to export.</li
 ><li
 >On the Project menu, click Export People.<br
 ></br
 >The Export Data dialog box appears:<figure
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.3..ol.1..li.2..figure.1."
 ><chart
 ><img
 src="images/en/ExportPeople_en.png"
 ></img
 ></chart
 ><caption
-></caption
+>Export People Save Dialogue</caption
 ></figure
 ></li
 ><li
@@ -382,7 +427,7 @@ src="images/en/ExportPeople_en.png"
 ></br
 >Leave the Save as type selection as CSV (Comma delimited)(*.csv). <br
 ></br
->Also, it is recommended that you save the file in the project folder, which is the default location. </li
+>Also, it is recommended that you save the file in the project folder, which is the default location.</li
 ><li
 >Click Save. <br
 ></br
@@ -390,7 +435,7 @@ src="images/en/ExportPeople_en.png"
 ><li
 >To open the file, open the folder, and then double-click the file. <br
 ></br
->The export file opens with the program specified as the default program for the file type.  </li
+>The export file opens with the program specified as the default program for the file type.</li
 ></ol
 ><p
 contentType="fr"
@@ -410,7 +455,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with them to learn what you need to do. </p
+>This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with them to learn what you need to do.</p
 ><ol
 contentType="en"
 ><li
@@ -428,27 +473,57 @@ contentType="en"
 ><li
 >On the Project menu, click Archive using IMDI.<br
 ></br
-> If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found. <br
+> <object
+type="tmenu"
+>**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
+> <br
 ></br
 >Click OK. <br
 ></br
->The SayMore: Archive using IMDI dialog box opens:</li
+>The SayMore: Archive using IMDI dialog box opens:<br
+></br
+><figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/ArchivingIMDI_en.png"
+></img
+></chart
+><caption
+>Archive using IMDI dialogue box</caption
+></figure
+><br
+></br
+></li
 ><li
->To archive only the metadata, select () the Metadata only check box. </li
+>To archive only the metadata, select the Metadata only check box.</li
 ><li
->To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder. </li
+>To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
 ><li
 >Click Create Package. <br
 ></br
 >These messages appear: <br
 ></br
->Saving files in IMDI package. Exported to &lt;name&gt;.imdi. <br
+><figure
+id="f"
+><chart
+><img
+src="images/en/ArchivingIMDI_SAVED_en.png"
+></img
+></chart
+><caption
+>Archive IMDI Saved</caption
+></figure
+> <br
 ></br
->This path is now on your clipboard. If you are using Arbil, go to File, Import, then paste this path in.  </li
+><br
+></br
+></li
 ><li
 >Click Close.</li
 ><li
->To continue, use Arbil or another similar program. </li
+>To continue, use Arbil or another similar program.</li
 ></ol
 ><framedUnit
 contentType="en"
@@ -459,7 +534,7 @@ framedtype="tTeacher"
 ><li
 >Access Protocol</li
 ><li
->Archiving overview </li
+>Archiving overview</li
 ></ul
 ></framedUnit
 ><p
@@ -479,7 +554,34 @@ contentType="fr"
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
+>This allows you to change the Language interface.  <br
+></br
 ></p
+><figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/UserInterfaceLang_en.png"
+></img
+></chart
+><caption
+>User Interface Language Drop down</caption
+></figure
+><p
+contentType="en"
+>If the language you need is not listed, or you need to edit translated UI content:  </p
+><ul
+contentType="en"
+><li
+>click the <object
+type="tlink"
+>I want to localize SayMore for another language</object
+> hyperlink. The Localize User Interface dialog box opens so you can use it.</li
+><li
+>Optionally, get a shared UI language file and a translated Access Protocol file from another user. </li
+></ul
 ><p
 contentType="fr"
 ></p
@@ -498,7 +600,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>Closes the application.</p
 ><p
 contentType="fr"
 ></p
@@ -510,7 +612,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Menu: Session </titleContent
 ><titleContent
 contentType="fr"
 >Tâches de l'onglet Sessions</titleContent
@@ -529,7 +631,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Menu: Person</titleContent
 ><titleContent
 contentType="fr"
 >Tâches d'onglet Personnes</titleContent
@@ -552,6 +654,9 @@ contentType="en"
 >Starting a New Project</titleContent
 ><titleContent
 contentType="fr"
+>commencer un nouveau prjet</titleContent
+><titleContent
+contentType="???"
 ></titleContent
 ></titleContentChoices
 ></secTitle

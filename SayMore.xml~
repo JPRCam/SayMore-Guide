@@ -91,7 +91,7 @@ contentType="en"
 >SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
 ><p
 contentType="fr"
->En tant que préparateur des documents relatifs à l'organisation et au foncfionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
+>En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
 ><p
 contentType="fr"
 >En résumé, SayMore est un outil qui vous aide à organiser vidéo, audio, image et divers autres fichiers avec les métadonnées.</p
@@ -110,12 +110,30 @@ contentType="fr"
 ><p
 contentType="en"
 >SayMore can be downloaded from <link
-href="???"
+href="https://software.sil.org/saymore/download/ "
 >https://software.sil.org/saymore/download/ </link
-> . Pay attention to the requirements and also the other added information about being away from fast Internet.</p
+> . Pay attention to the technical requirements (at time of writing, Saymore requires Windows 7, 8, or 10, a PDF reader, and Microsoft .Net 4.6).</p
+><p
+contentType="fr"
+>Saymore peut être téléchargé par le lien <link
+href="https://software.sil.org/saymore/download/ "
+>https://software.sil.org/saymore/download/</link
+> . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6</p
+><p
+contentType="en"
+>Read the other information about being away from fast Internet.</p
 ><p
 contentType="en"
 >After installation open the SayMore application. You will see this screen:</p
+><p
+contentType="fr"
+> Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé FFmpeg. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion internet.</p
+><p
+contentType="fr"
+></p
+><p
+contentType="fr"
+> </p
 ><figure
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
@@ -304,6 +322,42 @@ contentType="fr"
 ><p
 contentType="en"
 ></p
+><ol
+contentType="en"
+><li
+>Open the project that has the session data you want to export.</li
+><li
+>On the Project menu, click Export Sessions.<br
+></br
+>The Export Data dialog box appears:<figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ExportSessions_en.png"
+></img
+></chart
+><caption
+>Export Sessions Save Dialogue</caption
+></figure
+></li
+><li
+>In the dialog box, click the File name box, and then type a name. <br
+></br
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). Also, it is recommended that you save the file in the project folder, which is the default location.</li
+><li
+>Click Save. <br
+></br
+>The session data in the open project is exported to a file. The file is then shown in the folder.</li
+><li
+>To open the file, open the folder, and then double-click the file. <br
+></br
+>The export file opens with the program specified as the default program for the file type. <br
+></br
+></li
+></ol
+><p
+contentType="en"
+></p
 ><p
 contentType="fr"
 ></p
@@ -322,7 +376,40 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>To export all of the people and associated metadata in the open project to a file, do the following steps:</p
+><ol
+contentType="en"
+><li
+>Open the project that has the people you want to export.</li
+><li
+>On the Project menu, click Export People.<br
+></br
+>The Export Data dialog box appears:<figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.3..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ExportPeople_en.png"
+></img
+></chart
+><caption
+></caption
+></figure
+></li
+><li
+>In the dialog box, click the File name box, and then type a name. <br
+></br
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). <br
+></br
+>Also, it is recommended that you save the file in the project folder, which is the default location.</li
+><li
+>Click Save. <br
+></br
+>The people data in the open project is exported to a file. The file is then shown in the folder.</li
+><li
+>To open the file, open the folder, and then double-click the file. <br
+></br
+>The export file opens with the program specified as the default program for the file type.</li
+></ol
 ><p
 contentType="fr"
 ></p
@@ -341,7 +428,58 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with them to learn what you need to do.</p
+><ol
+contentType="en"
+><li
+>Make sure all these metadata are as complete and accurate as possible:<ul
+><li
+>Project metadata.</li
+><li
+>Session metadata (particularly the Access selection) for each session.</li
+><li
+>Person metadata.</li
+><li
+>File metadata.</li
+></ul
+></li
+><li
+>On the Project menu, click Archive using IMDI.<br
+></br
+> If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found. <br
+></br
+>Click OK. <br
+></br
+>The SayMore: Archive using IMDI dialog box opens:</li
+><li
+>To archive only the metadata, select () the Metadata only check box.</li
+><li
+>To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
+><li
+>Click Create Package. <br
+></br
+>These messages appear: <br
+></br
+>Saving files in IMDI package. Exported to &lt;name&gt;.imdi. <br
+></br
+>This path is now on your clipboard. If you are using Arbil, go to File, Import, then paste this path in.</li
+><li
+>Click Close.</li
+><li
+>To continue, use Arbil or another similar program.</li
+></ol
+><framedUnit
+contentType="en"
+framedtype="tTeacher"
+><p
+>Related Topics:</p
+><ul
+><li
+>Access Protocol</li
+><li
+>Archiving overview</li
+></ul
+></framedUnit
 ><p
 contentType="fr"
 ></p
@@ -432,11 +570,29 @@ contentType="en"
 >Starting a New Project</titleContent
 ><titleContent
 contentType="fr"
+>commencer un nouveau prjet</titleContent
+><titleContent
+contentType="???"
 ></titleContent
 ></titleContentChoices
 ></secTitle
 ><p
 ></p
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
 ></chapter
 ><chapter
 id="c"
@@ -654,11 +810,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice
