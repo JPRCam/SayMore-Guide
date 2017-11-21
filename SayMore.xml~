@@ -121,19 +121,46 @@ href="https://software.sil.org/saymore/download/ "
 > . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6</p
 ><p
 contentType="en"
->Read the other information about being away from fast Internet.</p
+>If you are going to be away from fast Internet, go ahead and download <object
+type="tmenu"
+>FFmpeg</object
+>. <object
+type="tmenu"
+>FFMpeg</object
+> is the open source tool SayMore uses to convert media files from the ones your device outputs to what you want for archiving.<br
+></br
+><br
+></br
+>Also if you are holding a workshop go ahead and download <object
+type="tmenu"
+>.Net 4.6 Standalone Installer</object
+> and take it with you in case some participants don't have it.</p
 ><p
 contentType="en"
->After installation open the SayMore application. You will see this screen:</p
+>After installation, open the SayMore application. You will see this screen:</p
 ><p
 contentType="fr"
-> Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé FFmpeg. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion internet.</p
+>Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé <object
+type="tmenu"
+>FFmpeg</object
+>. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion Internet.</p
+><p
+contentType="fr"
+>Après instillations, vous va reguardez:</p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
+><chart
+><img
+src="images/fr/NouveauOuvrir_fr.png"
+></img
+></chart
+><caption
+></caption
+></figure
 ><p
 contentType="fr"
 ></p
-><p
-contentType="fr"
-> </p
 ><figure
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
@@ -392,7 +419,7 @@ src="images/en/ExportPeople_en.png"
 ></img
 ></chart
 ><caption
-></caption
+>Export People Save Dialogue</caption
 ></figure
 ></li
 ><li
@@ -446,13 +473,31 @@ contentType="en"
 ><li
 >On the Project menu, click Archive using IMDI.<br
 ></br
-> If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found. <br
+> <object
+type="tmenu"
+>**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
+> <br
 ></br
 >Click OK. <br
 ></br
->The SayMore: Archive using IMDI dialog box opens:</li
+>The SayMore: Archive using IMDI dialog box opens:<br
+></br
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_en.png"
+></img
+></chart
+><caption
+>Archive using IMDI dialogue box</caption
+></figure
+><br
+></br
+></li
 ><li
->To archive only the metadata, select () the Metadata only check box.</li
+>To archive only the metadata, select the Metadata only check box.</li
 ><li
 >To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
 ><li
@@ -460,9 +505,21 @@ contentType="en"
 ></br
 >These messages appear: <br
 ></br
->Saving files in IMDI package. Exported to &lt;name&gt;.imdi. <br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.5..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_SAVED_en.png"
+></img
+></chart
+><caption
+>Archive IMDI Saved</caption
+></figure
+> <br
 ></br
->This path is now on your clipboard. If you are using Arbil, go to File, Import, then paste this path in.</li
+><br
+></br
+></li
 ><li
 >Click Close.</li
 ><li
@@ -497,7 +554,34 @@ contentType="fr"
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
+>This allows you to change the Language interface. <br
+></br
 ></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.5..figure.1."
+><chart
+><img
+src="images/en/UserInterfaceLang_en.png"
+></img
+></chart
+><caption
+>User Interface Language Drop down</caption
+></figure
+><p
+contentType="en"
+>If the language you need is not listed, or you need to edit translated UI content:</p
+><ul
+contentType="en"
+><li
+>click the <object
+type="tlink"
+>I want to localize SayMore for another language</object
+> hyperlink. The Localize User Interface dialog box opens so you can use it.</li
+><li
+>Optionally, get a shared UI language file and a translated Access Protocol file from another user.</li
+></ul
 ><p
 contentType="fr"
 ></p
@@ -516,7 +600,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>Closes the application.</p
 ><p
 contentType="fr"
 ></p
@@ -528,12 +612,78 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Menu: Session</titleContent
 ><titleContent
 contentType="fr"
 >Tâches de l'onglet Sessions</titleContent
 ></titleContentChoices
 ></secTitle
+><p
+contentType="en"
+>When you click on the Sessions tab you have a new window displayed and also the Menu option Session is now available.<br
+></br
+>clicking on Menu Session you will see: </p
+><figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/mnuSessions.png"
+></img
+></chart
+><caption
+>Menu Session</caption
+></figure
+><ul
+contentType="en"
+><li
+><object
+type="tmenu"
+>New</object
+>         Allows you to create a blank new Session</li
+><li
+><object
+type="tmenu"
+>New From Device..</object
+>       Allows you to create a new Session and Opens: <figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/NewSessionFromDeviceWindow_en.png"
+></img
+></chart
+><caption
+>New From Device Window</caption
+></figure
+></li
+><li
+><object
+type="tmenu"
+>New From Recording... </object
+>   Allows you to use the Computer Microphone to record a session.<figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/NewFromRecording_en.png"
+></img
+></chart
+><caption
+>New From Recording Window</caption
+></figure
+></li
+><li
+><object
+type="tmenu"
+>Archive with RAMP (SIL)...</object
+> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format.</li
+><li
+><object
+type="tmenu"
+>Archive using IMDI....</object
+>    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</li
+></ul
 ><p
 contentType="en"
 ></p
@@ -547,7 +697,7 @@ id="s"
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Menu: Person</titleContent
 ><titleContent
 contentType="fr"
 >Tâches d'onglet Personnes</titleContent
@@ -570,7 +720,7 @@ contentType="en"
 >Starting a New Project</titleContent
 ><titleContent
 contentType="fr"
->commencer un nouveau prjet</titleContent
+>commencer un nouveau projet</titleContent
 ><titleContent
 contentType="???"
 ></titleContent
@@ -810,11 +960,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice

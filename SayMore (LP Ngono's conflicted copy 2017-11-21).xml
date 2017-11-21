@@ -455,14 +455,76 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-><object
+>This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with them to learn what you need to do.</p
+><ol
+contentType="en"
+><li
+>Make sure all these metadata are as complete and accurate as possible:<ul
+><li
+>Project metadata.</li
+><li
+>Session metadata (particularly the Access selection) for each session.</li
+><li
+>Person metadata.</li
+><li
+>File metadata.</li
+></ul
+></li
+><li
+>On the Project menu, click Archive using IMDI.<br
+></br
+> <object
 type="tmenu"
->Archive using IMDI....</object
->    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.<br
+>**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
+> <br
+></br
+>Click OK. <br
+></br
+>The SayMore: Archive using IMDI dialog box opens:<br
+></br
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_en.png"
+></img
+></chart
+><caption
+>Archive using IMDI dialogue box</caption
+></figure
+><br
+></br
+></li
+><li
+>To archive only the metadata, select the Metadata only check box.</li
+><li
+>To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
+><li
+>Click Create Package. <br
+></br
+>These messages appear: <br
+></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.5..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_SAVED_en.png"
+></img
+></chart
+><caption
+>Archive IMDI Saved</caption
+></figure
+> <br
 ></br
 ><br
 ></br
-></p
+></li
+><li
+>Click Close.</li
+><li
+>To continue, use Arbil or another similar program.</li
+></ol
 ><framedUnit
 contentType="en"
 framedtype="tTeacher"
@@ -560,7 +622,7 @@ contentType="fr"
 contentType="en"
 >When you click on the Sessions tab you have a new window displayed and also the Menu option Session is now available.<br
 ></br
->clicking on Menu Session you will see: </p
+>clicking on Menu Session you will see:</p
 ><figure
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..figure.1."
@@ -572,83 +634,20 @@ src="images/en/mnuSessions.png"
 ><caption
 >Menu Session</caption
 ></figure
-><p
-contentType="en"
-></p
-><p
-contentType="fr"
-></p
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->New</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-><object
-type="tmenu"
->New</object
->  Allows you to create a blank new Session. You then have to manually add all the files you wish to associate with the new session. This is done on the right hand side of the Sessions Tab window.</p
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.1..figure.1."
-><chart
-><img
-src="images/en/NewBlankSession_en.png"
-></img
-></chart
-><caption
->Bland Session</caption
-></figure
-><p
-contentType="en"
-></p
-><framedUnit
-contentType="en"
-framedtype="tTeacher"
-><p
-contentType="en"
->Note:</p
 ><ul
 contentType="en"
 ><li
 ><object
 type="tmenu"
->Add Files...</object
-> You can add files to any Session, not just a New session.</li
-></ul
-></framedUnit
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->New From Device...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
+>New</object
+> Allows you to create a blank new Session</li
+><li
 ><object
 type="tmenu"
 >New From Device..</object
-> Allows you to create a new Session and Opens:</p
-><figure
+> Allows you to create a new Session and Opens: <figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.2..figure.1."
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..ul.1..li.2..figure.1."
 ><chart
 ><img
 src="images/en/NewSessionFromDeviceWindow_en.png"
@@ -657,31 +656,14 @@ src="images/en/NewSessionFromDeviceWindow_en.png"
 ><caption
 >New From Device Window</caption
 ></figure
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->New From Recording...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
+></li
+><li
 ><object
 type="tmenu"
->New From Recording...</object
-> Allows you to use the Computer Microphone to record a session.</p
-><figure
+>New From Recording... </object
+> Allows you to use the Computer Microphone to record a session.<figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.3..figure.1."
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..ul.1..li.3..figure.1."
 ><chart
 ><img
 src="images/en/NewFromRecording_en.png"
@@ -690,93 +672,24 @@ src="images/en/NewFromRecording_en.png"
 ><caption
 >New From Recording Window</caption
 ></figure
-><p
-contentType="en"
-></p
-><framedUnit
-contentType="en"
-framedtype="tTeacher"
-><p
->From SayMore Developers:<br
-></br
-><object
-type="tBoldItalic"
->"We plead with you to avoid using your laptop's built-in microphone; if you are willing to give up usefulness for future phonetic research, an OK USB headset can be had for US$35 or less in many countries. Note that the very popular Zoom H2's can also be plugged in and used as a microphone (in a lower quality mode)."</object
-> </p
-></framedUnit
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archive with RAMP (SIL)...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
+></li
+><li
 ><object
 type="tmenu"
 >Archive with RAMP (SIL)...</object
-> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format.  It is designed to carry over all meta-data to an archive.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archive using IMDI...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
+> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format.</li
+><li
 ><object
 type="tmenu"
 >Archive using IMDI....</object
->    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</p
+> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</li
+></ul
+><p
+contentType="en"
+></p
 ><p
 contentType="fr"
 ></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Delete Session...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-><object
-type="tmenu"
->Delete Session...</object
-> Allows you to delete a session you have selected in the <object
-type="tmenu"
->Sessions tab</object
->.</p
-><p
-contentType="fr"
-></p
-></section2
 ></section1
 ><section1
 id="s"
@@ -792,197 +705,10 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->When you click the <object
-type="tmenu"
->People</object
-> Tab you can then select the Menu <object
-type="tmenu"
->Person</object
->. </p
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..figure.1."
-><chart
-><img
-src="images/en/mnuPerson_en.png"
-></img
-></chart
-><caption
->Menu Person</caption
-></figure
-><p
-contentType="en"
-><br
-></br
 ></p
 ><p
 contentType="fr"
 ></p
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->New</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click on <object
-type="tmenu"
->New</object
-> in Menu <object
-type="tmenu"
->Person</object
->, you will see:</p
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..section2.1..figure.1."
-><chart
-><img
-src="images/en/EmptyNewPerson_en.png"
-></img
-></chart
-><caption
->Empty New Person</caption
-></figure
-><p
-contentType="en"
->It is important to try to fill out as much as possible about the Person. </p
-><p
-contentType="en"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Delete Person...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->Allows you to remove a person from a session.  You can also just right click on the person and select <object
-type="tmenu"
->Delete Person</object
->. A warning box will appear before deletion is final.</p
-><p
-contentType="fr"
-></p
-></section2
-></section1
-><section1
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Menu: Help</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->This is the place to find help while using SayMore. When you click on menu Help you will see:</p
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..figure.1."
-><chart
-><img
-src="images/en/mnuHelp_en.png"
-></img
-></chart
-><caption
->Menu Help</caption
-></figure
-><p
-contentType="en"
-></p
-><p
-contentType="fr"
-></p
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Release Notes...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->This will open a window that will allow you to read about recent updates to SayMore and some of the added functionality that came with any new versions.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Help...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click <object
-type="tmenu"
->Help...</object
-> it will open a new window:</p
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..section2.2..figure.1."
-><chart
-><img
-src="images/en/SayMore_HelpWindow_en.png"
-></img
-></chart
-><caption
->SayMore Help Window</caption
-></figure
-><p
-contentType="en"
->From this window you can search by using the Content Tree, Index (Search by Keyword), and Search (search for any word). </p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->About...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click About...  a window opens detailing who was behind making SayMore and thanks to those who helped make SayMore Possible.  It also has links to the Open Source Components/Libraries used in SayMore.</p
-><p
-contentType="fr"
-></p
-></section2
 ></section1
 ></chapter
 ><chapter
@@ -1001,10 +727,6 @@ contentType="???"
 ></titleContentChoices
 ></secTitle
 ><p
-contentType="en"
->When starting a new project</p
-><p
-contentType="fr"
 ></p
 ><section1
 id="s"
@@ -1028,100 +750,6 @@ id="c"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Archiving Overview</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with the team to learn what you need to do.</p
-><framedUnit
-contentType="en"
-framedtype="tTeacher"
-><p
-contentType="en"
-><object
-type="tmenu"
->**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found. Just Try to Archive it Again.**</object
-></p
-></framedUnit
-><ol
-><li
-contentType="en"
->Make sure all these metadata are as complete and accurate as possible:<ul
-><li
->Project metadata.</li
-><li
->Session metadata (particularly the Access selection) for each session.</li
-><li
->Person metadata.</li
-><li
->File metadata.</li
-></ul
-></li
-><li
-contentType="en"
->On the Project menu, click Archive using IMDI.<br
-></br
->Click 'Okay'<br
-></br
->The SayMore: Archive using IMDI dialog box opens: <br
-></br
-><figure
-id="f"
-><chart
-><img
-src="images/en/ArchivingIMDI_en.png"
-></img
-></chart
-><caption
->Archive using IMDI dialogue box</caption
-></figure
-></li
-><li
-contentType="en"
->To archive only the metadata, select the <object
-type="tmenu"
->Metadata only</object
-> check box.</li
-><li
-contentType="en"
->To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
-><li
-contentType="en"
->Click Create Package. <br
-></br
->These messages appear:<br
-></br
-><figure
-id="f"
-><chart
-><img
-src="images/en/ArchivingIMDI_SAVED_en.png"
-></img
-></chart
-><caption
->Archive IMDI Saved</caption
-></figure
-><br
-></br
-></li
-><li
-contentType="en"
->Click 'Close'</li
-></ol
-><p
-contentType="fr"
-></p
-></chapter
-><chapter
-id="c"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
 ></titleContent
 ><titleContent
 contentType="fr"
@@ -1129,107 +757,6 @@ contentType="fr"
 ></titleContentChoices
 ></secTitle
 ><p
-></p
-></chapter
-><chapter
-id="c"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archiving Overview</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-></p
-><p
-></p
-><p
-contentType="en"
->This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with the team to learn what you need to do.</p
-><p
-contentType="en"
-><comment
->Moved this here from the Menu:Project. It needs its own section(s)</comment
-></p
-><p
-contentType="en"
-></p
-><ol
-contentType="en"
-><li
->Make sure all these metadata are as complete and accurate as possible:<ul
-><li
->Project metadata.</li
-><li
->Session metadata (particularly the Access selection) for each session.</li
-><li
->Person metadata.</li
-><li
->File metadata.</li
-></ul
-></li
-><li
->On the Project menu, click Archive using IMDI.<br
-></br
-> <object
-type="tmenu"
->**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
-> <br
-></br
->Click OK. <br
-></br
->The SayMore: Archive using IMDI dialog box opens:<br
-></br
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.2..figure.1."
-><chart
-><img
-src="images/en/ArchivingIMDI_en.png"
-></img
-></chart
-><caption
->Archive using IMDI dialogue box</caption
-></figure
-><br
-></br
-></li
-><li
->To archive only the metadata, select the Metadata only check box.</li
-><li
->To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
-><li
->Click Create Package. <br
-></br
->These messages appear: <br
-></br
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.5..figure.1."
-><chart
-><img
-src="images/en/ArchivingIMDI_SAVED_en.png"
-></img
-></chart
-><caption
->Archive IMDI Saved</caption
-></figure
-> <br
-></br
-><br
-></br
-></li
-><li
->Click Close.</li
-><li
->To continue, use Arbil or another similar program.</li
-></ol
-><p
-contentType="fr"
 ></p
 ></chapter
 ></part
@@ -1433,11 +960,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice
