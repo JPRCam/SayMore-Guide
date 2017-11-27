@@ -70,20 +70,20 @@ id="SayMSuppMan"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->SayMore Manual</titleContent
+>Introduction</titleContent
 ><titleContent
 contentType="fr"
->Manuel de SayMore</titleContent
+>Introduction</titleContent
 ></titleContentChoices
 ></secTitle
 ><shortTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->SayMore ManP1</titleContent
+>SayMoreIntro</titleContent
 ><titleContent
 contentType="fr"
->SayMore ManP1</titleContent
+>SayMoreIntro</titleContent
 ></titleContentChoices
 ></shortTitle
 ><p
@@ -94,17 +94,20 @@ contentType="fr"
 >En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
 ><p
 contentType="fr"
->En résumé, SayMore est un outil qui vous aide à organiser vidéo, audio, image et divers autres fichiers avec les métadonnées.</p
+><object
+type="tBold"
+>En résumé, SayMore est un outil qui vous aide à organiser, transcrire, et archiver du vidéo, de l'audio, des images et divers autres fichiers avec leurs métadonnées.</object
+></p
 ><chapter
-id="sCRStart"
+id="sInstall"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Getting Started</titleContent
+>Install SayMore</titleContent
 ><titleContent
 contentType="fr"
->présentation des tâches de base</titleContent
+>Installation du logiciel Saymore</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -118,7 +121,7 @@ contentType="fr"
 >Saymore peut être téléchargé par le lien <link
 href="https://software.sil.org/saymore/download/ "
 >https://software.sil.org/saymore/download/</link
-> . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6</p
+> . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6.</p
 ><p
 contentType="en"
 >If you are going to be away from fast Internet, go ahead and download <object
@@ -143,50 +146,138 @@ contentType="fr"
 >Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé <object
 type="tmenu"
 >FFmpeg</object
->. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion Internet.</p
+>. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter une connexion Internet.</p
 ><p
 contentType="fr"
->Après instillations, vous va reguardez:</p
-><figure
-contentType="fr"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
-><chart
-><img
-src="images/fr/NouveauOuvrir_fr.png"
-></img
-></chart
-><caption
-></caption
-></figure
-><p
-contentType="fr"
-></p
+>Après l'installation, vous allez voir:</p
 ><figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
+id="fSplashSaymore"
 ><chart
 ><img
 description="Clean Open"
-src="images/en/CleanOpen_en.png"
+src="images/en/Open_Create_en.png"
 ></img
 ></chart
 ><caption
->First time opening</caption
+>First time opening of SayMore</caption
+></figure
+><figure
+contentType="fr"
+id="fSplashSayMore"
+><chart
+><img
+src="images/fr/Ouvrir_Creer%20un%20nouveau_fr.png"
+></img
+></chart
+><caption
+>A la première ouverture de Saymore</caption
 ></figure
 ><p
 contentType="fr"
->utilisation de l'onglet</p
-></chapter
-><chapter
-id="sCR"
+><comment
+>Add an overview of installation process.</comment
+></p
+><p
+contentType="en"
+>Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project.</p
+><p
+contentType="fr"
+>Dans cette fenêtre, vous pouvez rouvrir un projet, chercher un projet existant dans un support USB ... , et créer nouveau, ou un projet vide.</p
+><section1
+id="sInterface"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Menus</titleContent
+>Change user interface language</titleContent
 ><titleContent
 contentType="fr"
->Présentation des menus</titleContent
+>Changer la langue d'interface utilisateur</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This allows you to change the Language interface. <br
+></br
+></p
+><p
+contentType="fr"
+>Changez la langue d'interface utilisateur:<br
+></br
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.5..figure.1."
+><chart
+><img
+src="images/en/UserInterfaceLang_en.png"
+></img
+></chart
+><caption
+>User Interface Language Drop down</caption
+></figure
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..section1.1..figure.2."
+><chart
+><img
+src="images/fr/Langue_d_interface_utilisateur_fr.png"
+></img
+></chart
+><caption
+>Langue d'Interface utilisateur menu</caption
+></figure
+><p
+contentType="en"
+>If the language you need is not listed, or you need to edit translated UI content:</p
+><p
+contentType="fr"
+><comment
+>LP améliorer:</comment
+>Si votre langue n'est pas la, ou vous doigt changez la translation d'interface utilisateur:</p
+><ul
+><li
+contentType="en"
+>Click the <object
+type="tlink"
+>I want to localize SayMore for another language</object
+> hyperlink. The Localize User Interface dialog box opens so you can use it.</li
+><li
+contentType="fr"
+>Clickez sur la Je veux localiser SayMore pour une autre langue... Cet ourvrir le finetre pour changez, mais en anglais.</li
+><li
+contentType="en"
+>Optionally, get a shared UI language file and a translated Access Protocol file from another user.</li
+><li
+contentType="fr"
+>Possibly, telechargez un autre UI langue fichez et aussi un autre Access Protocal File par un autre utilisateur.</li
+></ul
+><p
+contentType="en"
+></p
+><framedUnit
+contentType="en"
+framedtype="tTeacher"
+><p
+contentType="en"
+>If not all words are changed to the selected language, just close and re-open SayMore</p
+></framedUnit
+><p
+contentType="fr"
+></p
+></section1
+></chapter
+><chapter
+id="cTour"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>A Tour around SayMore</titleContent
+><titleContent
+contentType="fr"
+>Un Aperçu autour de SayMore</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -194,7 +285,7 @@ contentType="en"
 >SayMore has only four menu items and three tabs. The menu <object
 type="tmenu"
 >Session</object
-> is greyed out until you click on the <object
+> is greyed out until you clique on the <object
 type="tmenu"
 >Sessions</object
 > tab. This is the same for menu <object
@@ -204,6 +295,18 @@ type="tmenu"
 type="tmenu"
 >People</object
 >.</p
+><p
+contentType="fr"
+>SayMore ne contient que quatre menus et trois onglets. Le menu <object
+type="tmenu"
+>Session</object
+> et <object
+type="tmenu"
+>Personne</object
+> ont le couleur grise quand l'onglet <object
+type="tmenu"
+>Project</object
+> est activé.</p
 ><figure
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..figure.1."
@@ -215,14 +318,309 @@ src="images/en/MenusAndTabs.png"
 ><caption
 >Menu and Tab items</caption
 ></figure
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..figure.2."
+><chart
+><img
+src="images/fr/MenusetOnglet_fr.png"
+></img
+></chart
+><caption
+></caption
+></figure
 ><p
 contentType="en"
->The next sections will go over what you can find and do in the Menus.</p
+>The next sections will go over what you will find in the Tab layouts.<br
+></br
+></p
+><section1
+id="sProjectTab"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Project Tab</titleContent
+><titleContent
+contentType="fr"
+>Onglet Projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>The project tab is where you are able to specify and keep track of what the project is about. </p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.1."
+><chart
+><img
+src="images/en/ProjectTab_en.png"
+></img
+></chart
+><caption
+>Project Tab window</caption
+></figure
+><p
+contentType="fr"
+></p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.2."
+><chart
+><img
+src="images/fr/ongletProjet_fr.png"
+></img
+></chart
+><caption
+>Fenetre de Onglet Projet</caption
+></figure
+><p
+contentType="en"
+>There is a small menu to the left of the window:<br
+></br
+></p
+><figure
+align="center"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.3."
+><chart
+><img
+src="images/en/tabProject_contextmenu_en.png"
+></img
+></chart
+><caption
+>Project Tab context menu</caption
+></figure
+><p
+contentType="fr"
+>Dans cet onglet projet, nous avons la faculté de modifier le projet actuel:</p
+><figure
+align="center"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.4."
+><chart
+><img
+src="images/fr/ongletProjet_petitmenu_fr.png"
+></img
+></chart
+><caption
+>Onglet Projet petit menu</caption
+></figure
+><p
+contentType="en"
+></p
+><ul
+><li
+contentType="en"
+><object
+type="tmenu"
+>About This Project</object
+> <br
+></br
+> <object
+type="tresult"
+>This is where you fill out the information pertaining to your project such as a Title, Description, Location, etc</object
+></li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Access Protocol </object
+> <br
+></br
+> <object
+type="tresult"
+>This is where you set the access protocol used by this project. This determines who has permission to get or see your archived data.</object
+></li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Description Documents</object
+><br
+></br
+>  <object
+type="tresult"
+>This is where you add files pertaining to the project and the whole body of work for a language.</object
+></li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Other Documents</object
+>  <br
+></br
+><object
+type="tresult"
+>This is where you add documents that don't seem to fit anywhere else, like how the project was funded.</object
+></li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Progress</object
+> <br
+></br
+> <object
+type="tresult"
+>This is where you can see the progress being made for the open project. You can even Copy, Save or Print the information found here.</object
+></li
+></ul
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="sSessionTab"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Session Tab</titleContent
+><titleContent
+contentType="fr"
+>Onglet Session</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>The Sessions Tab is where you will find the information pertaining to each session as well as what was done in each session. The Session Tab window:<br
+></br
+></p
+><p
+contentType="fr"
+>Dans cet onglet sessions, nous avons la faculté de...</p
+><figure
+align="center"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..figure.1."
+><chart
+><img
+src="images/en/TAB_Sessions_withExamples_en.png"
+></img
+></chart
+><caption
+>Example Sessions</caption
+></figure
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..figure.2."
+><chart
+><img
+src="images/fr/TAB_Sessions_avecExamples_fr.png"
+></img
+></chart
+><caption
+>Sessions tab avec example</caption
+></figure
+><p
+contentType="en"
+>The left side of the window is where you will see your sessions. There are columns to show the sessions ID, Title, Stages, and Status.  There are other optional columns you can turn on (Date, Genre, Location) by clicking <img
+src="images/en/TAB_Sessions_ADDCOLUMNS.png"
+></img
+> and selecting which ones you want to view. </p
+><p
+contentType="fr"
+></p
+><p
+contentType="en"
+>The right upper window shows what files make up that session. The bottom right window displays information and content to be filled in depending on what you have selected in the upper right window. If you wish to add some more documentation or add the audio file for this session, click <img
+src="images/en/AddFilesButton_small_en.png"
+></img
+> and browse to the desired file.</p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="sPeopleTab"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>People Tab</titleContent
+><titleContent
+contentType="fr"
+>Onglet Personne</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>The People tab is where you keep track of all your participants. Here is where you will document their biological information, contributions, and notes:<br
+></br
+></p
+><p
+contentType="fr"
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..figure.1."
+><chart
+><img
+src="images/en/TAB_People_withExample_en.png"
+></img
+></chart
+><caption
+>People Tab with example</caption
+></figure
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..figure.2."
+><chart
+><img
+src="images/fr/OngletPersonnes_avecExamples_fr.png"
+></img
+></chart
+><caption
+>Onglet Personne avec example</caption
+></figure
+><p
+contentType="en"
+>  Also you can add any files you need here also by clicking <img
+src="images/en/AddFilesButton_small_en.png"
+></img
+> and browsing to the desired files. <br
+></br
+></p
+><p
+contentType="fr"
+>Dans cet onglet projet, nous avons la faculté de modifier le projet actuel.</p
+><p
+></p
+></section1
+></chapter
+><chapter
+id="sMenus"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menus </titleContent
+><titleContent
+contentType="fr"
+>Présentation des Menus </titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
 ><p
 contentType="fr"
 ></p
 ><section1
-id="s"
+id="sMenuProject"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -235,13 +633,14 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->When you click on <object
+>When you clique on <object
 type="tmenu"
 >Project</object
 > you will see:</p
 ><figure
+align="center"
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.1."
+id="fProjectMenu"
 ><chart
 ><img
 src="images/en/mnuProject_en.png"
@@ -249,6 +648,18 @@ src="images/en/mnuProject_en.png"
 ></chart
 ><caption
 >Project Menu</caption
+></figure
+><figure
+align="center"
+contentType="fr"
+id="fMenuProjet"
+><chart
+><img
+src="images/fr/mnuProjet_fr.png"
+></img
+></chart
+><caption
+>Menu Projet</caption
 ></figure
 ><framedUnit
 contentType="en"
@@ -267,265 +678,9 @@ contentType="en"
 ></framedUnit
 ><p
 contentType="fr"
->Dans cet onglet projet, nous avons la faculté de créer les projets. pour celà, nous devons ouvrir: Créer un projet</p
+>Quand vous ouvrez le menu projet, vous avez cette présentation:</p
 ><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Open / Create Project</titleContent
-><titleContent
-contentType="fr"
->Ouvrir / créer un projet</titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click on <object
-type="tmenu"
->Open / Create Project</object
-> you will see</p
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.1."
-><chart
-><img
-src="images/en/Open_Create_en.png"
-></img
-></chart
-><caption
->Open / Create Project</caption
-></figure
-><p
-contentType="en"
->Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project. When clicking on <object
-type="tmenu"
->Create new, Blank project...</object
-> you will see a dialogue box asking you for a name. Fill in the blank and press <object
-type="tmenu"
->Okay</object
->. Below the name you have chosen you will see the path to where the project will be saved.</p
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.2."
-><chart
-><img
-src="images/en/NewProjectName_en.png"
-></img
-></chart
-><caption
->New Project Name</caption
-></figure
-><p
-contentType="en"
->To continue go to section <sectionRef
-contentType="en"
-sec="c"
-showTitle="numberOnly"
-></sectionRef
-> <sectionRef
-contentType="en"
-sec="c"
-showTitle="full"
-></sectionRef
->.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Export Sessions</titleContent
-><titleContent
-contentType="fr"
->Exporter des séssions</titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-></p
-><ol
-contentType="en"
-><li
->Open the project that has the session data you want to export.</li
-><li
->On the Project menu, click Export Sessions.<br
-></br
->The Export Data dialog box appears:<figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.2..figure.1."
-><chart
-><img
-src="images/en/ExportSessions_en.png"
-></img
-></chart
-><caption
->Export Sessions Save Dialogue</caption
-></figure
-></li
-><li
->In the dialog box, click the File name box, and then type a name. <br
-></br
->Leave the Save as type selection as CSV (Comma delimited)(*.csv). Also, it is recommended that you save the file in the project folder, which is the default location.</li
-><li
->Click Save. <br
-></br
->The session data in the open project is exported to a file. The file is then shown in the folder.</li
-><li
->To open the file, open the folder, and then double-click the file. <br
-></br
->The export file opens with the program specified as the default program for the file type. <br
-></br
-></li
-></ol
-><p
-contentType="en"
-></p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Export People</titleContent
-><titleContent
-contentType="fr"
->Exporter des gens</titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->To export all of the people and associated metadata in the open project to a file, do the following steps:</p
-><ol
-contentType="en"
-><li
->Open the project that has the people you want to export.</li
-><li
->On the Project menu, click Export People.<br
-></br
->The Export Data dialog box appears:<figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.3..ol.1..li.2..figure.1."
-><chart
-><img
-src="images/en/ExportPeople_en.png"
-></img
-></chart
-><caption
->Export People Save Dialogue</caption
-></figure
-></li
-><li
->In the dialog box, click the File name box, and then type a name. <br
-></br
->Leave the Save as type selection as CSV (Comma delimited)(*.csv). <br
-></br
->Also, it is recommended that you save the file in the project folder, which is the default location.</li
-><li
->Click Save. <br
-></br
->The people data in the open project is exported to a file. The file is then shown in the folder.</li
-><li
->To open the file, open the folder, and then double-click the file. <br
-></br
->The export file opens with the program specified as the default program for the file type.</li
-></ol
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archive using IMDI</titleContent
-><titleContent
-contentType="fr"
->Achiver avec IMDI</titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-><object
-type="tmenu"
->Archive using IMDI....</object
->    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.<br
-></br
-><br
-></br
-></p
-><framedUnit
-contentType="en"
-framedtype="tTeacher"
-><p
->Related Topics:</p
-><ul
-><li
->Access Protocol</li
-><li
->Archiving overview</li
-></ul
-></framedUnit
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Change user interface language</titleContent
-><titleContent
-contentType="fr"
->Changer la langue d'interface utilisateur</titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->This allows you to change the Language interface. <br
-></br
-></p
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.5..figure.1."
-><chart
-><img
-src="images/en/UserInterfaceLang_en.png"
-></img
-></chart
-><caption
->User Interface Language Drop down</caption
-></figure
-><p
-contentType="en"
->If the language you need is not listed, or you need to edit translated UI content:</p
-><ul
-contentType="en"
-><li
->click the <object
-type="tlink"
->I want to localize SayMore for another language</object
-> hyperlink. The Localize User Interface dialog box opens so you can use it.</li
-><li
->Optionally, get a shared UI language file and a translated Access Protocol file from another user.</li
-></ul
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
+id="sQuitSaymore"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -545,7 +700,7 @@ contentType="fr"
 ></section2
 ></section1
 ><section1
-id="s"
+id="sMenuSession"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -558,15 +713,28 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->When you click on the Sessions tab you have a new window displayed and also the Menu option Session is now available.<br
+>When you clique on the Sessions tab you have a new window displayed and also the Menu option Session is now available.<br
 ></br
->clicking on Menu Session you will see: </p
+>clicking on Menu Session you will see:</p
 ><figure
+align="center"
 contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..figure.1."
 ><chart
 ><img
 src="images/en/mnuSessions.png"
+></img
+></chart
+><caption
+>Menu Session</caption
+></figure
+><figure
+align="center"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.3..section1.2..figure.2."
+><chart
+><img
+src="images/fr/mnuSession_fr.png"
 ></img
 ></chart
 ><caption
@@ -578,13 +746,111 @@ contentType="en"
 ><p
 contentType="fr"
 ></p
-><section2
-id="s"
+></section1
+><section1
+id="sMenuPerson"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->New</titleContent
+>Menu: Person</titleContent
+><titleContent
+contentType="fr"
+>Tâches d'onglet Personnes</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you clique the <object
+type="tmenu"
+>People</object
+> Tab you can then select the Menu <object
+type="tmenu"
+>Person</object
+>.</p
+><p
+contentType="fr"
+></p
+><figure
+align="center"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..figure.1."
+><chart
+><img
+src="images/en/mnuPerson_en.png"
+></img
+></chart
+><caption
+>Menu Person</caption
+></figure
+><figure
+align="center"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.3..section1.3..figure.2."
+><chart
+><img
+src="images/fr/mnuPersonne_fr.png"
+></img
+></chart
+><caption
+>Menu Personne</caption
+></figure
+></section1
+><section1
+id="sMenuHelp"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Help</titleContent
+><titleContent
+contentType="fr"
+>Tâches d'onglet Aide</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This is the place to find help while using SayMore. When you clique on menu Help you will see:</p
+><p
+contentType="fr"
+></p
+><figure
+align="center"
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..figure.1."
+><chart
+><img
+src="images/en/mnuHelp_en.png"
+></img
+></chart
+><caption
+>Menu Help</caption
+></figure
+><figure
+align="center"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.3..section1.4..figure.2."
+><chart
+><img
+src="images/fr/mnuAide_fr.png"
+></img
+></chart
+><caption
+>Menu Aide</caption
+></figure
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+><section2
+id="sHelp"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Help...</titleContent
 ><titleContent
 contentType="fr"
 ></titleContent
@@ -592,20 +858,665 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-><object
+>When you clique <object
 type="tmenu"
->New</object
->  Allows you to create a blank new Session. You then have to manually add all the files you wish to associate with the new session. This is done on the right hand side of the Sessions Tab window.</p
+>Help...</object
+> it will open a new window:</p
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.1..figure.1."
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..section2.2..figure.1."
 ><chart
 ><img
-src="images/en/NewBlankSession_en.png"
+src="images/en/SayMore_HelpWindow_en.png"
 ></img
 ></chart
 ><caption
->Bland Session</caption
+>SayMore Help Window</caption
 ></figure
+><p
+contentType="en"
+>From this window you can search by using the Content Tree, Index (Search by Keyword), and Search (search for any word).</p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="sAbout"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>About...</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you clique About... a window opens detailing who was behind making SayMore and thanks to those who helped make SayMore Possible. It also has links to the Open Source Components/Libraries used in SayMore.</p
+><p
+contentType="fr"
+></p
+></section2
+></section1
+></chapter
+></part
+><part
+id="pGestion"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Project, Session, and User Management</titleContent
+><titleContent
+contentType="fr"
+>Gestion d'un projet, des sessions, ou des personnes</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+><chapter
+id="cCreateProjectOver"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Create or Open a Project</titleContent
+><titleContent
+contentType="fr"
+>La Creation ou l'ouverture d'un projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>Before working in SayMore, you must create a project. You should create a separate project for each language you are analysing, but you do not need to create a new project for every file you analyse.</p
+><section1
+id="sCreateProject"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Create a Project</titleContent
+><titleContent
+contentType="fr"
+>Créer un projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you clique on <object
+type="tmenu"
+>Open / Create Project</object
+> you will see:</p
+><p
+contentType="fr"
+>Quand vous cliquez sur le menu projet, vous allez dans <object
+type="tmenu"
+>Ouvrir / Créer un Projet</object
+> :</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.1."
+><chart
+><img
+src="images/en/Open_Create_en.png"
+></img
+></chart
+><caption
+>Open / Create Project</caption
+></figure
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.2."
+><chart
+><img
+src="images/fr/Ouvrir_Creer%20un%20nouveau_fr.png"
+></img
+></chart
+><caption
+>Ouvrir / Créer un Projet</caption
+></figure
+><p
+contentType="en"
+>When clicking on <object
+type="tmenu"
+>Create new, Blank project...</object
+> you will see a dialogue box asking you for a name. Fill in the blank and press <object
+type="tmenu"
+>Okay</object
+>. Below the name you have chosen you will see the path to where the project will be saved.</p
+><p
+contentType="fr"
+>En cliquant sur Créer un nouveau projet, vous avez cette fenêtre pour nommer le projet.</p
+><figure
+align="center"
+contentType="en"
+id="fNewPro"
+><chart
+><img
+src="images/en/NewProjectName_en.png"
+></img
+></chart
+><caption
+>New Project Name</caption
+></figure
+><figure
+align="center"
+contentType="fr"
+id="fNewProFr"
+><chart
+><img
+src="images/fr/NomDeNouveauProjet_fr.png"
+></img
+></chart
+><caption
+>Nommer le nouveau projet</caption
+></figure
+><p
+contentType="en"
+>Once you click okay, SayMore will open with a new blank project. To continue go to:<br
+></br
+> <sectionRef
+sec="cProjectMeta"
+></sectionRef
+> <sectionRef
+sec="cProjectMeta"
+showTitle="full"
+></sectionRef
+> </p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="sOpenProject"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Open an Existing Project</titleContent
+><titleContent
+contentType="fr"
+>Ouvrir un projet existant</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you clique on <object
+type="tmenu"
+>Open / Create Project</object
+> you will see:</p
+><p
+contentType="fr"
+>Quand vous ouvrez SayMore, la boîte de dialogue suivante s'affiche.</p
+><figure
+contentType="en"
+id="fOpenExisting"
+><chart
+><img
+src="images/en/Open_Create_en.png"
+></img
+></chart
+><caption
+>Open / Create Project</caption
+></figure
+><figure
+contentType="fr"
+id="fOuvrirExistant"
+><chart
+><img
+src="images/fr/Ouvrir_Creer%20un%20nouveau_fr.png"
+></img
+></chart
+><caption
+>Ouvrir / Créer un Projet</caption
+></figure
+><p
+contentType="en"
+>Click on the name of your project under 'Open' to open it.<br
+></br
+><object
+type="tresult"
+>The project will open.</object
+></p
+><p
+contentType="fr"
+>Cliquez sur le nom de votre projet pour l'ouvrir.<br
+></br
+><object
+type="tresult"
+>Le projet s'affiche.</object
+></p
+></section1
+><section1
+id="sOpenOtherProject"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Open a different Project</titleContent
+><titleContent
+contentType="fr"
+>Ouvrir un autre projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>If you want to open another project from a USB or other storage device, follow these steps:</p
+><p
+contentType="fr"
+>Si vous travaillez dans un projet et désirez ouvrir un autre projet :</p
+><p
+contentType="en"
+>From the <object
+type="tmenu"
+>Project</object
+> menu, clique on <object
+type="tmenu"
+>Open / Create Project</object
+> you will see:</p
+><p
+contentType="fr"
+>Du menu <object
+type="tmenu"
+>Projet</object
+>, cliquez <object
+type="tmenu"
+>Ouvrir / Créer un Projet</object
+> :</p
+><figure
+contentType="en"
+id="fOpenOther"
+><chart
+><img
+src="images/en/Open_Create_en.png"
+></img
+></chart
+><caption
+>Open / Create Project</caption
+></figure
+><figure
+contentType="fr"
+id="fOuvrirAutre"
+><chart
+><img
+src="images/fr/Ouvrir_Creer%20un%20nouveau_fr.png"
+></img
+></chart
+><caption
+>Ouvrir / Créer un Projet</caption
+></figure
+><p
+contentType="en"
+>Click on 'browse for project' the name of your project to open it.<br
+></br
+><br
+></br
+></p
+><p
+contentType="fr"
+>Cliquez sur le nom de votre projet pour l'ouvrir.<br
+></br
+><object
+type="tresult"
+>Le projet s'affiche.</object
+></p
+></section1
+></chapter
+><chapter
+id="cProjectMeta"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Managing a Project</titleContent
+><titleContent
+contentType="fr"
+>Remplir les metadonnées du projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you create a new project or even opening an existing project it is important to make sure the Project Tab elements are filled out as much as possible. This will also be the first tab open when you create a new project.  The Project Tab is designed to collect metadata that concerns the entire project. These metadata and documents are critical for the discoverability and use of the archive. </p
+><p
+contentType="fr"
+></p
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>About This Project</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>Below describes what should be placed in the fields in this window:</p
+><ul
+><li
+contentType="en"
+><object
+type="tmenu"
+>Title</object
+> - The full title for the project. Initially, the project name appears here. You can edit it, such as to make it more formal (longer). This will not change the project name, or any file or folder names.  </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Description</object
+> - Information about the scope and goals of the project. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Vernacular</object
+>  - The ISO-639 name of the language used in the sessions.</li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Location/Address</object
+>  - The location, such as the village or town, or address where the session was recorded or originated. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Region</object
+>  - The region or sub-region that has the location or address. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Country</object
+>  - A list which is used to identify the country where the location/address and region are located. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Continent</object
+>  - A list which is used to identify the continent that has the country.</li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Contact Person</object
+>  - Contact information about the person or institution responsible for the project. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Funding Project Title</object
+>  - A title that matches associated project funding documentation. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Date Available</object
+>  - The date of that this project was or will be archived. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Rights Holder</object
+>  - The copyright symbol, year, organization name, and statement regarding copyright. </li
+><li
+contentType="fr"
+></li
+><li
+contentType="en"
+><object
+type="tmenu"
+>Depositor</object
+>  - The person responsible for depositing the resource in an archive. </li
+><li
+contentType="fr"
+></li
+></ul
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Access Protocol</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>    Access is how you determine who has permission to get or see your archived data. Access Protocol is used to determine what access to assign to an item in archives. Here is where you choose the access protocol for the project. </p
+><ul
+><li
+contentType="en"
+>Unless your organization instructs you differently:<br
+></br
+>SIL members or others with permission to use REAP/RAMP, choose:<ul
+><li
+>REAP</li
+></ul
+></li
+><li
+contentType="fr"
+>Si votre organization ditez contre:<br
+></br
+>SIL members or others with permission to use REAP/RAMP, choose:<ul
+><li
+>REAP</li
+></ul
+></li
+><li
+contentType="en"
+>All others, choose one of the following:<ul
+><li
+>AILCA</li
+><li
+>AILLA</li
+><li
+>ANLA</li
+><li
+>ELAR</li
+><li
+>TLA</li
+><li
+>Custom</li
+></ul
+></li
+><li
+contentType="fr"
+>Tous les autres, choissiez un de suivre:<ul
+><li
+>AILCA</li
+><li
+>AILLA</li
+><li
+>ANLA</li
+><li
+>ELAR</li
+><li
+>TLA</li
+><li
+>Custom</li
+></ul
+></li
+></ul
+><p
+contentType="en"
+>If you choose 'Custom' you are presented with an empty box that you can type in custom access choices separated by commas. This allows you to set different recorded sessions to different access protocols.</p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Description Documents</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This is where you add documents that describe the project and corpus. When the project is archived with IMDI the files here are exported to a special session named 'Project Descriptive Documents'.</p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Other Documents</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This is where you add any other project-level documents that do not belong in Description Documents. When the project is archived with IMDI the files here are exported to a special session named 'Other Project Documents'.</p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Progress</titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This window is where you can track the progress of the projects:</p
+><figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/Progress_en.png"
+></img
+></chart
+><caption
+>Progress</caption
+></figure
+><figure
+contentType="fr"
+id="f"
+><chart
+><img
+src="images/fr/Progress_fr.png"
+></img
+></chart
+><caption
+>Progress</caption
+></figure
+><p
+contentType="en"
+>As you can see in the image above, this is a very useful graphic that can be copied, to be pasted into a report, saved as an individual html file, or printed. </p
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+></chapter
+><chapter
+id="cSessions"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Managing Sessions</titleContent
+><titleContent
+contentType="fr"
+>Gestion des sessions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>If you have just created a new project, the sessions tab will be empty. Otherwise you will see all of your previous sessions and what was recorded in each session.</p
+><p
+contentType="fr"
+></p
+><section1
+id="sCreateSession"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Create a new Session</titleContent
+><titleContent
+contentType="fr"
+>Ajouter une Session</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+><object
+type="tmenu"
+>New</object
+> Allows you to create a blank new Session. You then have to manually add all the files you wish to associate with the new session. This is done on the right hand side of the Sessions Tab window.</p
+><p
+>Vous pouvez ajouter une session vide ou une session avec le contenu d'un nouvel enregistrement. De plus, vous pouvez ajouter plusieurs sessions en téléchargeant les enregistrements du jour directement sur les appareils (caméra, enregistreur audio, etc.). Dans ce cas, SayMore crée des ID pour chaque session. Chaque ID deviendra le nom de son dossier, ainsi que la première partie de la plupart des noms de fichiers dans le dossier. Ceux-ci sont automatiquement mis à jour si vous modifiez ultérieurement cette métadonnée Id.</p
 ><p
 contentType="en"
 ></p
@@ -627,9 +1538,8 @@ type="tmenu"
 ><p
 contentType="fr"
 ></p
-></section2
 ><section2
-id="s"
+id="sNewFromDevice"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -648,7 +1558,7 @@ type="tmenu"
 > Allows you to create a new Session and Opens:</p
 ><figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.2..figure.1."
+id="fNewFromDevice"
 ><chart
 ><img
 src="images/en/NewSessionFromDeviceWindow_en.png"
@@ -662,7 +1572,7 @@ contentType="fr"
 ></p
 ></section2
 ><section2
-id="s"
+id="sNewFromRecording"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -681,7 +1591,7 @@ type="tmenu"
 > Allows you to use the Computer Microphone to record a session.</p
 ><figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.2..section2.3..figure.1."
+id="fRecord"
 ><chart
 ><img
 src="images/en/NewFromRecording_en.png"
@@ -694,66 +1604,23 @@ src="images/en/NewFromRecording_en.png"
 contentType="en"
 ></p
 ><framedUnit
-contentType="en"
 framedtype="tTeacher"
 ><p
+contentType="en"
 >From SayMore Developers:<br
 ></br
 ><object
 type="tBoldItalic"
 >"We plead with you to avoid using your laptop's built-in microphone; if you are willing to give up usefulness for future phonetic research, an OK USB headset can be had for US$35 or less in many countries. Note that the very popular Zoom H2's can also be plugged in and used as a microphone (in a lower quality mode)."</object
-> </p
+></p
 ></framedUnit
 ><p
 contentType="fr"
-></p
+>Nous plaidons avec votre consentement pour éviter l'usage des microphones intégré de votre ordinateur portable. Si vous êtes prêt l'utilité pour des recherches phonétiques dans le future, un bon casque USB peut être utilisé à un coût raisonnable. Il est également à que le Zoom H2 peut également être branché et utilisé comme microphone.</p
 ></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archive with RAMP (SIL)...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-><object
-type="tmenu"
->Archive with RAMP (SIL)...</object
-> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format.  It is designed to carry over all meta-data to an archive.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archive using IMDI...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-><object
-type="tmenu"
->Archive using IMDI....</object
->    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
+></section1
+><section1
+id="sDeleteSession"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -761,7 +1628,7 @@ contentType="en"
 >Delete Session...</titleContent
 ><titleContent
 contentType="fr"
-></titleContent
+>Supprimer une session</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -772,54 +1639,26 @@ type="tmenu"
 > Allows you to delete a session you have selected in the <object
 type="tmenu"
 >Sessions tab</object
->.</p
+></p
 ><p
 contentType="fr"
-></p
-></section2
+>Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans</p
 ></section1
-><section1
-id="s"
+></chapter
+><chapter
+id="cPeople"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Menu: Person</titleContent
+>Managing People</titleContent
 ><titleContent
 contentType="fr"
->Tâches d'onglet Personnes</titleContent
+>Gestion des personnes</titleContent
 ></titleContentChoices
 ></secTitle
-><p
-contentType="en"
->When you click the <object
-type="tmenu"
->People</object
-> Tab you can then select the Menu <object
-type="tmenu"
->Person</object
->. </p
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.3..figure.1."
-><chart
-><img
-src="images/en/mnuPerson_en.png"
-></img
-></chart
-><caption
->Menu Person</caption
-></figure
-><p
-contentType="en"
-><br
-></br
-></p
-><p
-contentType="fr"
-></p
-><section2
-id="s"
+><section1
+id="sNewPerson"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -827,12 +1666,12 @@ contentType="en"
 >New</titleContent
 ><titleContent
 contentType="fr"
-></titleContent
+>Nouveau</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
 contentType="en"
->When you click on <object
+>When you clique on <object
 type="tmenu"
 >New</object
 > in Menu <object
@@ -851,13 +1690,28 @@ src="images/en/EmptyNewPerson_en.png"
 ></figure
 ><p
 contentType="en"
->It is important to try to fill out as much as possible about the Person. </p
+>It is important to try to fill out as much as possible about the Person.</p
 ><p
+contentType="fr"
+>Il est important de remplir autant que possible à propos de la personne</p
+></section1
+><section1
+id="sInformedConsent"
+><secTitle
+><titleContentChoices
+><titleContent
 contentType="en"
+>Informed Consent</titleContent
+><titleContent
+contentType="fr"
+>Consentement éclairé</titleContent
+></titleContentChoices
+></secTitle
+><p
 ></p
-></section2
-><section2
-id="s"
+></section1
+><section1
+id="sDeletePerson"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -865,165 +1719,356 @@ contentType="en"
 >Delete Person...</titleContent
 ><titleContent
 contentType="fr"
-></titleContent
+>Supprimé une personne</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
 contentType="en"
->Allows you to remove a person from a session.  You can also just right click on the person and select <object
+>Allows you to remove a person from a session. You can also just right clique on the person and select <object
 type="tmenu"
 >Delete Person</object
 >. A warning box will appear before deletion is final.</p
 ><p
 contentType="fr"
-></p
-></section2
+>Vous permet de supprimer une personne d'une session. Vous pouvez simplement faire un clique droit sur la personne et sélectionner SUPPRIMER LA PERSONNE. Une boîte d'avertissement apparaîtra avant que la suppression ne soit définitive.</p
 ></section1
-><section1
-id="s"
+></chapter
+></part
+><part
+id="pTranscribe"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Menu: Help</titleContent
+>Transcribing Audio and Video files</titleContent
 ><titleContent
 contentType="fr"
-></titleContent
+>Transcription des fichiers audios et vidéos</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
+></p
+><chapter
+id="cTranscribe"
+><secTitle
+><titleContentChoices
+><titleContent
 contentType="en"
->This is the place to find help while using SayMore. When you click on menu Help you will see:</p
+>Overview of Transcription Process</titleContent
+><titleContent
+contentType="fr"
+>Survol du processus de la transcription</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="fr"
+></p
+><section1
+id="sAddContributors"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Add Session Contributors</titleContent
+><titleContent
+contentType="fr"
+>Ajouter les contributeurs de session</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sStartAnnot"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Start Annotating</titleContent
+><titleContent
+contentType="fr"
+>Commencez l'annotation</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sSegmentation"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Segmentation</titleContent
+><titleContent
+contentType="fr"
+>Segmentation</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sCarefulSpeech"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Careful Speech Transcription</titleContent
+><titleContent
+contentType="fr"
+>Transcription attentive des paroles</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sOralTransl"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Oral Translation</titleContent
+><titleContent
+contentType="fr"
+>Transcription Orale</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sWrittenTrans"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Written Transcription</titleContent
+><titleContent
+contentType="fr"
+>Rédiger la Transcription</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+><section1
+id="sWritTransl"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Written Translation</titleContent
+><titleContent
+contentType="fr"
+>Rédiger la traduction</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+></chapter
+></part
+><part
+id="pArchiving"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Archiving</titleContent
+><titleContent
+contentType="fr"
+>Archivage</titleContent
+></titleContentChoices
+></secTitle
+><chapter
+id="cExport"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Exporting Data</titleContent
+><titleContent
+contentType="fr"
+>Exportation des données</titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+><section1
+id="sExportSession"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Export Sessions</titleContent
+><titleContent
+contentType="fr"
+>Exporter des sessions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="fr"
+></p
+><ol
+><li
+contentType="en"
+>Open the project that has the session data you want to export.</li
+><li
+contentType="fr"
+>Ouvrir un projet contenant les données des section qu'on désire exporter</li
+><li
+contentType="en"
+>On the Project menu, clique Export Sessions.<br
+></br
+><object
+type="tresult"
+>The Export Data dialog box appears:</object
+><br
+></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..figure.1."
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.2..figure.1."
 ><chart
 ><img
-src="images/en/mnuHelp_en.png"
+src="images/en/ExportSessions_en.png"
 ></img
 ></chart
 ><caption
->Menu Help</caption
+>Export Sessions Save Dialogue</caption
 ></figure
-><p
-contentType="en"
-></p
-><p
+></li
+><li
 contentType="fr"
-></p
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Release Notes...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->This will open a window that will allow you to read about recent updates to SayMore and some of the added functionality that came with any new versions.</p
-><p
-contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Help...</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click <object
+>Dans le menu projet, cliquez <object
 type="tmenu"
->Help...</object
-> it will open a new window:</p
+>Exporter les sessions.</object
+><br
+></br
+><object
+type="tresult"
+>La boîte de dialogue <object
+type="tmenu"
+>Exporter les données</object
+> apparaît.</object
+><br
+></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.4..section2.2..figure.1."
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.4..figure.1."
 ><chart
 ><img
-src="images/en/SayMore_HelpWindow_en.png"
+src="images/fr/ExporterDes_fr.png"
 ></img
 ></chart
 ><caption
->SayMore Help Window</caption
+>La boîte de dialogue exporter des données</caption
 ></figure
-><p
+></li
+><li
 contentType="en"
->From this window you can search by using the Content Tree, Index (Search by Keyword), and Search (search for any word). </p
-><p
+>Click <object
+type="tmenu"
+>Save</object
+>. <br
+></br
+><object
+type="tresult"
+>The session data in the open project is exported to a file. The file is then shown in the folder.</object
+></li
+><li
 contentType="fr"
-></p
-></section2
-><section2
-id="s"
-><secTitle
-><titleContentChoices
-><titleContent
+>Cliquez sur <object
+type="tmenu"
+>Enregistrer</object
+>.<br
+></br
+><object
+type="tresult"
+>Les données de sessions du projet seront exportés vers un fichier. Le fichier s'affichera dans le dossier</object
+>.</li
+><li
 contentType="en"
->About...</titleContent
-><titleContent
+>To open the file, open the folder, and then double-click the file. <br
+></br
+><object
+type="tresult"
+>The export file opens with the program specified as the default program for the file type. </object
+></li
+><li
 contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When you click About...  a window opens detailing who was behind making SayMore and thanks to those who helped make SayMore Possible.  It also has links to the Open Source Components/Libraries used in SayMore.</p
-><p
-contentType="fr"
-></p
-></section2
+>Pour ouvrir le fichier, ouvrez le dossier, et double cliquez sur fichier.<br
+></br
+><object
+type="tresult"
+>Le fichier exporté sera ouvert avec l'application défini pour ce genre de fichier.</object
+></li
+></ol
 ></section1
-></chapter
-><chapter
-id="c"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Starting a New Project</titleContent
-><titleContent
-contentType="fr"
->commencer un nouveau projet</titleContent
-><titleContent
-contentType="???"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
->When starting a new project</p
-><p
-contentType="fr"
-></p
 ><section1
-id="s"
+id="sExportPeople"
 ><secTitle
 ><titleContentChoices
 ><titleContent
 contentType="en"
-></titleContent
+>Export People</titleContent
 ><titleContent
 contentType="fr"
-></titleContent
+>Exporter des personnes</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
+>To export all of the people and associated metadata in the open project to a file, do the following steps:</p
+><ol
+><li
+contentType="en"
+>Open the project that has the people you want to export.</li
+><li
+contentType="en"
+>On the Project menu, clique Export People.<br
+></br
+>The Export Data dialog box appears:<figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.3..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ExportPeople_en.png"
+></img
+></chart
+><caption
+>Export People Save Dialogue</caption
+></figure
+></li
+><li
+contentType="en"
+>In the dialog box, clique the File name box, and then type a name. <br
+></br
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). <br
+></br
+>Also, it is recommended that you save the file in the project folder, which is the default location.</li
+><li
+contentType="en"
+>Click Save. <br
+></br
+><object
+type="tresult"
+>The people data in the open project is exported to a file. The file is then shown in the folder.</object
+></li
+><li
+contentType="en"
+>To open the file, open the folder, and then double-click the file. <br
+></br
+><object
+type="tresult"
+>The export file opens with the program specified as the default program for the file type.</object
+></li
+></ol
+><p
+contentType="fr"
 ></p
 ></section1
 ></chapter
 ><chapter
-id="c"
+id="cArchive"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -1031,9 +2076,74 @@ contentType="en"
 >Archiving Overview</titleContent
 ><titleContent
 contentType="fr"
+>Archivage</titleContent
+></titleContentChoices
+></secTitle
+><section1
+id="sArchiveRamp"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Archive with RAMP (SIL)...</titleContent
+><titleContent
+contentType="fr"
 ></titleContent
 ></titleContentChoices
 ></secTitle
+><p
+contentType="en"
+><object
+type="tmenu"
+>Archive with RAMP (SIL)...</object
+> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format. It is designed to carry over all meta-data to an archive.</p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+contentType="dn"
+id="sIMDI"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Archive using IMDI</titleContent
+><titleContent
+contentType="fr"
+>Achiver avec IMDI</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+><object
+type="tmenu"
+>Archive using IMDI....</object
+> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources. When you archive with IMDI, files in Descriptive Documents are exported to a special session named 'Project Descriptive Documents' and files in Other Documents are exported to a special session named 'Other Project Documents'.</p
+><framedUnit
+contentType="en"
+framedtype="tTeacher"
+><p
+>Related Topics:</p
+><ul
+><li
+>Access Protocol</li
+><li
+>Archiving overview</li
+></ul
+></framedUnit
+><p
+contentType="fr"
+></p
+><p
+contentType="en"
+><object
+type="tmenu"
+>Archive using IMDI....</object
+> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</p
+><p
+contentType="fr"
+></p
 ><p
 contentType="en"
 >This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with the team to learn what you need to do.</p
@@ -1063,14 +2173,14 @@ contentType="en"
 ></li
 ><li
 contentType="en"
->On the Project menu, click Archive using IMDI.<br
+>On the Project menu, clique Archive using IMDI.<br
 ></br
 >Click 'Okay'<br
 ></br
 >The SayMore: Archive using IMDI dialog box opens: <br
 ></br
 ><figure
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.4..ol.1..li.2..figure.1."
 ><chart
 ><img
 src="images/en/ArchivingIMDI_en.png"
@@ -1088,7 +2198,7 @@ type="tmenu"
 > check box.</li
 ><li
 contentType="en"
->To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
+>To choose a different location for the IMDI package, clique the Change Folder link. Then browse for the desired folder.</li
 ><li
 contentType="en"
 >Click Create Package. <br
@@ -1096,7 +2206,7 @@ contentType="en"
 >These messages appear:<br
 ></br
 ><figure
-id="f"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.4..ol.1..li.5..figure.1."
 ><chart
 ><img
 src="images/en/ArchivingIMDI_SAVED_en.png"
@@ -1112,125 +2222,7 @@ src="images/en/ArchivingIMDI_SAVED_en.png"
 contentType="en"
 >Click 'Close'</li
 ></ol
-><p
-contentType="fr"
-></p
-></chapter
-><chapter
-id="c"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
-></titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-></p
-></chapter
-><chapter
-id="c"
-><secTitle
-><titleContentChoices
-><titleContent
-contentType="en"
->Archiving Overview</titleContent
-><titleContent
-contentType="fr"
-></titleContent
-></titleContentChoices
-></secTitle
-><p
-contentType="en"
-></p
-><p
-></p
-><p
-contentType="en"
->This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with the team to learn what you need to do.</p
-><p
-contentType="en"
-><comment
->Moved this here from the Menu:Project. It needs its own section(s)</comment
-></p
-><p
-contentType="en"
-></p
-><ol
-contentType="en"
-><li
->Make sure all these metadata are as complete and accurate as possible:<ul
-><li
->Project metadata.</li
-><li
->Session metadata (particularly the Access selection) for each session.</li
-><li
->Person metadata.</li
-><li
->File metadata.</li
-></ul
-></li
-><li
->On the Project menu, click Archive using IMDI.<br
-></br
-> <object
-type="tmenu"
->**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
-> <br
-></br
->Click OK. <br
-></br
->The SayMore: Archive using IMDI dialog box opens:<br
-></br
-><figure
-contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.2..figure.1."
-><chart
-><img
-src="images/en/ArchivingIMDI_en.png"
-></img
-></chart
-><caption
->Archive using IMDI dialogue box</caption
-></figure
-><br
-></br
-></li
-><li
->To archive only the metadata, select the Metadata only check box.</li
-><li
->To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
-><li
->Click Create Package. <br
-></br
->These messages appear: <br
-></br
-><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.5..figure.1."
-><chart
-><img
-src="images/en/ArchivingIMDI_SAVED_en.png"
-></img
-></chart
-><caption
->Archive IMDI Saved</caption
-></figure
-> <br
-></br
-><br
-></br
-></li
-><li
->Click Close.</li
-><li
->To continue, use Arbil or another similar program.</li
-></ol
-><p
-contentType="fr"
-></p
+></section1
 ></chapter
 ></part
 ><backMatter

@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xlingpaper PUBLIC "-//XMLmind//DTD XLingPap//EN"
+"XLingPap.dtd">
+<xlingpaper
+version="2.24.0"
+><styledPaper
+><lingPaper
+automaticallywrapinterlinears="yes"
+version="2.28.0"
+><frontMatter
+><title
+><img
+src="images/SayMore5.jpg"
+></img
+><br
+></br
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore</titleContent
+><titleContent
+contentType="fr"
+>SayMore</titleContent
+></titleContentChoices
+></title
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Saymore</titleContent
+><titleContent
+contentType="fr"
+>Saymore</titleContent
+></titleContentChoices
+></shortTitle
+><subtitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Supporters Manual (English)</titleContent
+><titleContent
+contentType="fr"
+>Manuel d'Administrateur (Français)</titleContent
+></titleContentChoices
+></subtitle
+><author
+>NGONO Louis Pascal</author
+><author
+>John Roettele</author
+><affiliation
+>SIL International</affiliation
+><date
+>May. 2017</date
+><contents
+label="Contenu"
+showLevel="3"
+><labelContentChoices
+><labelContent
+contentType="en"
+>Table of Contents</labelContent
+><labelContent
+contentType="fr"
+>Contenu</labelContent
+></labelContentChoices
+></contents
+></frontMatter
+><part
+id="SayMSuppMan"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore Manual</titleContent
+><titleContent
+contentType="fr"
+>Manuel de SayMore</titleContent
+></titleContentChoices
+></secTitle
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMore ManP1</titleContent
+><titleContent
+contentType="fr"
+>SayMore ManP1</titleContent
+></titleContentChoices
+></shortTitle
+><p
+contentType="en"
+>SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
+><p
+contentType="fr"
+>En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela</p
+><p
+contentType="fr"
+>En résumé, SayMore est un outil qui vous aide à organiser vidéo, audio, image et divers autres fichiers avec les métadonnées.</p
+><chapter
+id="sCRStart"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Getting Started</titleContent
+><titleContent
+contentType="fr"
+>présentation des tâches de base</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>SayMore can be downloaded from <link
+href="https://software.sil.org/saymore/download/ "
+>https://software.sil.org/saymore/download/ </link
+> . Pay attention to the technical requirements (at time of writing, Saymore requires Windows 7, 8, or 10, a PDF reader, and Microsoft .Net 4.6).</p
+><p
+contentType="fr"
+>Saymore peut être téléchargé par le lien <link
+href="https://software.sil.org/saymore/download/ "
+>https://software.sil.org/saymore/download/</link
+> . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6</p
+><p
+contentType="en"
+>If you are going to be away from fast Internet, go ahead and download <object
+type="tmenu"
+>FFmpeg</object
+>. <object
+type="tmenu"
+>FFMpeg</object
+> is the open source tool SayMore uses to convert media files from the ones your device outputs to what you want for archiving.<br
+></br
+><br
+></br
+>Also if you are holding a workshop go ahead and download <object
+type="tmenu"
+>.Net 4.6 Standalone Installer</object
+> and take it with you in case some participants don't have it.</p
+><p
+contentType="en"
+>After installation, open the SayMore application. You will see this screen:</p
+><p
+contentType="fr"
+>Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé <object
+type="tmenu"
+>FFmpeg</object
+>. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter la meilleur connexion Internet.</p
+><p
+contentType="fr"
+>Après instillations, vous va reguardez:</p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
+><chart
+><img
+src="images/fr/NouveauOuvrir_fr.png"
+></img
+></chart
+><caption
+></caption
+></figure
+><p
+contentType="fr"
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.1..figure.1."
+><chart
+><img
+description="Clean Open"
+src="images/en/CleanOpen_en.png"
+></img
+></chart
+><caption
+>First time opening</caption
+></figure
+><p
+contentType="fr"
+>utilisation de l'onglet</p
+></chapter
+><chapter
+id="sCR"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menus</titleContent
+><titleContent
+contentType="fr"
+>Présentation des menus</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>SayMore has only four menu items and three tabs. The menu <object
+type="tmenu"
+>Session</object
+> is greyed out until you click on the <object
+type="tmenu"
+>Sessions</object
+> tab. This is the same for menu <object
+type="tmenu"
+>Person</object
+> and tab <object
+type="tmenu"
+>People</object
+>.</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..figure.1."
+><chart
+><img
+src="images/en/MenusAndTabs.png"
+></img
+></chart
+><caption
+>Menu and Tab items</caption
+></figure
+><p
+contentType="en"
+>The next sections will go over what you can find and do in the Menus.</p
+><p
+contentType="fr"
+></p
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Project</titleContent
+><titleContent
+contentType="fr"
+>Menu: Projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you click on <object
+type="tmenu"
+>Project</object
+> you will see:</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..figure.1."
+><chart
+><img
+src="images/en/mnuProject_en.png"
+></img
+></chart
+><caption
+>Project Menu</caption
+></figure
+><framedUnit
+contentType="en"
+framedtype="tTeacher"
+><p
+contentType="en"
+>Note:</p
+><ul
+><li
+contentType="en"
+>As you can see there is no Save option. This is because SayMore saves for you.</li
+><li
+contentType="en"
+>There is no Delete command that deletes a project. Instead, you can delete the project folder in your Windows Explorer (File Explorer).</li
+></ul
+></framedUnit
+><p
+contentType="fr"
+>Dans cet onglet projet, nous avons la faculté de créer les projets. pour celà, nous devons ouvrir: Créer un projet</p
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Open / Create Project</titleContent
+><titleContent
+contentType="fr"
+>Ouvrir / créer un projet</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you click on <object
+type="tmenu"
+>Open / Create Project</object
+> you will see</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.1."
+><chart
+><img
+src="images/en/Open_Create_en.png"
+></img
+></chart
+><caption
+>Open / Create Project</caption
+></figure
+><p
+contentType="en"
+>Here you can re-open previous projects, browse for projects that might be stored on a USB device, and Create new, blank project. When clicking on <object
+type="tmenu"
+>Create new, Blank project...</object
+> you will see a dialogue box asking you for a name. Fill in the blank and press <object
+type="tmenu"
+>Okay</object
+>. Below the name you have chosen you will see the path to where the project will be saved.</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.1..figure.2."
+><chart
+><img
+src="images/en/NewProjectName_en.png"
+></img
+></chart
+><caption
+>New Project Name</caption
+></figure
+><p
+contentType="en"
+>To continue go to section <sectionRef
+contentType="en"
+sec="c"
+showTitle="numberOnly"
+></sectionRef
+> <sectionRef
+contentType="en"
+sec="c"
+showTitle="full"
+></sectionRef
+>.</p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Export Sessions</titleContent
+><titleContent
+contentType="fr"
+>Exporter des séssions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><ol
+contentType="en"
+><li
+>Open the project that has the session data you want to export.</li
+><li
+>On the Project menu, click Export Sessions.<br
+></br
+>The Export Data dialog box appears:<figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.2..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ExportSessions_en.png"
+></img
+></chart
+><caption
+>Export Sessions Save Dialogue</caption
+></figure
+></li
+><li
+>In the dialog box, click the File name box, and then type a name. <br
+></br
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). Also, it is recommended that you save the file in the project folder, which is the default location.</li
+><li
+>Click Save. <br
+></br
+>The session data in the open project is exported to a file. The file is then shown in the folder.</li
+><li
+>To open the file, open the folder, and then double-click the file. <br
+></br
+>The export file opens with the program specified as the default program for the file type. <br
+></br
+></li
+></ol
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Export People</titleContent
+><titleContent
+contentType="fr"
+>Exporter des gens</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>To export all of the people and associated metadata in the open project to a file, do the following steps:</p
+><ol
+contentType="en"
+><li
+>Open the project that has the people you want to export.</li
+><li
+>On the Project menu, click Export People.<br
+></br
+>The Export Data dialog box appears:<figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.3..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ExportPeople_en.png"
+></img
+></chart
+><caption
+>Export People Save Dialogue</caption
+></figure
+></li
+><li
+>In the dialog box, click the File name box, and then type a name. <br
+></br
+>Leave the Save as type selection as CSV (Comma delimited)(*.csv). <br
+></br
+>Also, it is recommended that you save the file in the project folder, which is the default location.</li
+><li
+>Click Save. <br
+></br
+>The people data in the open project is exported to a file. The file is then shown in the folder.</li
+><li
+>To open the file, open the folder, and then double-click the file. <br
+></br
+>The export file opens with the program specified as the default program for the file type.</li
+></ol
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Archive using IMDI</titleContent
+><titleContent
+contentType="fr"
+>Achiver avec IMDI</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with them to learn what you need to do.</p
+><ol
+contentType="en"
+><li
+>Make sure all these metadata are as complete and accurate as possible:<ul
+><li
+>Project metadata.</li
+><li
+>Session metadata (particularly the Access selection) for each session.</li
+><li
+>Person metadata.</li
+><li
+>File metadata.</li
+></ul
+></li
+><li
+>On the Project menu, click Archive using IMDI.<br
+></br
+> <object
+type="tmenu"
+>**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found.**</object
+> <br
+></br
+>Click OK. <br
+></br
+>The SayMore: Archive using IMDI dialog box opens:<br
+></br
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_en.png"
+></img
+></chart
+><caption
+>Archive using IMDI dialogue box</caption
+></figure
+><br
+></br
+></li
+><li
+>To archive only the metadata, select the Metadata only check box.</li
+><li
+>To choose a different location for the IMDI package, click the Change Folder link. Then browse for the desired folder.</li
+><li
+>Click Create Package. <br
+></br
+>These messages appear: <br
+></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.4..ol.1..li.5..figure.1."
+><chart
+><img
+src="images/en/ArchivingIMDI_SAVED_en.png"
+></img
+></chart
+><caption
+>Archive IMDI Saved</caption
+></figure
+> <br
+></br
+><br
+></br
+></li
+><li
+>Click Close.</li
+><li
+>To continue, use Arbil or another similar program.</li
+></ol
+><framedUnit
+contentType="en"
+framedtype="tTeacher"
+><p
+>Related Topics:</p
+><ul
+><li
+>Access Protocol</li
+><li
+>Archiving overview</li
+></ul
+></framedUnit
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Change user interface language</titleContent
+><titleContent
+contentType="fr"
+>Changer la langue d'interface utilisateur</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>This allows you to change the Language interface. <br
+></br
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.1..chapter.2..section1.1..section2.5..figure.1."
+><chart
+><img
+src="images/en/UserInterfaceLang_en.png"
+></img
+></chart
+><caption
+>User Interface Language Drop down</caption
+></figure
+><p
+contentType="en"
+>If the language you need is not listed, or you need to edit translated UI content:</p
+><ul
+contentType="en"
+><li
+>click the <object
+type="tlink"
+>I want to localize SayMore for another language</object
+> hyperlink. The Localize User Interface dialog box opens so you can use it.</li
+><li
+>Optionally, get a shared UI language file and a translated Access Protocol file from another user.</li
+></ul
+><p
+contentType="fr"
+></p
+></section2
+><section2
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Quit</titleContent
+><titleContent
+contentType="fr"
+>Quitter</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>Closes the application.</p
+><p
+contentType="fr"
+></p
+></section2
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Session</titleContent
+><titleContent
+contentType="fr"
+>Tâches de l'onglet Sessions</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+>When you click on the Sessions tab you have a new window displayed and also the Menu option Session is now available.<br
+></br
+>clicking on Menu Session you will see: </p
+><figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/mnuSessions.png"
+></img
+></chart
+><caption
+>Menu Session</caption
+></figure
+><ul
+contentType="en"
+><li
+><object
+type="tmenu"
+>New</object
+>         Allows you to create a blank new Session</li
+><li
+><object
+type="tmenu"
+>New From Device..</object
+>       Allows you to create a new Session and Opens: <figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/NewSessionFromDeviceWindow_en.png"
+></img
+></chart
+><caption
+>New From Device Window</caption
+></figure
+></li
+><li
+><object
+type="tmenu"
+>New From Recording... </object
+>   Allows you to use the Computer Microphone to record a session.<figure
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/NewFromRecording_en.png"
+></img
+></chart
+><caption
+>New From Recording Window</caption
+></figure
+></li
+><li
+><object
+type="tmenu"
+>Archive with RAMP (SIL)...</object
+> This allows you to archive using SIL's access protocol Repository for Electronic Archiving and Publishing format.</li
+><li
+>Archive using IMDI....    This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard.</li
+></ul
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Menu: Person</titleContent
+><titleContent
+contentType="fr"
+>Tâches d'onglet Personnes</titleContent
+></titleContentChoices
+></secTitle
+><p
+contentType="en"
+></p
+><p
+contentType="fr"
+></p
+></section1
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>Starting a New Project</titleContent
+><titleContent
+contentType="fr"
+>commencer un nouveau projet</titleContent
+><titleContent
+contentType="???"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+><section1
+id="s"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></section1
+></chapter
+><chapter
+id="c"
+><secTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+></titleContent
+><titleContent
+contentType="fr"
+></titleContent
+></titleContentChoices
+></secTitle
+><p
+></p
+></chapter
+></part
+><backMatter
+><endnotes
+></endnotes
+></backMatter
+><languages
+><language
+id="lVernacular"
+name="vernacular"
+></language
+><language
+id="lGloss"
+name="gloss"
+></language
+><language
+id="len"
+></language
+></languages
+><types
+><comment
+>The following types are provided as pre-set examples. You may well want to create your own types that refer to one or more of these. You do that by typing in the names of the types in the types attribute of your type.</comment
+><type
+XeLaTeXSpecial="underline"
+color="#0033cc"
+cssSpecial="text-decoration:underline"
+font-style="normal"
+font-weight="normal"
+id="tlink"
+xsl-foSpecial="text-decoration=&quot;underline&quot;"
+></type
+><type
+font-style="italic"
+id="tresult"
+></type
+><type
+font-weight="bold"
+id="tmenu"
+></type
+><type
+color="#3333ff"
+id="t-en"
+></type
+><type
+id="t-fr"
+></type
+><type
+before="XLingPaper"
+id="tXLingPaper"
+></type
+><type
+before="XMLmind"
+id="tXMLmind"
+></type
+><type
+font-weight="bold"
+id="tBold"
+></type
+><type
+font-style="italic"
+font-weight="bold"
+id="tBoldItalic"
+></type
+><type
+font-weight="bold"
+id="tEmphasis"
+></type
+><type
+id="tGrammaticalGloss"
+types="tSmallCaps"
+></type
+><type
+font-style="italic"
+id="tItalic"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoOverline"
+xsl-foSpecial="text-decoration=&quot;no-overline&quot;"
+></type
+><type
+font-variant="normal"
+id="tNoSmallCaps"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoStrikethrough"
+xsl-foSpecial="text-decoration=&quot;no-line-through&quot;"
+></type
+><type
+cssSpecial="text-decoration:none"
+id="tNoUnderline"
+xsl-foSpecial="text-decoration=&quot;no-underline&quot;"
+></type
+><type
+cssSpecial="text-decoration:overline"
+id="tOverline"
+xsl-foSpecial="text-decoration=&quot;overline&quot;"
+></type
+><type
+font-style="normal"
+font-variant="normal"
+font-weight="normal"
+id="tRegular"
+></type
+><type
+font-family="Charis SIL Small Caps"
+id="tSmallCaps"
+></type
+><type
+XeLaTeXSpecial="line-through"
+cssSpecial="text-decoration:line-through"
+id="tStrikethrough"
+xsl-foSpecial="text-decoration=&quot;line-through&quot;"
+></type
+><type
+XeLaTeXSpecial="subscript"
+cssSpecial="vertical-align:sub;"
+font-size="65%"
+id="tsubscript"
+xsl-foSpecial="baseline-shift='sub'"
+></type
+><type
+XeLaTeXSpecial="superscript"
+cssSpecial="vertical-align:super;"
+font-size="65%"
+id="tSuperscript"
+xsl-foSpecial="baseline-shift='super'"
+></type
+><type
+XeLaTeXSpecial="underline"
+cssSpecial="text-decoration:underline"
+id="tUnderline"
+xsl-foSpecial="text-decoration=&quot;underline&quot;"
+></type
+><type
+before="Paratext 8"
+id="tPT"
+></type
+><type
+before="Paratext 7"
+id="tPTPrev"
+></type
+><type
+font-size="10pt"
+font-style="italic"
+font-weight="bold"
+id="tsub"
+></type
+><type
+font-family="Courier New"
+id="ttyped"
+></type
+><comment
+>Add your custom types here.</comment
+></types
+><framedTypes
+><framedType
+align="left"
+backgroundcolor="#FFE6FF"
+description="Teacher Note"
+id="tTeacher"
+indent-after="2cm"
+indent-before="2cm"
+innerbottommargin=".03in"
+innerleftmargin=".125in"
+innerrightmargin=".125in"
+innertopmargin=".03in"
+spaceafter="3pt"
+spacebefore="3pt"
+></framedType
+></framedTypes
+><publishingInfo
+><keywords
+><keyword
+>Paratext 8</keyword
+><keyword
+>SIL International</keyword
+><keyword
+>United Bible Societies</keyword
+><keyword
+>Bible Translation</keyword
+></keywords
+></publishingInfo
+><contentControl
+showOnlyChosenItemsInEditor="no"
+><contentTypes
+><contentType
+id="en"
+>english</contentType
+><contentType
+id="fr"
+>french</contentType
+><contentType
+id="dn"
+>Developer's Note</contentType
+></contentTypes
+><contentControlChoices
+><contentControlChoice
+active="no"
+>-Export Everything</contentControlChoice
+><contentControlChoice
+active="yes"
+exclude="en dn"
+>Exclude English and Developer's Notes</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="fr dn"
+>Exclude French and Developer's Notes</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="fr"
+>Exclude French</contentControlChoice
+><contentControlChoice
+active="no"
+exclude="en"
+>Exclude English</contentControlChoice
+></contentControlChoices
+></contentControl
+></lingPaper
+><xi:include
+href="publisherstylesheets/SILInternationalBookletStylesheet.xml"
+xpointer="element(/1)"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+></xi:include
+></styledPaper
+></xlingpaper
+>

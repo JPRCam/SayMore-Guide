@@ -1,9 +1,44 @@
 \BOOKMARK [1][]{rXLingPapContents.1}{Table\040of\040Contents}{}% 1
-\BOOKMARK [1][]{SayMSuppMan.1}{Part I SayMore Manual}{}% 2
-\BOOKMARK [1][]{sCRStart.1}{1 Getting Started}{}% 3
-\BOOKMARK [1][]{sCR.1}{2 Menus}{}% 4
-\BOOKMARK [2][]{s.2}{2.1  Menu: Project}{sCR.1}% 5
-\BOOKMARK [2][]{s.2}{2.2  }{sCR.1}% 6
-\BOOKMARK [2][]{s.2}{2.3  }{sCR.1}% 7
-\BOOKMARK [1][]{c.1}{3 Starting a New Project}{}% 8
-\BOOKMARK [1][]{c.1}{4 }{}% 9
+\BOOKMARK [1][]{SayMSuppMan.1}{Part I Introduction}{}% 2
+\BOOKMARK [1][]{sInstall.1}{1 Install SayMore}{}% 3
+\BOOKMARK [2][]{sInterface.2}{1.1  Change user interface language}{sInstall.1}% 4
+\BOOKMARK [1][]{cTour.1}{2 A Tour around SayMore}{}% 5
+\BOOKMARK [2][]{sProjectTab.2}{2.1  Project Tab}{cTour.1}% 6
+\BOOKMARK [2][]{sSessionTab.2}{2.2  Session Tab}{cTour.1}% 7
+\BOOKMARK [2][]{sPeopleTab.2}{2.3  People Tab}{cTour.1}% 8
+\BOOKMARK [1][]{sMenus.1}{3 Menus}{}% 9
+\BOOKMARK [2][]{sMenuProject.2}{3.1  Menu: Project}{sMenus.1}% 10
+\BOOKMARK [2][]{sMenuSession.2}{3.2  Menu: Session}{sMenus.1}% 11
+\BOOKMARK [2][]{sMenuPerson.2}{3.3  Menu: Person}{sMenus.1}% 12
+\BOOKMARK [2][]{sMenuHelp.2}{3.4  Menu: Help}{sMenus.1}% 13
+\BOOKMARK [1][]{pGestion.1}{Part II Project, Session, and User Management}{}% 14
+\BOOKMARK [1][]{cCreateProjectOver.1}{4 Create or Open a Project}{}% 15
+\BOOKMARK [2][]{sCreateProject.2}{4.1  Create a Project}{cCreateProjectOver.1}% 16
+\BOOKMARK [2][]{sOpenProject.2}{4.2  Open an Existing Project}{cCreateProjectOver.1}% 17
+\BOOKMARK [2][]{sOpenOtherProject.2}{4.3  Open a different Project}{cCreateProjectOver.1}% 18
+\BOOKMARK [1][]{cProjectMeta.1}{5 Fill in the Project Metadata}{}% 19
+\BOOKMARK [1][]{cSessions.1}{6 Managing Sessions}{}% 20
+\BOOKMARK [2][]{sCreateSession.2}{6.1  Create a new Session}{cSessions.1}% 21
+\BOOKMARK [2][]{sNewFromDevice.2}{6.2  New From Device...}{cSessions.1}% 22
+\BOOKMARK [2][]{sNewFromRecording.2}{6.3  New From Recording...}{cSessions.1}% 23
+\BOOKMARK [2][]{sDeleteSession.2}{6.4  Delete Session...}{cSessions.1}% 24
+\BOOKMARK [1][]{cPeople.1}{7 Managing People}{}% 25
+\BOOKMARK [2][]{sNewPerson.2}{7.1  New}{cPeople.1}% 26
+\BOOKMARK [2][]{sInformedConsent.2}{7.2  Informed Consent}{cPeople.1}% 27
+\BOOKMARK [2][]{sDeletePerson.2}{7.3  Delete Person...}{cPeople.1}% 28
+\BOOKMARK [1][]{pTranscribe.1}{Part III Transcribing Audio and Video files}{}% 29
+\BOOKMARK [1][]{cTranscribe.1}{8 Overview of Transcription Process}{}% 30
+\BOOKMARK [2][]{sAddContributors.2}{8.1  Add Session Contributors}{cTranscribe.1}% 31
+\BOOKMARK [2][]{sStartAnnot.2}{8.2  Start Annotating}{cTranscribe.1}% 32
+\BOOKMARK [2][]{sSegmentation.2}{8.3  Segmentation}{cTranscribe.1}% 33
+\BOOKMARK [2][]{sCarefulSpeech.2}{8.4  Careful Speech Transcription}{cTranscribe.1}% 34
+\BOOKMARK [2][]{sOralTransl.2}{8.5  Oral Translation}{cTranscribe.1}% 35
+\BOOKMARK [2][]{sWrittenTrans.2}{8.6  Written Transcription}{cTranscribe.1}% 36
+\BOOKMARK [2][]{sWritTransl.2}{8.7  Written Translation}{cTranscribe.1}% 37
+\BOOKMARK [1][]{pArchiving.1}{Part IV Archiving}{}% 38
+\BOOKMARK [1][]{cExport.1}{9 Exporting Data}{}% 39
+\BOOKMARK [2][]{sExportSession.2}{9.1  Export Sessions}{cExport.1}% 40
+\BOOKMARK [2][]{sExportPeople.2}{9.2  Export People}{cExport.1}% 41
+\BOOKMARK [1][]{cArchive.1}{10 Archiving Overview}{}% 42
+\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive with RAMP \(SIL\)...}{cArchive.1}% 43
+\BOOKMARK [2][]{sIMDI.2}{10.2  Archive using IMDI}{cArchive.1}% 44

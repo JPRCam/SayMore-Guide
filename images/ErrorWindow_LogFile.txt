@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+Please e-mail this to issues@saymore.palaso.org Msg: Access to the path 'TestProject2\First_Take' is denied.
+Source: mscorlib
+Assembly: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Stack:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at SIL.Archiving.IMDI.Schema.MetaTranscript.WriteSessionImdiFile(String outputDirectoryName, String corpusDirectoryName) in C:\BuildAgent\work\cc45d0355c6ac326\SIL.Archiving\IMDI\Schema\IMDI_3_0.cs:line 205
+   at SIL.Archiving.IMDI.Schema.MetaTranscript.WriteImdiFile(String outputDirectoryName, String corpusName) in C:\BuildAgent\work\cc45d0355c6ac326\SIL.Archiving\IMDI\Schema\IMDI_3_0.cs:line 148
+   at SIL.Archiving.IMDI.IMDIPackage.CreateIMDIPackage() in C:\BuildAgent\work\cc45d0355c6ac326\SIL.Archiving\IMDI\IMDIPackage.cs:line 85
+   at SIL.Archiving.IMDI.IMDIArchivingDlgViewModel.CreatePackage() in C:\BuildAgent\work\cc45d0355c6ac326\SIL.Archiving\IMDI\IMDIArchivingDlgViewModel.cs:line 246
+   at SIL.Archiving.ArchivingDlg.CreatePackage(Object sender, EventArgs eventArgs) in C:\BuildAgent\work\cc45d0355c6ac326\SIL.Archiving\ArchivingDlg.cs:line 112
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Thread: UI
+Thread UI culture: fr
+Exception: System.UnauthorizedAccessException
+
+--Error Reporting Properties--
+Version: Version 3.1.3 (apparent build date: 05-Jun-2017)
+CommandLine: "C:\Program Files (x86)\SayMore\SayMore.exe" 
+CurrentDirectory: C:\Program Files (x86)\SayMore
+MachineName: ROADPC
+OSVersion: Windows 10 
+DotNetVersion: 4.0.30319.42000
+WorkingSet: 46346240
+UserDomainName: ROADPC
+UserName: na
+Culture: en-US
+
+--Log--
+Monday, November 27, 2017
+9:31:11 AM	App Launched with ["C:\Program Files (x86)\SayMore\SayMore.exe" ]
+9:31:11 AM	SayMore version 3.1.3 (Release)    Built on 05-Jun-2017
+9:31:11 AM	Visual Styles State: ClientAndNonClientAreasEnabled
+9:31:11 AM	FirstChanceException event: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+9:31:11 AM	FirstChanceException event: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+9:31:11 AM	Attempting to open project C:\Users\na\Documents\SayMore\Test Project\Test Project.sprj
+9:31:11 AM	FirstChanceException event: System.Threading.WaitHandleCannotBeOpenedException: No handle of the given name exists.
+   at System.Threading.Mutex.OpenExisting(String name, MutexRights rights)
+9:31:11 AM	Starting to construct SplashScreenForm.
+9:31:12 AM	Showing SplashScreenForm.
+9:31:12 AM	Getting icon and file type for file C:\Users\na\Documents\SayMore\Test Project\People\New Person 01\New Person 01.person (type: .person)
+9:31:12 AM	Getting icon and file type for file C:\Users\na\Documents\SayMore\Test Project\Sessions\New Session 01\New Session 01.session (type: .session)
+9:31:12 AM	FirstChanceException event: System.IO.FileNotFoundException: Could not load file or assembly 'System.XmlSerializers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.XmlSerializers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+9:31:12 AM	ProjectMetadataScreen constructor
+9:31:13 AM	ProjectAccessScreen constructor
+9:31:13 AM	FirstChanceException event: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+9:31:13 AM	FirstChanceException event: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+9:31:13 AM	FirstChanceException event: System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+9:31:13 AM	FirstChanceException event: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Windows.Forms.WebBrowser.WebBrowserEvent.DocumentComplete(Object pDisp, Object& urlObject)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+9:31:13 AM	ProgressScreen constructor
+9:31:13 AM	StatisticsView constructor
+9:31:13 AM	ProjectDocsScreen constructor
+9:31:13 AM	ComponentFileGrid constructor
+9:31:13 AM	ProjectDocsScreen constructor
+9:31:13 AM	ComponentFileGrid constructor
+9:31:13 AM	ProjectScreen constructor
+9:31:13 AM	PersonListScreen constructor
+9:31:13 AM	StagesControlToolTip constructor
+9:31:13 AM	ComponentFileGrid constructor
+9:31:14 AM	PersonBasicEditor constructor. file = C:\Users\na\Documents\SayMore\Test Project\Sessions\New Session 01\New Session 01.session
+9:31:15 AM	PersonListScreen constructor
+9:31:15 AM	ComponentFileGrid constructor
+9:31:15 AM	PersonBasicEditor constructor. file = C:\Users\na\Documents\SayMore\Test Project\People\New Person 01\New Person 01.person
+9:31:16 AM	ProjectWindow constructor
+9:31:16 AM	Project window activated for project Test Project
+9:31:19 AM	UILanguageDlg constructor
+9:36:08 AM	FirstChanceException event: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+9:36:08 AM	FirstChanceException event: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+9:36:08 AM	FirstChanceException event: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+9:36:08 AM	WelcomeDialog constructor
+9:36:08 AM	FirstChanceException event: System.Threading.ThreadAbortException: Thread was being aborted.
+   at SayMore.Model.Files.DataGathering.BackgroundFileProcessor`1.StartWorking() in C:\BuildAgent\work\b4997c3bd9b39877\src\SayMore\Model\Files\DataGathering\BackgroundFileProcessor.cs:line 193
+9:36:15 AM	Attempting to open project C:\Users\na\Documents\SayMore\TestProject2\TestProject2.sprj
+9:36:15 AM	FirstChanceException event: System.Threading.WaitHandleCannotBeOpenedException: No handle of the given name exists.
+   at System.Threading.Mutex.OpenExisting(String name, MutexRights rights)
+9:36:15 AM	Starting to construct SplashScreenForm.
+9:36:15 AM	Showing SplashScreenForm.
+9:36:15 AM	Getting icon and file type for file C:\Users\na\Documents\SayMore\TestProject2\People\Joe Smith\New Session 01_Consent.wav (type: .wav)
+9:36:16 AM	Getting icon and file type for file C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav.annotations.eaf (type: .eaf)
+9:36:16 AM	FirstChanceException event: System.IO.FileNotFoundException: Could not load file or assembly 'SayMore.XmlSerializers, Version=3.1.3.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'SayMore.XmlSerializers, Version=3.1.3.0, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+9:36:16 AM	FirstChanceException event: System.IO.FileNotFoundException: Could not load file or assembly 'SayMore.XmlSerializers' or one of its dependencies. The system cannot find the file specified.
+File name: 'SayMore.XmlSerializers'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+9:36:16 AM	ProjectMetadataScreen constructor
+9:36:16 AM	ProjectAccessScreen constructor
+9:36:16 AM	FirstChanceException event: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+9:36:16 AM	FirstChanceException event: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+9:36:16 AM	FirstChanceException event: System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+9:36:16 AM	FirstChanceException event: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Windows.Forms.WebBrowser.WebBrowserEvent.DocumentComplete(Object pDisp, Object& urlObject)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+9:36:16 AM	ProgressScreen constructor
+9:36:16 AM	StatisticsView constructor
+9:36:16 AM	ProjectDocsScreen constructor
+9:36:16 AM	ComponentFileGrid constructor
+9:36:16 AM	ProjectDocsScreen constructor
+9:36:16 AM	ComponentFileGrid constructor
+9:36:16 AM	ProjectScreen constructor
+9:36:16 AM	PersonListScreen constructor
+9:36:16 AM	StagesControlToolTip constructor
+9:36:16 AM	ComponentFileGrid constructor
+9:36:16 AM	PersonBasicEditor constructor. file = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take.session
+9:36:17 AM	PersonListScreen constructor
+9:36:17 AM	ComponentFileGrid constructor
+9:36:17 AM	PersonBasicEditor constructor. file = C:\Users\na\Documents\SayMore\TestProject2\People\Joe Smith\Joe Smith.person
+9:36:17 AM	ProjectWindow constructor
+9:36:18 AM	Project window activated for project TestProject2
+9:52:34 AM	UILanguageDlg constructor
+9:57:04 AM	TextAnnotationEditor constructor. file = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav.annotations.eaf; imagekey = Annotation
+9:57:24 AM	ManualSegmenterDlg constructor. ComponentFile = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav; segmentToHighlight = 
+9:58:26 AM	FirstChanceException event: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\na\AppData\Local\Temp\SayMoreOralAnnotations'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+9:58:32 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 8848 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:34 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 6868 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:35 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 8600 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:38 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 2944 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:42 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 5084 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:43 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 2460 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:44 AM	ManualSegmenterDlg constructor. ComponentFile = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav; segmentToHighlight = 
+9:59:26 AM	FirstChanceException event: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\na\AppData\Local\Temp\SayMoreOralAnnotations'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+11:03:08 AM	UILanguageDlg constructor
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:07:21 AM	FirstChanceException event: System.UnauthorizedAccessException: Access to the path 'TestProject2\First_Take' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+11:07:21 AM	Exception: Access to the path 'TestProject2\First_Take' is denied.
+Details of most recent events:
+
+9:36:17 AM	PersonListScreen constructor
+9:36:17 AM	ComponentFileGrid constructor
+9:36:17 AM	PersonBasicEditor constructor. file = C:\Users\na\Documents\SayMore\TestProject2\People\Joe Smith\Joe Smith.person
+9:36:17 AM	ProjectWindow constructor
+9:36:18 AM	Project window activated for project TestProject2
+9:52:34 AM	UILanguageDlg constructor
+9:57:04 AM	TextAnnotationEditor constructor. file = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav.annotations.eaf; imagekey = Annotation
+9:57:24 AM	ManualSegmenterDlg constructor. ComponentFile = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav; segmentToHighlight = 
+9:58:26 AM	FirstChanceException event: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\na\AppData\Local\Temp\SayMoreOralAnnotations'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+9:58:32 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 8848 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:34 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 6868 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:35 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 8600 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:38 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 2944 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:42 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 5084 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:43 AM	FirstChanceException event: System.ArgumentException: Process with an Id of 2460 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+9:58:44 AM	ManualSegmenterDlg constructor. ComponentFile = C:\Users\na\Documents\SayMore\TestProject2\Sessions\First Take\First Take_Source.wav; segmentToHighlight = 
+9:59:26 AM	FirstChanceException event: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\na\AppData\Local\Temp\SayMoreOralAnnotations'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+11:03:08 AM	UILanguageDlg constructor
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:03:22 AM	FirstChanceException event: System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+11:07:21 AM	FirstChanceException event: System.UnauthorizedAccessException: Access to the path 'TestProject2\First_Take' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+11:07:21 AM	Exception: Access to the path 'TestProject2\First_Take' is denied.
+
+
+To Reproduce: 
