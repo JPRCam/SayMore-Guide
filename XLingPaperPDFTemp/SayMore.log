@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (Web2C 2010) (format=xelatex 2010.11.15)  22 NOV 2017 16:38
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (Web2C 2010) (format=xelatex 2010.11.15)  1 DEC 2017 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,79 +1432,103 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \XLingPapertempdim=\dimen295
 \XLingPapertempdim=\dimen296
 \XLingPapertempdim=\dimen297
+\XLingPapertempdim=\dimen298
  [3
 
 ]
-\XLingPapertempdim=\dimen298
 \XLingPapertempdim=\dimen299
 \XLingPapertempdim=\dimen300
+\XLingPapertempdim=\dimen301
+\XLingPapertempdim=\dimen302
+\XLingPapertempdim=\dimen303
+\XLingPapertempdim=\dimen304
+\XLingPapertempdim=\dimen305
+\XLingPapertempdim=\dimen306
+\XLingPapertempdim=\dimen307
+\XLingPapertempdim=\dimen308
+\XLingPapertempdim=\dimen309
+\XLingPapertempdim=\dimen310
+\XLingPapertempdim=\dimen311
  [4]
-\XLingPaperspaceneeded=\dimen301
-\XLingPaperspaceavailable=\dimen302
-\XLingPaperspaceneeded=\dimen303
-\XLingPaperspaceavailable=\dimen304
+\XLingPaperspaceneeded=\dimen312
+\XLingPaperspaceavailable=\dimen313
+\XLingPaperspaceneeded=\dimen314
+\XLingPaperspaceavailable=\dimen315
  [1
 
 
 ]
-\XLingPaperspaceneeded=\dimen305
-\XLingPaperspaceavailable=\dimen306
-\XLingPaperspaceneeded=\dimen307
-\XLingPaperspaceavailable=\dimen308
+\XLingPaperspaceneeded=\dimen316
+\XLingPaperspaceavailable=\dimen317
+\XLingPaperspaceneeded=\dimen318
+\XLingPaperspaceavailable=\dimen319
  [2
 
 ]
-\XLingPaperspaceneeded=\dimen309
-\XLingPaperspaceavailable=\dimen310
-\XLingPaperspaceneeded=\dimen311
-\XLingPaperspaceavailable=\dimen312
+\XLingPaperspaceneeded=\dimen320
+\XLingPaperspaceavailable=\dimen321
+\XLingPaperspaceneeded=\dimen322
+\XLingPaperspaceavailable=\dimen323
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 
  []
 
-\XLingPapertempdim=\dimen313
-\XLingPapertempdim=\dimen314
+\XLingPapertempdim=\dimen324
+\XLingPapertempdim=\dimen325
+Package mdframed Info: mdframed works in twoside mode on input line 321.
 [3]
-\XLingPaperspaceneeded=\dimen315
-\XLingPaperspaceavailable=\dimen316
-\XLingPaperspaceneeded=\dimen317
-\XLingPaperspaceavailable=\dimen318
-\XLingPaperspaceneeded=\dimen319
-\XLingPaperspaceavailable=\dimen320
-\XLingPaperspaceneeded=\dimen321
-\XLingPaperspaceavailable=\dimen322
-\XLingPaperspaceneeded=\dimen323
-\XLingPaperspaceavailable=\dimen324
-\XLingPaperspaceneeded=\dimen325
-\XLingPaperspaceavailable=\dimen326
-\XLingPaperspaceneeded=\dimen327
-\XLingPaperspaceavailable=\dimen328
-\XLingPaperspaceneeded=\dimen329
-\XLingPaperspaceavailable=\dimen330
- [4
+\XLingPaperspaceneeded=\dimen326
+\XLingPaperspaceavailable=\dimen327
+\XLingPaperspaceneeded=\dimen328
+\XLingPaperspaceavailable=\dimen329
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+
+ []
+
+\XLingPaperspaceneeded=\dimen330
+\XLingPaperspaceavailable=\dimen331
+\XLingPaperspaceneeded=\dimen332
+\XLingPaperspaceavailable=\dimen333
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+
+ []
+
+[4
 
 ]
-\XLingPaperspaceneeded=\dimen331
-\XLingPaperspaceavailable=\dimen332
-\XLingPaperspaceneeded=\dimen333
-\XLingPaperspaceavailable=\dimen334
-\XLingPaperspaceneeded=\dimen335
-\XLingPaperspaceavailable=\dimen336
-\XLingPaperspaceneeded=\dimen337
-\XLingPaperspaceavailable=\dimen338
-Package mdframed Info: mdframed works in twoside mode on input line 352.
-\XLingPapertempdim=\dimen339
-\XLingPapertempdim=\dimen340
+\XLingPapertempdim=\dimen334
+\XLingPapertempdim=\dimen335
+\XLingPapertempdim=\dimen336
+\XLingPapertempdim=\dimen337
+\XLingPapertempdim=\dimen338
+\XLingPaperspaceneeded=\dimen339
+\XLingPaperspaceavailable=\dimen340
 \XLingPaperspaceneeded=\dimen341
 \XLingPaperspaceavailable=\dimen342
- [5
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+
+ []
+
+[5]
 \XLingPaperspaceneeded=\dimen343
 \XLingPaperspaceavailable=\dimen344
 \XLingPaperspaceneeded=\dimen345
 \XLingPaperspaceavailable=\dimen346
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+
+ []
+
+[7]
 \XLingPaperspaceneeded=\dimen347
 \XLingPaperspaceavailable=\dimen348
 \XLingPaperspaceneeded=\dimen349
@@ -1513,121 +1537,114 @@ Package mdframed Info: mdframed works in twoside mode on input line 352.
 \XLingPaperspaceavailable=\dimen352
 \XLingPaperspaceneeded=\dimen353
 \XLingPaperspaceavailable=\dimen354
- [6]
-\XLingPaperspaceneeded=\dimen355
-\XLingPaperspaceavailable=\dimen356
+Package mdframed Info: mdframed works in twoside mode on input line 390.
+\XLingPapertempdim=\dimen355
+\XLingPapertempdim=\dimen356
 \XLingPaperspaceneeded=\dimen357
 \XLingPaperspaceavailable=\dimen358
 \XLingPaperspaceneeded=\dimen359
 \XLingPaperspaceavailable=\dimen360
 \XLingPaperspaceneeded=\dimen361
 \XLingPaperspaceavailable=\dimen362
- [7]
+ [8
+
+]
 \XLingPaperspaceneeded=\dimen363
 \XLingPaperspaceavailable=\dimen364
- [8]
 \XLingPaperspaceneeded=\dimen365
 \XLingPaperspaceavailable=\dimen366
 \XLingPaperspaceneeded=\dimen367
 \XLingPaperspaceavailable=\dimen368
- [9
-
-
-]
 \XLingPaperspaceneeded=\dimen369
 \XLingPaperspaceavailable=\dimen370
 \XLingPaperspaceneeded=\dimen371
 \XLingPaperspaceavailable=\dimen372
+ [9]
 \XLingPaperspaceneeded=\dimen373
 \XLingPaperspaceavailable=\dimen374
 \XLingPaperspaceneeded=\dimen375
 \XLingPaperspaceavailable=\dimen376
- [10
-
-]
 \XLingPaperspaceneeded=\dimen377
 \XLingPaperspaceavailable=\dimen378
 \XLingPaperspaceneeded=\dimen379
 \XLingPaperspaceavailable=\dimen380
- [11]
+ [10]
 \XLingPaperspaceneeded=\dimen381
 \XLingPaperspaceavailable=\dimen382
 \XLingPaperspaceneeded=\dimen383
 \XLingPaperspaceavailable=\dimen384
- [12] [13]
+ [11
+
+
+]
 \XLingPaperspaceneeded=\dimen385
 \XLingPaperspaceavailable=\dimen386
 \XLingPaperspaceneeded=\dimen387
 \XLingPaperspaceavailable=\dimen388
- [14
-
-]
 \XLingPaperspaceneeded=\dimen389
 \XLingPaperspaceavailable=\dimen390
 \XLingPaperspaceneeded=\dimen391
 \XLingPaperspaceavailable=\dimen392
+ [12
+
+]
 \XLingPaperspaceneeded=\dimen393
 \XLingPaperspaceavailable=\dimen394
 \XLingPaperspaceneeded=\dimen395
 \XLingPaperspaceavailable=\dimen396
+ [13]
+\XLingPaperspaceneeded=\dimen397
+\XLingPaperspaceavailable=\dimen398
+\XLingPaperspaceneeded=\dimen399
+\XLingPaperspaceavailable=\dimen400
 
-Overfull \hbox (7.63214pt too wide) in paragraph at lines 465--465
-\zf@basefont istrement. De plus, vous pouvez ajouter plusieurs sessions en tél
-échargeant les enregistrements
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 467.
-\XLingPapertempdim=\dimen397
-\XLingPaperspaceneeded=\dimen398
-\XLingPaperspaceavailable=\dimen399
-\XLingPaperspaceneeded=\dimen400
-\XLingPaperspaceavailable=\dimen401
+[14]
+\XLingPaperspaceneeded=\dimen401
+\XLingPaperspaceavailable=\dimen402
+\XLingPaperspaceneeded=\dimen403
+\XLingPaperspaceavailable=\dimen404
+\XLingPaperspaceneeded=\dimen405
+\XLingPaperspaceavailable=\dimen406
+\XLingPaperspaceneeded=\dimen407
+\XLingPaperspaceavailable=\dimen408
+\XLingPapertempdim=\dimen409
+\XLingPapertempdim=\dimen410
+\XLingPapertempdim=\dimen411
+\XLingPapertempdim=\dimen412
+\XLingPapertempdim=\dimen413
+\XLingPapertempdim=\dimen414
+\XLingPapertempdim=\dimen415
+\XLingPapertempdim=\dimen416
+\XLingPapertempdim=\dimen417
+\XLingPapertempdim=\dimen418
+\XLingPapertempdim=\dimen419
+\XLingPapertempdim=\dimen420
+
+Overfull \hbox (1.43303pt too wide) in paragraph at lines 533--533
+ [][] [][]\EU1/TimesNewRoman(0)/bx/n/10 Depositor \zf@basefont - The person res
+ponsible for depositing the resource in an archive. 
+ []
+
+\XLingPaperspaceneeded=\dimen421
+\XLingPaperspaceavailable=\dimen422
 [15
 
 ]
-\XLingPaperspaceneeded=\dimen402
-\XLingPaperspaceavailable=\dimen403
-\XLingPaperspaceneeded=\dimen404
-\XLingPaperspaceavailable=\dimen405
-Package mdframed Info: mdframed works in twoside mode on input line 492.
- [16]
-\XLingPaperspaceneeded=\dimen406
-\XLingPaperspaceavailable=\dimen407
-\XLingPaperspaceneeded=\dimen408
-\XLingPaperspaceavailable=\dimen409
- [17]
-\XLingPaperspaceneeded=\dimen410
-\XLingPaperspaceavailable=\dimen411
-\XLingPaperspaceneeded=\dimen412
-\XLingPaperspaceavailable=\dimen413
-\XLingPaperspaceneeded=\dimen414
-\XLingPaperspaceavailable=\dimen415
-\XLingPaperspaceneeded=\dimen416
-\XLingPaperspaceavailable=\dimen417
-\XLingPaperspaceneeded=\dimen418
-\XLingPaperspaceavailable=\dimen419
- [18
-
-]
-\XLingPaperspaceneeded=\dimen420
-\XLingPaperspaceavailable=\dimen421
-\XLingPaperspaceneeded=\dimen422
-\XLingPaperspaceavailable=\dimen423
-\XLingPaperspaceneeded=\dimen424
-\XLingPaperspaceavailable=\dimen425
- [19]
-\XLingPaperspaceneeded=\dimen426
-\XLingPaperspaceavailable=\dimen427
-\XLingPaperspaceneeded=\dimen428
-\XLingPaperspaceavailable=\dimen429
- [20
-
-
-]
-\XLingPaperspaceneeded=\dimen430
-\XLingPaperspaceavailable=\dimen431
-\XLingPaperspaceneeded=\dimen432
-\XLingPaperspaceavailable=\dimen433
+\XLingPaperspaceneeded=\dimen423
+\XLingPaperspaceavailable=\dimen424
+\XLingPapertempdim=\dimen425
+\XLingPapertempdim=\dimen426
+\XLingPapertempdim=\dimen427
+\XLingPapertempdim=\dimen428
+\XLingPapertempdim=\dimen429
+\XLingPapertempdim=\dimen430
+\XLingPapertempdim=\dimen431
+\XLingPapertempdim=\dimen432
+\XLingPapertempdim=\dimen433
 \XLingPaperspaceneeded=\dimen434
 \XLingPaperspaceavailable=\dimen435
 \XLingPaperspaceneeded=\dimen436
@@ -1640,6 +1657,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 492.
 \XLingPaperspaceavailable=\dimen443
 \XLingPaperspaceneeded=\dimen444
 \XLingPaperspaceavailable=\dimen445
+ [16] [17]
 \XLingPaperspaceneeded=\dimen446
 \XLingPaperspaceavailable=\dimen447
 \XLingPaperspaceneeded=\dimen448
@@ -1648,122 +1666,197 @@ Package mdframed Info: mdframed works in twoside mode on input line 492.
 \XLingPaperspaceavailable=\dimen451
 \XLingPaperspaceneeded=\dimen452
 \XLingPaperspaceavailable=\dimen453
-\XLingPaperspaceneeded=\dimen454
-\XLingPaperspaceavailable=\dimen455
-\XLingPaperspaceneeded=\dimen456
-\XLingPaperspaceavailable=\dimen457
-\XLingPaperspaceneeded=\dimen458
-\XLingPaperspaceavailable=\dimen459
-\XLingPaperspaceneeded=\dimen460
-\XLingPaperspaceavailable=\dimen461
- [21
+Package mdframed Info: mdframed works in twoside mode on input line 609.
+\XLingPapertempdim=\dimen454
+\XLingPaperspaceneeded=\dimen455
+\XLingPaperspaceavailable=\dimen456
+\XLingPaperspaceneeded=\dimen457
+\XLingPaperspaceavailable=\dimen458
+ [18
 
 ]
-\XLingPaperspaceneeded=\dimen462
-\XLingPaperspaceavailable=\dimen463
-\XLingPaperspaceneeded=\dimen464
-\XLingPaperspaceavailable=\dimen465
- [22
-
-
-]
-\XLingPaperspaceneeded=\dimen466
-\XLingPaperspaceavailable=\dimen467
-\XLingPaperspaceneeded=\dimen468
-\XLingPaperspaceavailable=\dimen469
-\XLingPaperspaceneeded=\dimen470
-\XLingPaperspaceavailable=\dimen471
-\XLingPaperspaceneeded=\dimen472
-\XLingPaperspaceavailable=\dimen473
-\XLingPapertempdim=\dimen474
-\XLingPapertempdim=\dimen475
-
-Overfull \hbox (70.0pt too wide) in paragraph at lines 614--614
- [] 
- []
-
-\XLingPapertempdim=\dimen476
-
-Overfull \hbox (70.0pt too wide) in paragraph at lines 618--618
- [] 
- []
-
-[23
-
-]
-\XLingPapertempdim=\dimen477
-\XLingPapertempdim=\dimen478
+Package mdframed Info: mdframed works in twoside mode on input line 628.
+ [19]
+Package mdframed Info: Not enough space on this page on input line 628.
+\XLingPaperspaceneeded=\dimen459
+\XLingPaperspaceavailable=\dimen460
+\XLingPaperspaceneeded=\dimen461
+\XLingPaperspaceavailable=\dimen462
+Package mdframed Info: mdframed works in twoside mode on input line 638.
+\XLingPaperspaceneeded=\dimen463
+\XLingPaperspaceavailable=\dimen464
+\XLingPaperspaceneeded=\dimen465
+\XLingPaperspaceavailable=\dimen466
+\XLingPaperspaceneeded=\dimen467
+\XLingPaperspaceavailable=\dimen468
+ [20]
+\XLingPaperspaceneeded=\dimen469
+\XLingPaperspaceavailable=\dimen470
+ [21] [22]
+\XLingPaperspaceneeded=\dimen471
+\XLingPaperspaceavailable=\dimen472
+\XLingPaperspaceneeded=\dimen473
+\XLingPaperspaceavailable=\dimen474
+\XLingPaperspaceneeded=\dimen475
+\XLingPaperspaceavailable=\dimen476
+\XLingPaperspaceneeded=\dimen477
+\XLingPaperspaceavailable=\dimen478
 \XLingPaperspaceneeded=\dimen479
 \XLingPaperspaceavailable=\dimen480
 \XLingPaperspaceneeded=\dimen481
 \XLingPaperspaceavailable=\dimen482
-\XLingPapertempdim=\dimen483
-\XLingPapertempdim=\dimen484
+Package mdframed Info: mdframed works in twoside mode on input line 676.
+ [23
 
-Overfull \hbox (213.28453pt too wide) in paragraph at lines 642--642
+]
+Package mdframed Info: Not enough space on this page on input line 676.
+\XLingPaperspaceneeded=\dimen483
+\XLingPaperspaceavailable=\dimen484
+\XLingPaperspaceneeded=\dimen485
+\XLingPaperspaceavailable=\dimen486
+ [24]
+\XLingPaperspaceneeded=\dimen487
+\XLingPaperspaceavailable=\dimen488
+\XLingPaperspaceneeded=\dimen489
+\XLingPaperspaceavailable=\dimen490
+ [25
+
+
+]
+\XLingPaperspaceneeded=\dimen491
+\XLingPaperspaceavailable=\dimen492
+\XLingPaperspaceneeded=\dimen493
+\XLingPaperspaceavailable=\dimen494
+\XLingPapertempdim=\dimen495
+\XLingPapertempdim=\dimen496
+\XLingPapertempdim=\dimen497
+\XLingPapertempdim=\dimen498
+\XLingPapertempdim=\dimen499
+\XLingPapertempdim=\dimen500
+\XLingPapertempdim=\dimen501
+\XLingPapertempdim=\dimen502
+\XLingPapertempdim=\dimen503
+\XLingPaperspaceneeded=\dimen504
+\XLingPaperspaceavailable=\dimen505
+\XLingPaperspaceneeded=\dimen506
+\XLingPaperspaceavailable=\dimen507
+\XLingPaperspaceneeded=\dimen508
+\XLingPaperspaceavailable=\dimen509
+\XLingPaperspaceneeded=\dimen510
+\XLingPaperspaceavailable=\dimen511
+\XLingPaperspaceneeded=\dimen512
+\XLingPaperspaceavailable=\dimen513
+\XLingPaperspaceneeded=\dimen514
+\XLingPaperspaceavailable=\dimen515
+\XLingPaperspaceneeded=\dimen516
+\XLingPaperspaceavailable=\dimen517
+\XLingPaperspaceneeded=\dimen518
+\XLingPaperspaceavailable=\dimen519
+\XLingPapertempdim=\dimen520
+\XLingPapertempdim=\dimen521
+\XLingPaperspaceneeded=\dimen522
+\XLingPaperspaceavailable=\dimen523
+ [26
+
+]
+\XLingPaperspaceneeded=\dimen524
+\XLingPaperspaceavailable=\dimen525
+\XLingPaperspaceneeded=\dimen526
+\XLingPaperspaceavailable=\dimen527
+\XLingPaperspaceneeded=\dimen528
+\XLingPaperspaceavailable=\dimen529
+\XLingPaperspaceneeded=\dimen530
+\XLingPaperspaceavailable=\dimen531
+\XLingPaperspaceneeded=\dimen532
+\XLingPaperspaceavailable=\dimen533
+\XLingPaperspaceneeded=\dimen534
+\XLingPaperspaceavailable=\dimen535
+\XLingPaperspaceneeded=\dimen536
+\XLingPaperspaceavailable=\dimen537
+\XLingPaperspaceneeded=\dimen538
+\XLingPaperspaceavailable=\dimen539
+\XLingPaperspaceneeded=\dimen540
+\XLingPaperspaceavailable=\dimen541
+\XLingPaperspaceneeded=\dimen542
+\XLingPaperspaceavailable=\dimen543
+\XLingPaperspaceneeded=\dimen544
+\XLingPaperspaceavailable=\dimen545
+Package mdframed Info: mdframed works in twoside mode on input line 809.
+\XLingPaperspaceneeded=\dimen546
+\XLingPaperspaceavailable=\dimen547
+\XLingPaperspaceneeded=\dimen548
+\XLingPaperspaceavailable=\dimen549
+Package mdframed Info: mdframed works in twoside mode on input line 818.
+ [27]
+\XLingPaperspaceneeded=\dimen550
+\XLingPaperspaceavailable=\dimen551
+\XLingPaperspaceneeded=\dimen552
+\XLingPaperspaceavailable=\dimen553
+ [28
+
+
+]
+\XLingPaperspaceneeded=\dimen554
+\XLingPaperspaceavailable=\dimen555
+\XLingPaperspaceneeded=\dimen556
+\XLingPaperspaceavailable=\dimen557
+\XLingPaperspaceneeded=\dimen558
+\XLingPaperspaceavailable=\dimen559
+\XLingPaperspaceneeded=\dimen560
+\XLingPaperspaceavailable=\dimen561
+\XLingPaperspaceneeded=\dimen562
+\XLingPaperspaceavailable=\dimen563
+\XLingPaperspaceneeded=\dimen564
+\XLingPaperspaceavailable=\dimen565
+\XLingPaperspaceneeded=\dimen566
+\XLingPaperspaceavailable=\dimen567
+\XLingPaperspaceneeded=\dimen568
+\XLingPaperspaceavailable=\dimen569
+\XLingPapertempdim=\dimen570
+\XLingPapertempdim=\dimen571
+
+Overfull \hbox (70.0pt too wide) in paragraph at lines 861--861
+ [] 
+ []
+
+\XLingPapertempdim=\dimen572
+\XLingPapertempdim=\dimen573
+[29
+
+]
+\XLingPaperspaceneeded=\dimen574
+\XLingPaperspaceavailable=\dimen575
+\XLingPaperspaceneeded=\dimen576
+\XLingPaperspaceavailable=\dimen577
+\XLingPapertempdim=\dimen578
+\XLingPapertempdim=\dimen579
+
+Overfull \hbox (213.28453pt too wide) in paragraph at lines 885--885
  \zf@basefont The Export Data dialog box appears:[] 
  []
 
-[24]
-\XLingPapertempdim=\dimen485
-\XLingPapertempdim=\dimen486
-\XLingPapertempdim=\dimen487
- [25]
-\XLingPaperspaceneeded=\dimen488
-\XLingPaperspaceavailable=\dimen489
-\XLingPaperspaceneeded=\dimen490
-\XLingPaperspaceavailable=\dimen491
-\XLingPaperspaceneeded=\dimen492
-\XLingPaperspaceavailable=\dimen493
-\XLingPaperspaceneeded=\dimen494
-\XLingPaperspaceavailable=\dimen495
-\XLingPaperspaceneeded=\dimen496
-\XLingPaperspaceavailable=\dimen497
-\XLingPaperspaceneeded=\dimen498
-\XLingPaperspaceavailable=\dimen499
-Package mdframed Info: mdframed works in twoside mode on input line 675.
-\XLingPapertempdim=\dimen500
-\XLingPapertempdim=\dimen501
-Package mdframed Info: mdframed works in twoside mode on input line 689.
-\XLingPapertempdim=\dimen502
-\XLingPapertempdim=\dimen503
-\XLingPapertempdim=\dimen504
-\XLingPapertempdim=\dimen505
-\XLingPapertempdim=\dimen506
-\XLingPapertempdim=\dimen507
+\XLingPapertempdim=\dimen580
+\XLingPapertempdim=\dimen581
+\XLingPapertempdim=\dimen582
+[30]
+\XLingPaperspaceneeded=\dimen583
+\XLingPaperspaceavailable=\dimen584
+\XLingPaperspaceneeded=\dimen585
+\XLingPaperspaceavailable=\dimen586
+\XLingPaperspaceneeded=\dimen587
+\XLingPaperspaceavailable=\dimen588
+\XLingPaperspaceneeded=\dimen589
+\XLingPaperspaceavailable=\dimen590
+ [31
 
-Overfull \hbox (70.0pt too wide) in paragraph at lines 712--712
- [] 
- []
-
-[26
-
-]
-\XLingPapertempdim=\dimen508
-\XLingPapertempdim=\dimen509
-\XLingPapertempdim=\dimen510
-
-Overfull \hbox (70.0pt too wide) in paragraph at lines 722--722
- [] 
- []
-
-[27]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.722 ...\par{}\vspace{10pt plus 2pt minus 1pt}\\}
-                                                  \vspace{3pt}} 
+] (./SayMore.aux) ) 
 Here is how much of TeX's memory you used:
- 25129 strings out of 494535
- 455927 string characters out of 3159869
- 542243 words of memory out of 3000000
- 27877 multiletter control sequences out of 15000+200000
+ 25147 strings out of 494535
+ 456213 string characters out of 3159869
+ 543013 words of memory out of 3000000
+ 27887 multiletter control sequences out of 15000+200000
  3986 words of font info for 45 fonts, out of 3000000 for 9000
  669 hyphenation exceptions out of 8191
- 68i,13n,77p,1023b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,13n,75p,1334b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SayMore.pdf (31 pages).
+Output written on SayMore.pdf (35 pages).

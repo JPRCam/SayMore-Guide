@@ -16,29 +16,36 @@
 \BOOKMARK [2][]{sCreateProject.2}{4.1  Create a Project}{cCreateProjectOver.1}% 16
 \BOOKMARK [2][]{sOpenProject.2}{4.2  Open an Existing Project}{cCreateProjectOver.1}% 17
 \BOOKMARK [2][]{sOpenOtherProject.2}{4.3  Open a different Project}{cCreateProjectOver.1}% 18
-\BOOKMARK [1][]{cProjectMeta.1}{5 Fill in the Project Metadata}{}% 19
-\BOOKMARK [1][]{cSessions.1}{6 Managing Sessions}{}% 20
-\BOOKMARK [2][]{sCreateSession.2}{6.1  Create a new Session}{cSessions.1}% 21
-\BOOKMARK [2][]{sNewFromDevice.2}{6.2  New From Device...}{cSessions.1}% 22
-\BOOKMARK [2][]{sNewFromRecording.2}{6.3  New From Recording...}{cSessions.1}% 23
-\BOOKMARK [2][]{sDeleteSession.2}{6.4  Delete Session...}{cSessions.1}% 24
-\BOOKMARK [1][]{cPeople.1}{7 Managing People}{}% 25
-\BOOKMARK [2][]{sNewPerson.2}{7.1  New}{cPeople.1}% 26
-\BOOKMARK [2][]{sInformedConsent.2}{7.2  Informed Consent}{cPeople.1}% 27
-\BOOKMARK [2][]{sDeletePerson.2}{7.3  Delete Person...}{cPeople.1}% 28
-\BOOKMARK [1][]{pTranscribe.1}{Part III Transcribing Audio and Video files}{}% 29
-\BOOKMARK [1][]{cTranscribe.1}{8 Overview of Transcription Process}{}% 30
-\BOOKMARK [2][]{sAddContributors.2}{8.1  Add Session Contributors}{cTranscribe.1}% 31
-\BOOKMARK [2][]{sStartAnnot.2}{8.2  Start Annotating}{cTranscribe.1}% 32
-\BOOKMARK [2][]{sSegmentation.2}{8.3  Segmentation}{cTranscribe.1}% 33
-\BOOKMARK [2][]{sCarefulSpeech.2}{8.4  Careful Speech Transcription}{cTranscribe.1}% 34
-\BOOKMARK [2][]{sOralTransl.2}{8.5  Oral Translation}{cTranscribe.1}% 35
-\BOOKMARK [2][]{sWrittenTrans.2}{8.6  Written Transcription}{cTranscribe.1}% 36
-\BOOKMARK [2][]{sWritTransl.2}{8.7  Written Translation}{cTranscribe.1}% 37
-\BOOKMARK [1][]{pArchiving.1}{Part IV Archiving}{}% 38
-\BOOKMARK [1][]{cExport.1}{9 Exporting Data}{}% 39
-\BOOKMARK [2][]{sExportSession.2}{9.1  Export Sessions}{cExport.1}% 40
-\BOOKMARK [2][]{sExportPeople.2}{9.2  Export People}{cExport.1}% 41
-\BOOKMARK [1][]{cArchive.1}{10 Archiving Overview}{}% 42
-\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive with RAMP \(SIL\)...}{cArchive.1}% 43
-\BOOKMARK [2][]{sIMDI.2}{10.2  Archive using IMDI}{cArchive.1}% 44
+\BOOKMARK [1][]{cProjectMeta.1}{5 Managing a Project}{}% 19
+\BOOKMARK [2][]{s.2}{5.1  About This Project}{cProjectMeta.1}% 20
+\BOOKMARK [2][]{sAccessProt.2}{5.2  Access Protocol}{cProjectMeta.1}% 21
+\BOOKMARK [2][]{s.2}{5.3  Project Description Documents}{cProjectMeta.1}% 22
+\BOOKMARK [2][]{sOtherDocs.2}{5.4  Other Documents}{cProjectMeta.1}% 23
+\BOOKMARK [2][]{s.2}{5.5  Project Progress}{cProjectMeta.1}% 24
+\BOOKMARK [1][]{cSessions.1}{6 Managing Sessions}{}% 25
+\BOOKMARK [2][]{sCreateSession.2}{6.1  Create a new Session}{cSessions.1}% 26
+\BOOKMARK [2][]{sDeleteSession.2}{6.2  Delete Session...}{cSessions.1}% 27
+\BOOKMARK [2][]{sSessMeta1.2}{6.3  Session Metadata}{cSessions.1}% 28
+\BOOKMARK [1][]{cPeople.1}{7 Managing People}{}% 29
+\BOOKMARK [2][]{sNewPerson.2}{7.1  Add a New Person}{cPeople.1}% 30
+\BOOKMARK [2][]{sInformedConsent.2}{7.2  Informed Consent }{cPeople.1}% 31
+\BOOKMARK [2][]{sDeletePerson.2}{7.3  Delete Person...}{cPeople.1}% 32
+\BOOKMARK [1][]{pTranscribe.1}{Part III Transcribing Audio and Video files}{}% 33
+\BOOKMARK [1][]{cTranscribe.1}{8 Overview of Transcription Process}{}% 34
+\BOOKMARK [2][]{sMetaMaybe.2}{8.1  Session Metadata}{cTranscribe.1}% 35
+\BOOKMARK [2][]{sAddContributors.2}{8.2  Add Session Contributors}{cTranscribe.1}% 36
+\BOOKMARK [2][]{sStartAnnot.2}{8.3  Start Annotating}{cTranscribe.1}% 37
+\BOOKMARK [2][]{sChangeSegmentation.2}{8.4  Adjust Segmentation}{cTranscribe.1}% 38
+\BOOKMARK [2][]{sSegMan.2}{8.5  Manual Segmentation}{cTranscribe.1}% 39
+\BOOKMARK [2][]{sCarefulSpeech.2}{8.6  Careful Speech Transcription}{cTranscribe.1}% 40
+\BOOKMARK [2][]{sOralTransl.2}{8.7  Oral Translation}{cTranscribe.1}% 41
+\BOOKMARK [2][]{sWrittenTrans.2}{8.8  Written Transcription}{cTranscribe.1}% 42
+\BOOKMARK [2][]{sWritTransl.2}{8.9  Written Translation}{cTranscribe.1}% 43
+\BOOKMARK [1][]{pArchiving.1}{Part IV Archiving}{}% 44
+\BOOKMARK [1][]{cExport.1}{9 Exporting Data}{}% 45
+\BOOKMARK [2][]{sSubtitles.2}{9.1  Export Subtitles}{cExport.1}% 46
+\BOOKMARK [2][]{sSubtitles.2}{9.2  Export Audacity Labels}{cExport.1}% 47
+\BOOKMARK [2][]{sExportSession.2}{9.3  Export Sessions}{cExport.1}% 48
+\BOOKMARK [2][]{sExportPeople.2}{9.4  Export People}{cExport.1}% 49
+\BOOKMARK [1][]{cArchive.1}{10 Archiving Overview}{}% 50
+\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive with RAMP \(SIL\)...}{cArchive.1}% 51
