@@ -1,51 +1,52 @@
-\BOOKMARK [1][]{rXLingPapContents.1}{Table\040of\040Contents}{}% 1
+\BOOKMARK [1][]{rXLingPapContents.1}{Contenu}{}% 1
 \BOOKMARK [1][]{SayMSuppMan.1}{Part I Introduction}{}% 2
-\BOOKMARK [1][]{sInstall.1}{1 Install SayMore}{}% 3
-\BOOKMARK [2][]{sInterface.2}{1.1  Change user interface language}{sInstall.1}% 4
-\BOOKMARK [1][]{cTour.1}{2 A Tour around SayMore}{}% 5
-\BOOKMARK [2][]{sProjectTab.2}{2.1  Project Tab}{cTour.1}% 6
-\BOOKMARK [2][]{sSessionTab.2}{2.2  Session Tab}{cTour.1}% 7
-\BOOKMARK [2][]{sPeopleTab.2}{2.3  People Tab}{cTour.1}% 8
-\BOOKMARK [1][]{sMenus.1}{3 Menus}{}% 9
-\BOOKMARK [2][]{sMenuProject.2}{3.1  Menu: Project}{sMenus.1}% 10
-\BOOKMARK [2][]{sMenuSession.2}{3.2  Menu: Session}{sMenus.1}% 11
-\BOOKMARK [2][]{sMenuPerson.2}{3.3  Menu: Person}{sMenus.1}% 12
-\BOOKMARK [2][]{sMenuHelp.2}{3.4  Menu: Help}{sMenus.1}% 13
-\BOOKMARK [1][]{pGestion.1}{Part II Project, Session, and User Management}{}% 14
-\BOOKMARK [1][]{cCreateProjectOver.1}{4 Create or Open a Project}{}% 15
-\BOOKMARK [2][]{sCreateProject.2}{4.1  Create a Project}{cCreateProjectOver.1}% 16
-\BOOKMARK [2][]{sOpenProject.2}{4.2  Open an Existing Project}{cCreateProjectOver.1}% 17
-\BOOKMARK [2][]{sOpenOtherProject.2}{4.3  Open a different Project}{cCreateProjectOver.1}% 18
-\BOOKMARK [1][]{cProjectMeta.1}{5 Managing a Project}{}% 19
-\BOOKMARK [2][]{s.2}{5.1  About This Project}{cProjectMeta.1}% 20
-\BOOKMARK [2][]{sAccessProt.2}{5.2  Access Protocol}{cProjectMeta.1}% 21
-\BOOKMARK [2][]{s.2}{5.3  Project Description Documents}{cProjectMeta.1}% 22
-\BOOKMARK [2][]{sOtherDocs.2}{5.4  Other Documents}{cProjectMeta.1}% 23
-\BOOKMARK [2][]{s.2}{5.5  Project Progress}{cProjectMeta.1}% 24
-\BOOKMARK [1][]{cSessions.1}{6 Managing Sessions}{}% 25
-\BOOKMARK [2][]{sCreateSession.2}{6.1  Create a new Session}{cSessions.1}% 26
-\BOOKMARK [2][]{sDeleteSession.2}{6.2  Delete Session...}{cSessions.1}% 27
+\BOOKMARK [1][]{sInstall.1}{1 Installation du logiciel Saymore}{}% 3
+\BOOKMARK [2][]{sInterface.2}{1.1  Changer la langue d'interface utilisateur}{sInstall.1}% 4
+\BOOKMARK [1][]{cTour.1}{2 Un Aperçu autour de SayMore}{}% 5
+\BOOKMARK [2][]{sProjectTab.2}{2.1  Onglet Projet}{cTour.1}% 6
+\BOOKMARK [2][]{sSessionTab.2}{2.2  Onglet Session}{cTour.1}% 7
+\BOOKMARK [2][]{sPeopleTab.2}{2.3  Onglet Personne}{cTour.1}% 8
+\BOOKMARK [1][]{sMenus.1}{3 Présentation des Menus}{}% 9
+\BOOKMARK [2][]{sMenuProject.2}{3.1  Menu: Projet}{sMenus.1}% 10
+\BOOKMARK [2][]{sMenuSession.2}{3.2  Tâches de l'onglet Sessions}{sMenus.1}% 11
+\BOOKMARK [2][]{sMenuPerson.2}{3.3  Tâches d'onglet Personnes}{sMenus.1}% 12
+\BOOKMARK [2][]{sMenuHelp.2}{3.4  Tâches d'onglet Aide}{sMenus.1}% 13
+\BOOKMARK [1][]{pGestion.1}{Part II Gestion d'un projet, des sessions, ou des personnes}{}% 14
+\BOOKMARK [1][]{cCreateProjectOver.1}{4 La Creation ou l'ouverture d'un projet}{}% 15
+\BOOKMARK [2][]{sCreateProject.2}{4.1  Créer un projet}{cCreateProjectOver.1}% 16
+\BOOKMARK [2][]{sOpenProject.2}{4.2  Ouvrir un projet existant}{cCreateProjectOver.1}% 17
+\BOOKMARK [2][]{sOpenOtherProject.2}{4.3  Ouvrir un autre projet}{cCreateProjectOver.1}% 18
+\BOOKMARK [1][]{cProjectMeta.1}{5 Remplir les metadonnées du projet}{}% 19
+\BOOKMARK [2][]{s.2}{5.1  À propos de ce projet}{cProjectMeta.1}% 20
+\BOOKMARK [2][]{sAccessProt.2}{5.2  Protocole d'accès}{cProjectMeta.1}% 21
+\BOOKMARK [2][]{sProDescDoc.2}{5.3  Documents de description du projet}{cProjectMeta.1}% 22
+\BOOKMARK [2][]{sOtherDocs.2}{5.4  Autre documents}{cProjectMeta.1}% 23
+\BOOKMARK [2][]{sProProg.2}{5.5  Progrès du projet}{cProjectMeta.1}% 24
+\BOOKMARK [1][]{cSessions.1}{6 Gestion des sessions}{}% 25
+\BOOKMARK [2][]{sCreateSession.2}{6.1  Ajouter une Session}{cSessions.1}% 26
+\BOOKMARK [2][]{sDeleteSession.2}{6.2  Supprimer une session}{cSessions.1}% 27
 \BOOKMARK [2][]{sSessMeta1.2}{6.3  Session Metadata}{cSessions.1}% 28
-\BOOKMARK [1][]{cPeople.1}{7 Managing People}{}% 29
-\BOOKMARK [2][]{sNewPerson.2}{7.1  Add a New Person}{cPeople.1}% 30
-\BOOKMARK [2][]{sInformedConsent.2}{7.2  Informed Consent }{cPeople.1}% 31
-\BOOKMARK [2][]{sDeletePerson.2}{7.3  Delete Person...}{cPeople.1}% 32
-\BOOKMARK [1][]{pTranscribe.1}{Part III Transcribing Audio and Video files}{}% 33
-\BOOKMARK [1][]{cTranscribe.1}{8 Overview of Transcription Process}{}% 34
-\BOOKMARK [2][]{sMetaMaybe.2}{8.1  Session Metadata}{cTranscribe.1}% 35
-\BOOKMARK [2][]{sAddContributors.2}{8.2  Add Session Contributors}{cTranscribe.1}% 36
-\BOOKMARK [2][]{sStartAnnot.2}{8.3  Start Annotating}{cTranscribe.1}% 37
-\BOOKMARK [2][]{sChangeSegmentation.2}{8.4  Adjust Segmentation}{cTranscribe.1}% 38
-\BOOKMARK [2][]{sSegMan.2}{8.5  Manual Segmentation}{cTranscribe.1}% 39
-\BOOKMARK [2][]{sCarefulSpeech.2}{8.6  Careful Speech Transcription}{cTranscribe.1}% 40
-\BOOKMARK [2][]{sOralTransl.2}{8.7  Oral Translation}{cTranscribe.1}% 41
-\BOOKMARK [2][]{sWrittenTrans.2}{8.8  Written Transcription}{cTranscribe.1}% 42
-\BOOKMARK [2][]{sWritTransl.2}{8.9  Written Translation}{cTranscribe.1}% 43
-\BOOKMARK [1][]{pArchiving.1}{Part IV Archiving}{}% 44
-\BOOKMARK [1][]{cExport.1}{9 Exporting Data}{}% 45
-\BOOKMARK [2][]{sSubtitles.2}{9.1  Export Subtitles}{cExport.1}% 46
-\BOOKMARK [2][]{sSubtitles.2}{9.2  Export Audacity Labels}{cExport.1}% 47
-\BOOKMARK [2][]{sExportSession.2}{9.3  Export Sessions}{cExport.1}% 48
-\BOOKMARK [2][]{sExportPeople.2}{9.4  Export People}{cExport.1}% 49
-\BOOKMARK [1][]{cArchive.1}{10 Archiving Overview}{}% 50
-\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive with RAMP \(SIL\)...}{cArchive.1}% 51
+\BOOKMARK [1][]{cPeople.1}{7 Gestion des personnes}{}% 29
+\BOOKMARK [2][]{sNewPerson.2}{7.1  Ajouter une Nouvelle Personne}{cPeople.1}% 30
+\BOOKMARK [2][]{sInformedConsent.2}{7.2  Consentement éclairé}{cPeople.1}% 31
+\BOOKMARK [2][]{sDeletePerson.2}{7.3  Supprimer une personne}{cPeople.1}% 32
+\BOOKMARK [1][]{pTranscribe.1}{Part III Transcription des fichiers audios et vidéos}{}% 33
+\BOOKMARK [1][]{cTranscribe.1}{8 Survol du processus de la transcription}{}% 34
+\BOOKMARK [2][]{sMetaMaybe.2}{8.1  Metadonnées du session.}{cTranscribe.1}% 35
+\BOOKMARK [2][]{sAddContributors.2}{8.2  Ajouter les contributeurs de session}{cTranscribe.1}% 36
+\BOOKMARK [2][]{sStartAnnot.2}{8.3  Commencez l'annotation}{cTranscribe.1}% 37
+\BOOKMARK [2][]{sChangeSegmentation.2}{8.4  Changer la Segmentation}{cTranscribe.1}% 38
+\BOOKMARK [2][]{sSegMan.2}{8.5  Segmentation Manuelle}{cTranscribe.1}% 39
+\BOOKMARK [2][]{sCarefulSpeech.2}{8.6  Transcription en discours soigneux.}{cTranscribe.1}% 40
+\BOOKMARK [2][]{sOralTransl.2}{8.7  Transcription Orale}{cTranscribe.1}% 41
+\BOOKMARK [2][]{sWrittenTrans.2}{8.8  Rédiger la Transcription}{cTranscribe.1}% 42
+\BOOKMARK [2][]{sWritTransl.2}{8.9  Rédiger la traduction}{cTranscribe.1}% 43
+\BOOKMARK [1][]{pArchiving.1}{Part IV Archivage}{}% 44
+\BOOKMARK [1][]{cExport.1}{9 Exportation des données}{}% 45
+\BOOKMARK [2][]{sSubtitles.2}{9.1  Exporter des sous-titres.}{cExport.1}% 46
+\BOOKMARK [2][]{sAudacityLabels.2}{9.2  Exporter des étiquettes Audacity.}{cExport.1}% 47
+\BOOKMARK [2][]{sExportSession.2}{9.3  Exporter des sessions}{cExport.1}% 48
+\BOOKMARK [2][]{sExportPeople.2}{9.4  Exporter des personnes}{cExport.1}% 49
+\BOOKMARK [1][]{cArchive.1}{10 Archivage}{}% 50
+\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive avec RAMP \(SIL\) ...}{cArchive.1}% 51
+\BOOKMARK [2][]{sIMDI.2}{10.2  Achiver avec IMDI}{cArchive.1}% 52

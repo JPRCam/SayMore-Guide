@@ -37,20 +37,22 @@ contentType="fr"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Supporters Manual (English)</titleContent
+>Student Guide (English)</titleContent
 ><titleContent
 contentType="fr"
->Manuel d'Administrateur (Français)</titleContent
+>Guide d'apprenant (Français)</titleContent
 ></titleContentChoices
 ></subtitle
 ><author
 >NGONO Louis Pascal</author
 ><author
->John Roettele</author
+>John ROETTELE</author
+><author
+>Matthew LEE</author
 ><affiliation
 >SIL International</affiliation
 ><date
->May. 2017</date
+>Dec. 2017</date
 ><contents
 label="Contenu"
 showLevel="3"
@@ -190,7 +192,7 @@ id="sInterface"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Change user interface language</titleContent
+>Change user interface langage</titleContent
 ><titleContent
 contentType="fr"
 >Changer la langue d'interface utilisateur</titleContent
@@ -230,7 +232,7 @@ src="images/fr/Langue_d_interface_utilisateur_fr.png"
 ></figure
 ><p
 contentType="en"
->If the language you need is not listed, or you need to edit translated UI content:</p
+>If the langage you need is not listed, or you need to edit translated UI content:</p
 ><p
 contentType="fr"
 ><comment
@@ -241,7 +243,7 @@ contentType="fr"
 contentType="en"
 >Click the <object
 type="tlink"
->I want to localize SayMore for another language</object
+>I want to localize SayMore for another langage</object
 > hyperlink. The Localize User Interface dialog box opens so you can use it.</li
 ><li
 contentType="fr"
@@ -251,7 +253,7 @@ type="tlink"
 > Cet ourvrir le finetre pour changez, mais en anglais.</li
 ><li
 contentType="en"
->Optionally, get a shared UI language file and a translated Access Protocol file from another user.</li
+>Optionally, get a shared UI langage file and a translated Access Protocol file from another user.</li
 ><li
 contentType="fr"
 >C'est aussi possible de téléchargez une autre langue d'interface et aussi un autre Accès au fichier de Protocole par un autre utilisateur.</li
@@ -263,7 +265,7 @@ contentType="en"
 framedtype="tTeacher"
 ><p
 contentType="en"
->If not all words are changed to the selected language, just close and re-open SayMore</p
+>If not all words are changed to the selected langage, just close and re-open SayMore</p
 ><p
 contentType="fr"
 >Si toutes les sélections n'ont pas été modifiées, fermer SayMore et le rouvrir</p
@@ -471,7 +473,7 @@ type="tmenu"
 ></br
 > <object
 type="tresult"
->This is where you add files pertaining to the project and the whole body of work for a language.</object
+>This is where you add files pertaining to the project and the whole body of work for a langage.</object
 ></li
 ><li
 contentType="fr"
@@ -1016,7 +1018,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->Before working in SayMore, you must create a project. You should create a separate project for each language you are analysing, but you do not need to create a new project for every file you analyse.</p
+>Before working in SayMore, you must create a project. You should create a separate project for each langage you are analysing, but you do not need to create a new project for every file you analyse.</p
 ><p
 contentType="fr"
 >Avant de travailler dans SayMore, vous devez créer un projet. Vous devez créer un projet distinct pour chaque langue que vous analysez, mais vous n'avez pas besoin de créer un nouveau projet pour chaque fichier analysé.</p
@@ -1319,14 +1321,14 @@ type="tmenu"
 contentType="fr"
 ><object
 type="tmenu"
->Title</object
+>Description</object
 > -</li
 ><li
 contentType="en"
 ><object
 type="tmenu"
 >Vernacular</object
-> - The ISO-639 name of the language used in the sessions.</li
+> - The ISO-639 name of the langage used in the sessions.</li
 ><li
 contentType="fr"
 ><object
@@ -1350,7 +1352,7 @@ contentType="en"
 ><object
 type="tmenu"
 >Region</object
-> - The region or sub-region that has the location or address.</li
+> - The région or sub-region that has the location or address.</li
 ><li
 contentType="fr"
 ><object
@@ -1362,7 +1364,7 @@ contentType="en"
 ><object
 type="tmenu"
 >Country</object
-> - A list which is used to identify the country where the location/address and region are located.</li
+> - A list which is used to identify the country where the location/address and région are located.</li
 ><li
 contentType="fr"
 ><object
@@ -1523,7 +1525,7 @@ contentType="fr"
 >Si vous choisissez "Personnalisé", une boîte vide s'affiche dans laquelle vous pouvez saisir des options d'accès personnalisées séparées par des virgules. Cela vous permet de définir différentes sessions enregistrées pour différents protocoles d'accès.</p
 ></section1
 ><section1
-id="s"
+id="sProDescDoc"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -1539,7 +1541,7 @@ contentType="en"
 >This is where you add documents that describe the project and corpus. When the project is archived with IMDI the files here are exported to a special session named 'Project Descriptive Documents'.</p
 ><p
 contentType="fr"
-></p
+>C’est où vous ajoutez des documents décrivant le projet et le corpus. Lorsque le projet est archivé avec IMDI, les fichiers sont exportés vers une session spéciale nommée « Documents descriptifs de projet ».</p
 ></section1
 ><section1
 id="sOtherDocs"
@@ -1558,10 +1560,10 @@ contentType="en"
 >This is where you add any other project-level documents that do not belong in Description Documents. When the project is archived with IMDI the files here are exported to a special session named 'Other Project Documents'.</p
 ><p
 contentType="fr"
-></p
+>C’est où vous ajoutez tous les autres documents au niveau du projet qui n’appartient pas dans les Documents de Description. Lorsque le projet est archivé avec IMDI ici, les fichiers sont exportés vers une session spéciale nommée « Other Project Documents ».</p
 ></section1
 ><section1
-id="s"
+id="sProProg"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -1575,9 +1577,12 @@ contentType="fr"
 ><p
 contentType="en"
 >This window is where you can track the progress of the projects:</p
+><p
+contentType="fr"
+>Cette fenêtre est où vous pouvez suivre l’état d’avancement des projets :</p
 ><figure
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.2..section1.5..figure.1."
+id="fProgress"
 ><chart
 ><img
 src="images/en/Progress_en.png"
@@ -1588,21 +1593,27 @@ src="images/en/Progress_en.png"
 ></figure
 ><figure
 contentType="fr"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.2..section1.5..figure.2."
+id="fProgresFr"
 ><chart
 ><img
 src="images/fr/Progress_fr.png"
 ></img
 ></chart
 ><caption
->Progress</caption
+>Progres</caption
 ></figure
 ><p
 contentType="en"
->As you can see in the image above, this is a very useful graphic that can be copied, to be pasted into a report, saved as an individual html file, or printed.</p
+>As you can see in the image above, this is a very useful graphic that can be copied, to be pasted into a report, saved as an individual <object
+type="ttyped"
+>HTML</object
+> file, or printed.</p
 ><p
 contentType="fr"
-></p
+>Comme vous pouvez le voir dans l’image ci-dessus, c’est un graphique très utile qui peut être copié, pour être collées dans un rapport, enregistré comme un fichier <object
+type="tmenu"
+>HTML</object
+> individuel ou imprimé.</p
 ></section1
 ></chapter
 ><chapter
@@ -1647,9 +1658,18 @@ contentType="fr"
 type="tmenu"
 >Nouveau</object
 > vous permet de créer une nouvelle session vide. Vous devez ensuite ajouter manuellement tous les fichiers que vous souhaitez associer à la nouvelle session. Ceci est fait sur le côté droit de la fenêtre de l'onglet Sessions. Pour créer une nouvelle session, vous pouvez utiliser le menu déroulant Session ou, en bas de la fenêtre de l'onglet Session, des boutons:</p
-><p
-contentType="dn"
->?????</p
+><figure
+align="center"
+contentType="fr"
+id="f3nouveau"
+><chart
+><img
+src="images/fr/Onglet_Sessions_Buttons_fr.png"
+></img
+></chart
+><caption
+>Buttons de Onglet Sessions</caption
+></figure
 ><p
 contentType="fr"
 >Vous pouvez ajouter une session vide ou une session avec le contenu d'un nouvel enregistrement. De plus, vous pouvez ajouter plusieurs sessions en téléchargeant les enregistrements du jour directement sur les appareils (caméra, enregistreur audio, etc.). Dans ce cas, SayMore crée des ID pour chaque session. Chaque ID deviendra le nom de son dossier, ainsi que la première partie de la plupart des noms de fichiers dans le dossier. Ceux-ci sont automatiquement mis à jour si vous modifiez ultérieurement cette métadonnée Id.</p
@@ -1663,18 +1683,6 @@ src="images/en/TAB_Sessions_buttons_en.png"
 ></chart
 ><caption
 >Session window buttons</caption
-></figure
-><figure
-align="center"
-contentType="fr"
-id="f3nouveau"
-><chart
-><img
-src="images/fr/Onglet_Sessions_Buttons_fr.png"
-></img
-></chart
-><caption
->Buttons de Onglet Sessions</caption
 ></figure
 ><framedUnit
 framedtype="tTeacher"
@@ -1797,10 +1805,10 @@ src="images/en/WARNING_ICON.png"
 > message appears. Simply browse to the desired folder again.</p
 ><p
 contentType="fr"
-> Si SayMore ne peut pas accéder au dossier où se trouvaient les fichiers la dernière fois que vous avez utilisé cette fonction, un avertissement   <img
+>Si SayMore ne peut pas accéder au dossier où se trouvaient les fichiers la dernière fois que vous avez utilisé cette fonction, un avertissement <img
 src="images/en/WARNING_ICON.png"
 ></img
->  Le message apparaît. Naviguez simplement dans le dossier souhaité à nouveau.</p
+> Le message apparaît. Naviguez simplement dans le dossier souhaité à nouveau.</p
 ></framedUnit
 ></section2
 ><section2
@@ -1826,7 +1834,7 @@ contentType="fr"
 ><object
 type="tmenu"
 >Nouveau à partir d'un enregistrement...</object
->   Vous permet d'utiliser le microphone de l'ordinateur pour enregistrer une session. Si vous avez un microphone externe connecté, il enregistrera à partir de là. Cliquez sur le bouton Enregistrer et une fois terminé, cliquez sur le bouton Arrêter. Vous pouvez immédiatement entendre la lecture en appuyant sur Lire l'enregistrement. Si vous êtes satisfait de l'enregistrement, cliquez sur OK.</p
+> Vous permet d'utiliser le microphone de l'ordinateur pour enregistrer une session. Si vous avez un microphone externe connecté, il enregistrera à partir de là. Cliquez sur le bouton Enregistrer et une fois terminé, cliquez sur le bouton Arrêter. Vous pouvez immédiatement entendre la lecture en appuyant sur Lire l'enregistrement. Si vous êtes satisfait de l'enregistrement, cliquez sur OK.</p
 ><figure
 align="center"
 contentType="en"
@@ -1912,7 +1920,7 @@ contentType="en"
 >When you are in the Sessions Tab, and a session is selected on the left, on the right you have a window showing all the files stored in this session. Below this window you have another window that changes depending on what file you have selected. When you have the .Session file selected you will get the window that allows you to enter the metadata for that session, along with Statut &amp; Stages, and Notes:</p
 ><p
 contentType="fr"
-> Lorsque vous êtes dans l'onglet Sessions, et qu'une session est sélectionnée sur la gauche, sur la droite vous avez une fenêtre qui affiche tous les fichiers stockés dans cette session. Sous cette fenêtre, vous avez une autre fenêtre qui change en fonction du fichier que vous avez sélectionné. Lorsque vous avez sélectionné le fichier .Session, vous obtenez la fenêtre qui vous permet d'entrer les métadonnées pour cette session, avec Statut &amp; Stages, et Notes:</p
+>Lorsque vous êtes dans l'onglet Sessions, et qu'une session est sélectionnée sur la gauche, sur la droite vous avez une fenêtre qui affiche tous les fichiers stockés dans cette session. Sous cette fenêtre, vous avez une autre fenêtre qui change en fonction du fichier que vous avez sélectionné. Lorsque vous avez sélectionné le fichier .Session, vous obtenez la fenêtre qui vous permet d'entrer les métadonnées pour cette session, avec Statut &amp; Stages, et Notes:</p
 ><figure
 contentType="en"
 id="fSessMeta"
@@ -1974,7 +1982,7 @@ contentType="en"
 >The status is where you can make a big picture statement as to where the recording has been dealt with. The Stages is where you set what has been done with the session recording.</p
 ><p
 contentType="fr"
-> Le statut est l'endroit où vous pouvez faire une grande déclaration de l'endroit où l'enregistrement a été traité. Les étapes est l'endroit où vous définissez ce qui a été fait avec l'enregistrement de la session.</p
+>Le statut est l'endroit où vous pouvez faire une grande déclaration de l'endroit où l'enregistrement a été traité. Les étapes est l'endroit où vous définissez ce qui a été fait avec l'enregistrement de la session.</p
 ></section1
 ></chapter
 ><chapter
@@ -2015,10 +2023,10 @@ contentType="fr"
 >Quand vous cliquez sur <object
 type="tmenu"
 >Nouveau</object
->  dans menu <object
+> dans menu <object
 type="tmenu"
 >Personne</object
->, vous allez voir: </p
+>, vous allez voir:</p
 ><figure
 id="fnewperson"
 ><chart
@@ -2131,35 +2139,41 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-> As researchers on the field, you are often the most interested in your research questions. In poorly resourced languages, it is quite possible that the corpus you have collected will be a very important resource for the community, and in addition for other researchers later.</p
+>As researchers on the field, you are often the most interested in your research questions. In poorly resourced languages, it is quite possible that the corpus you have collected will be a very important resource for the community, and in addition for other researchers later.</p
 ><p
 contentType="fr"
 >Comme des chercheurs sur le champ, vous êtes souvent le plus intéressé par vos questions de recherche. Dans des langues peu ressourcés, c'est bien possible que le corpus que vous aurez récolté sera une ressource très important pour la communauté, et en plus pour les autres chercheurs plus tard.</p
 ><p
 contentType="en"
-> So the research serves several purposes:</p
+>So the research serves several purposes:</p
 ><p
 contentType="fr"
 >Donc, la recherche remplit plusieurs buts :</p
 ><ul
 ><li
 contentType="fr"
+>Consentement éclairé</li
+><li
+contentType="en"
+>Informed Consent(s)</li
+><li
+contentType="fr"
 >La récolte des données primaire sur le champ.</li
 ><li
 contentType="en"
-> Harvesting primary data on the field.</li
+>Harvesting primary data on the field.</li
 ><li
 contentType="fr"
 >Le rassemblement des ressources trouvé sur la langue cible et les langues aux alentours.</li
 ><li
 contentType="en"
-> The gathering of resources found on the target language and languages ​​around.</li
+>The gathering of resources found on the target langage and languages ​​around.</li
 ><li
 contentType="fr"
 >Vos hypothèses et vos résultats.</li
 ><li
 contentType="en"
->Your assumptions and your results. </li
+>Your assumptions and your results.</li
 ></ul
 ><p
 contentType="en"
@@ -2169,13 +2183,13 @@ contentType="fr"
 >Pour investigué ces questions, vous allez probablement récolté des données par enregistrement et par écrit. Si vous publiez un corpus (un ensemble) numérique de vos données primaires en addition de vos résultats, ils seront scientifiquement vérifiable par d'autres chercheurs (et vos superviseurs), et on peut aussi réutiliser vos données pour faire d'autres analyses et renforcé l'étude de ces langues.</p
 ><p
 contentType="en"
-> SayMore will help you organize, analyze, archive, and publish data based on records.</p
+>SayMore will help you organize, analyze, archive, and publish data based on records.</p
 ><p
 contentType="fr"
 >SayMore vous aidera a organiser, analyser, archiver, et publier les données basée sur des enregistrements.</p
 ><p
 contentType="en"
-> There are six major steps to follow in SayMore by registration so that these data are usable not just for yourself, but for the researchers later.</p
+>There are six major steps to follow in SayMore by registration so that these data are usable not just for yourself, but for the researchers later.</p
 ><p
 contentType="fr"
 >Il y a six grandes étapes a suivre dans SayMore par enregistrement pour que ces données soient utilisable pas simplement pour vous-même, mais pour les chercheurs plus tard.</p
@@ -2219,13 +2233,13 @@ contentType="en"
 ></ol
 ><p
 contentType="en"
-> These processes are not only in order of completion, but each well done step will make the next steps easier. So, always plan more time for successive steps. The written transcription is painful, but very useful. If you are native to the language you are studying, you can quickly do steps 1-4, transcribe and translate (in writing) just the most useful records for the dissertation, and leave the rest of the work to others later on who receives your corpus.</p
+>These processes are not only in order of completion, but each well-done step will make the next steps easier. So, always plan more time for successive steps. The written transcription is painful, but very useful. If you are native to the langage you are studying, you can quickly do steps 1-4, transcribe and translate (in writing) just the most useful records for the dissertation, and leave the rest of the work to others later on who receives your corpus.</p
 ><p
 contentType="fr"
 >Ces processus ne sont pas seulement en ordre de complétion, mais chaque étape bien fait rendra les étapes suivant plus facile. Ainsi, il faut toujours planifier plus de temps pour les étapes successives. La transcription écrite est pénible, mais très utile. Si vous êtes autochtone de la langue que vous étudiez, vous pouvez vite faire étapes 1-4, transcrire et traduire (par écrit) simplement les enregistrements le plus utile pour le mémoire, et laisser le reste du travail aux autres plus tard qui reçoit votre corpus.</p
 ><p
 contentType="en"
-> If you have already created a session with audio (or video), look at the tab <object
+>If you have already created a session with audio (or video), look at the tab <object
 type="tmenu"
 >Stage and stages.</object
 > The box next to <object
@@ -2236,7 +2250,7 @@ type="tmenu"
 ></p
 ><p
 contentType="fr"
->Si vous avez déjà crée une session avec audio (ou vidéo), regarder l'onglet <object
+>Si vous avez déjà crée une session avec l'audio (ou vidéo), regarder l'onglet <object
 type="tmenu"
 >État et Étapes</object
 >. La case á côte de <object
@@ -2250,7 +2264,7 @@ src="images/fr/Source%20Recording-fr.png"
 ></p
 ><p
 contentType="en"
-> You are ready to begin entering metadata and transcribing. So SayMore will guide you through these processes.</p
+>You are ready to begin entering metadata and transcribing. So SayMore will guide you through these processes.</p
 ><p
 contentType="fr"
 >Vous êtes prêt à commencer la saisie des métadonnées et la transcription. Alors, SayMore vous guidera pour ces processus.</p
@@ -2292,8 +2306,36 @@ contentType="fr"
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
+>Before You start here, you should have already documented the people, in the People Tab, who have participated in this session. That is the author (the one who’s voice you record), the technician, and the translators. In the session metadata there is a field for People:</p
+><p
 contentType="fr"
 >Avant de commencer ici, vous devriez déjà avoir ajouter toutes les personnes qui ont travaillé pour cette enregistrement, c'est-à-dire le talent (celui ou ceux qui figure dans l'enregistrement), le technicien, et les traducteurs.</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.2..figure.1."
+><chart
+><img
+src="images/en/Sessions_SessionMetadata_people_en.png"
+></img
+></chart
+><caption
+>People contributing to the session</caption
+></figure
+><figure
+contentType="fr"
+id="fpersonnes"
+><chart
+><img
+src="images/fr/Sessions_metaData_Personnes_fr.png"
+></img
+></chart
+><caption
+>Personnes</caption
+></figure
+><p
+contentType="en"
+>Make sure the participants have a check next to their name. You can always add more people to the session if need be.</p
 ><p
 contentType="fr"
 >Si on clique sur l'objet du type <object
@@ -2303,15 +2345,49 @@ type="tmenu"
 type="tmenu"
 >Personnes</object
 >. Cliquez sur la liste déroutante et cochez le case à côté de chaque participant. Il se peut que des personnes assisteront plus tard, et vous pouvez les ajouter ici au fuir et à mesure.</p
+><framedUnit
+framedtype="tTeacher"
+><p
+contentType="en"
+>Note we must document everyone who has worked on the recording and analysis, not just those making the recording. Also make sure you have their informed consent and have added it to the session. Otherwise, without proper informed consent all the research could be rendered useless.</p
 ><p
 contentType="fr"
->Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide.</p
+>Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide. Voir section <sectionRef
+sec="sInformedConsent"
+></sectionRef
+>.</p
+></framedUnit
 ><p
-contentType="dn"
->Discuss the Informed part of Informed Consent!</p
+contentType="en"
+>Once you have added people with proof of their agreement, a document signed and scanned in, or a voice recording you have renamed as consent using the Rename Button:</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.2..figure.3."
+><chart
+><img
+src="images/en/Renameas_informed_Consent_en.png"
+></img
+></chart
+><caption
+>Rename audio files</caption
+></figure
 ><p
 contentType="fr"
->Une fois que vous avez ajouté des personnes avec la preuve de leur accord (soit un document signé et numérisé ou un enregistrement), regarder l'onglet <object
+>Une fois que vous avez ajouté des personnes avec la preuve de leur accord (soit un document signé et numérisé ou un enregistrement),</p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.2..figure.4."
+><chart
+><img
+src="images/fr/Renommer_Consentement_eclare_fr.png"
+></img
+></chart
+><caption
+>Renommer Consentement éclairé</caption
+></figure
+><p
+contentType="fr"
+>Regarder l'onglet <object
 type="tmenu"
 >État et Étapes</object
 >. Le case á côte de <object
@@ -2323,6 +2399,20 @@ type="tmenu"
 src="images/fr/informed%20consent-fr.png"
 ></img
 ></p
+><p
+contentType="en"
+>The same Rename button is found in the People Tab. You can rename audio files or documents to be of type Informed Consent. In the Status and Stages Tab, you can see where the Informed Consent is automatically checked when you add an informed consent.</p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.2..figure.5."
+><chart
+><img
+src="images/en/InformedConsent_checkedbox_en.png"
+></img
+></chart
+><caption
+>Informed Consent is added</caption
+></figure
 ></section1
 ><section1
 id="sStartAnnot"
@@ -2338,7 +2428,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-> If your recording is in video format, go to section <sectionRef
+>If your recording is in video format, go to section <sectionRef
 sec="sVidtoAudio"
 ></sectionRef
 >. If it's already in Audio format, skip to section <sectionRef
@@ -2415,7 +2505,7 @@ contentType="en"
 ></ol
 ></section2
 ><section2
-id="sStartAnnot"
+id="sAutoSeg"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -2609,9 +2699,105 @@ contentType="en"
 >Careful Speech Transcription</titleContent
 ><titleContent
 contentType="fr"
->Transcription prudent orale.</titleContent
+>Transcription en discours soigneux.</titleContent
 ></titleContentChoices
 ></secTitle
+><p
+contentType="fr"
+>Souvent, pendant des discours, on parle rapidement et on ne prends pas le soin de bien prononcer chaque mot. Aussi, l'enregistreur est parfois loin de l'interlocuteur. À cet effet, les enregistrements sur le champ ne sont pas idéale pour la transcription ni la traduction.</p
+><p
+contentType="fr"
+>SayMore facilite la tâche de faire une transcription en discours soigneux. Un autre autochtone suivra l'enregistrement, et répète chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à transcrire.</p
+><ol
+><li
+contentType="fr"
+>Cliquez sur le ficher <object
+type="tmenu"
+>Annotation</object
+>.</li
+><li
+contentType="fr"
+>Dan l'onglet <object
+type="tmenu"
+>Annotations</object
+>, cliquez sur Outils d'annotations orales, puis <object
+type="tmenu"
+>Discours soigneux...</object
+>.<br
+></br
+><img
+src="images/fr/commencerdiscours.png"
+></img
+></li
+><li
+contentType="fr"
+>La boîte de dialogue Enregistreur de discours soigneux s'affiche.<br
+></br
+><img
+src="images/fr/ecoutersource.png"
+></img
+></li
+><li
+contentType="fr"
+>Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra le discours soigneux.</li
+><li
+contentType="fr"
+>Mettre le curseur dans la zone orange et cliquez sur le bouton <img
+src="images/fr/play.png"
+></img
+>.</li
+><li
+contentType="fr"
+>Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.<br
+></br
+><object
+type="tresult"
+>Le bouton <object
+type="tmenu"
+>Prendre la parole</object
+> s'active.</object
+></li
+><li
+contentType="fr"
+>Si cette section ne contienne pas des paroles à transcrire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de <object
+type="tmenu"
+>Ignorer</object
+>.<br
+></br
+><img
+src="images/fr/ignore.png"
+></img
+></li
+><li
+contentType="fr"
+>Appuyez sur le bouton <object
+type="tmenu"
+>Prendre la parole</object
+> <img
+src="images/fr/prendre%20la%20parole.png"
+></img
+> (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et répétez soigneusement tous que vous venez d'entendre.<br
+></br
+>SayMore avance au prochaine section.</li
+><li
+contentType="fr"
+>Vous pouvez rejouer ce que vous venez d'enregistrer.<ol
+><li
+>Si c'est bon, avancez au prochaine section.</li
+><li
+>Si ce n'est pas bon, cliquez sur le bouton <img
+src="images/fr/rerecord.png"
+></img
+> et essayez-la encore.</li
+></ol
+></li
+><li
+contentType="fr"
+>Continuez jusqu'à la fin du ficher, puis cliquez sur <object
+type="tmenu"
+>Bien</object
+>.</li
+></ol
 ><p
 ></p
 ></section1
@@ -2627,6 +2813,99 @@ contentType="fr"
 >Transcription Orale</titleContent
 ></titleContentChoices
 ></secTitle
+><p
+contentType="fr"
+>SayMore facilite la tâche de faire une traduction libre dans une langue véhiculaire. Un autochtone bilingue suivra l'enregistrement, et traduit chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à traduire en texte.</p
+><ol
+><li
+contentType="fr"
+>Cliquez sur le ficher <object
+type="tmenu"
+>Annotation</object
+>.</li
+><li
+contentType="fr"
+>Dan l'onglet <object
+type="tmenu"
+>Annotations</object
+>, cliquez sur Outils d'annotations orales, puis <object
+type="tmenu"
+>Traduction orale...</object
+>.<br
+></br
+><img
+src="images/fr/starttrans.png"
+></img
+></li
+><li
+contentType="fr"
+>La boîte de dialogue Enregistreur de discours soigneux s'affiche.<br
+></br
+><img
+src="images/fr/oraltranswindow.png"
+></img
+></li
+><li
+contentType="fr"
+>Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra la traduction orale.</li
+><li
+contentType="fr"
+>Mettre le curseur dans la zone orange et cliquez sur le bouton <img
+src="images/fr/play.png"
+></img
+>.</li
+><li
+contentType="fr"
+>Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.<br
+></br
+><object
+type="tresult"
+>Le bouton <object
+type="tmenu"
+>Prendre la parole</object
+> s'active.</object
+></li
+><li
+contentType="fr"
+>Si cette section ne contienne pas des paroles à traduire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de <object
+type="tmenu"
+>Ignorer</object
+>.<br
+></br
+><img
+src="images/fr/ignore.png"
+></img
+></li
+><li
+contentType="fr"
+>Appuyez sur le bouton <object
+type="tmenu"
+>Prendre la parole</object
+> <img
+src="images/fr/prendre%20la%20parole.png"
+></img
+> (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et traduire soigneusement tous que vous venez d'entendre.<br
+></br
+>SayMore avance au prochaine section.</li
+><li
+contentType="fr"
+>Vous pouvez rejouer ce que vous venez d'enregistrer.<ol
+><li
+>Si c'est bon, avancez au prochaine section.</li
+><li
+>Si ce n'est pas bon, cliquez sur le bouton <img
+src="images/fr/rerecord.png"
+></img
+> et essayez-la encore.</li
+></ol
+></li
+><li
+contentType="fr"
+>Continuez jusqu'à la fin du ficher, puis cliquez sur <object
+type="tmenu"
+>Bien</object
+>.</li
+></ol
 ><p
 ></p
 ></section1
@@ -2767,7 +3046,7 @@ src="images/fr/percentage.png"
 >) de la vitesse pour ralentir le son.</li
 ><li
 contentType="fr"
->Saisir une traduction libre (dans une langue vehiculaire comme anglais ou français) pour ce segment.</li
+>Saisir une traduction libre (dans une langue véhiculaire comme anglais ou français) pour ce segment.</li
 ><li
 contentType="fr"
 >Tapez <object
@@ -2826,7 +3105,7 @@ contentType="fr"
 ></p
 ></section1
 ><section1
-id="sSubtitles"
+id="sAudacityLabels"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -3019,7 +3298,7 @@ contentType="en"
 >Leave the Save as type selection as CSV (Comma delimited)(*.csv). It is recommended that you save the file in the project folder, which is the default location.</li
 ><li
 contentType="fr"
-> Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.</li
+>Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.</li
 ><li
 contentType="en"
 >Click Save. <br
@@ -3046,7 +3325,7 @@ type="tresult"
 ></li
 ><li
 contentType="fr"
-> Pour ouvrir le fichier, ouvrez le dossier, puis double-cliquez sur le fichier.<br
+>Pour ouvrir le fichier, ouvrez le dossier, puis double-cliquez sur le fichier.<br
 ></br
 > <object
 type="tmenu"
@@ -3079,7 +3358,7 @@ contentType="en"
 >Archive with RAMP (SIL)...</titleContent
 ><titleContent
 contentType="fr"
-> Archive avec RAMP (SIL) ...</titleContent
+>Archive avec RAMP (SIL) ...</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -3096,7 +3375,6 @@ type="tmenu"
 ></p
 ></section1
 ><section1
-contentType="dn"
 id="sIMDI"
 ><secTitle
 ><titleContentChoices
@@ -3113,7 +3391,7 @@ contentType="en"
 ><object
 type="tmenu"
 >Archive using IMDI....</object
-> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources. When you archive with IMDI, files in Descriptive Documents are exported to a special session named 'Project Descriptive Documents' and files in Other Documents are exported to a special session named 'Other Project Documents'.</p
+> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal langage resources. When you archive with IMDI, files in Descriptive Documents are exported to a special session named 'Project Descriptive Documents' and files in Other Documents are exported to a special session named 'Other Project Documents'.</p
 ><framedUnit
 contentType="en"
 framedtype="tTeacher"
@@ -3134,7 +3412,7 @@ contentType="en"
 ><object
 type="tmenu"
 >Archive using IMDI....</object
-> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal language resources.</p
+> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal langage resources.</p
 ><p
 contentType="fr"
 ></p
