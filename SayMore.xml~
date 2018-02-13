@@ -88,6 +88,21 @@ contentType="fr"
 >SayMoreIntro</titleContent
 ></titleContentChoices
 ></shortTitle
+><framedUnit
+framedtype="tTeacher"
+><p
+contentType="en"
+>Note: This document is only a first draft, the polished document will be available at <link
+href="Outilingua.net"
+>lingtran.net</link
+>.</p
+><p
+contentType="fr"
+>Remarque: Ce document n'est q'une premiere ebauche. Le document final sera disponible sur <link
+href="Outilingua.net"
+>Outilingua.net</link
+>.</p
+></framedUnit
 ><p
 contentType="en"
 >SayMore is a tool you use to organize video, audio, image, and various additional files with appropriate meta data. SayMore also helps you keep track of your recording progress. You can easily see which sessions are In progress, Incoming, or skipped. When you want to use your data elsewhere, SayMore allows you to export to Audacity, ELAN, FLEx, Toolbox, or YouTube. When you are ready, SayMore can help archive your project or session in IMDI format, ready to use with ARBIL or other IMDI-compatible utilities. SIL members can do the same to quickly submit a package of all the relevant files and meta data using SIL's RAMP archive-submission application.</p
@@ -253,7 +268,7 @@ type="tlink"
 > Cet ourvrir le finetre pour changez, mais en anglais.</li
 ><li
 contentType="en"
->Optionally, get a shared UI langage file and a translated Access Protocol file from another user.</li
+>Optionally, get a shared UI langage file and a translated Accès Protocol file from another user.</li
 ><li
 contentType="fr"
 >C'est aussi possible de téléchargez une autre langue d'interface et aussi un autre Accès au fichier de Protocole par un autre utilisateur.</li
@@ -304,13 +319,13 @@ type="tmenu"
 >.</p
 ><p
 contentType="fr"
->SayMore ne contient que quatre menus et trois onglets. Le menu <object
+>SayMore ne contient que quatre menus et trois onglets. Les menus <object
 type="tmenu"
 >Session</object
 > et <object
 type="tmenu"
 >Personne</object
-> ont le couleur grise quand l'onglet <object
+> ont la couleur grise quand l'onglet <object
 type="tmenu"
 >Project</object
 > est activé.</p
@@ -446,7 +461,7 @@ type="tresult"
 contentType="en"
 ><object
 type="tmenu"
->Access Protocol </object
+>Accès Protocol </object
 > <br
 ></br
 > <object
@@ -1284,7 +1299,7 @@ contentType="en"
 contentType="fr"
 >Lorsque vous créez un nouveau projet ou même ouvrez un projet existant, il est important de vous assurer que les éléments de l'onglet Projet sont remplis autant que possible. Ce sera également le premier onglet ouvert lorsque vous créez un nouveau projet. L'onglet Projet est conçu pour collecter les métadonnées qui concernent l'ensemble du projet. Ces métadonnées et documents sont essentiels pour la découverte et l'utilisation de l'archive.</p
 ><section1
-id="s"
+id="sAboutProj"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -1451,7 +1466,7 @@ id="sAccessProt"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Access Protocol</titleContent
+>Accès Protocol</titleContent
 ><titleContent
 contentType="fr"
 >Protocole d'accès</titleContent
@@ -1459,7 +1474,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
->Access is how you determine who has permission to get or see your archived data. Access Protocol is used to determine what access to assign to an item in archives. Here is where you choose the access protocol for the project.</p
+>Accès is how you determine who has permission to get or see your archived data. Accès Protocol is used to determine what access to assign to an item in archives. Here is where you choose the access protocol for the project.</p
 ><p
 contentType="fr"
 >L'accès est la façon dont vous déterminez qui a l'autorisation d'obtenir ou de voir vos données archivées. Le protocole d'accès est utilisé pour déterminer l'accès à attribuer à un élément dans les archives. C'est ici que vous choisissez le protocole d'accès pour le projet.</p
@@ -2420,10 +2435,10 @@ id="sStartAnnot"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Start Annotating</titleContent
+>Annotation</titleContent
 ><titleContent
 contentType="fr"
->Commencez l'annotation</titleContent
+>Faire l'annotation</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -2458,7 +2473,7 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-></p
+>If you have imported a video, SayMore will have to copy the audio from the video to another file so you can annotate the audio.</p
 ><p
 contentType="fr"
 >Si vous avez importé une vidéo, il faut que SayMore copie l'audio du vidéo vers un autre ficher.</p
@@ -2478,12 +2493,32 @@ type="ttyped"
 > pour l'analyse.</object
 ><br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.1..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/commencer%20a%20annoter.png"
 ></img
+></chart
+><caption
+>Commencer à annoter</caption
+></figure
 ></li
 ><li
 contentType="en"
+>Select the video you want to convert to an .WAV file. Then click on the tab, <object
+type="tmenu"
+>Start Annotating</object
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.1..ol.1..li.2..figure.1."
+><chart
+><img
+src="images/en/Convert_Video_WAV.jpg"
+></img
+></chart
+><caption
+>Start Annotating Dialogue Box</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2501,6 +2536,23 @@ type="ttyped"
 ></li
 ><li
 contentType="en"
+>Click on Convert <br
+></br
+><p
+><object
+type="tresult"
+>After conversion is complete you will see a new item in the session has been added, .wav file</object
+></p
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.1..ol.1..li.4..figure.1."
+><chart
+><img
+src="images/en/Converted_Video_WAV.png"
+></img
+></chart
+><caption
+>Converted Video to .WAV</caption
+></figure
 ></li
 ></ol
 ></section2
@@ -2530,9 +2582,19 @@ type="tmenu"
 >Commencer à annoter</object
 >.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/segment%20automatique.png"
 ></img
+></chart
+><caption
+>Utiliser le segmenteur automatique</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
@@ -2549,9 +2611,19 @@ type="tresult"
 >SayMore découpera l'enregistrement à chaque silence et affichera un certain nombre des champs vide.</object
 ><br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.3..figure.1."
+><chart
 ><img
 src="images/fr/empty%20fields%20fr.png"
 ></img
+></chart
+><caption
+>Annotations</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
@@ -2560,16 +2632,21 @@ src="images/fr/segment.png"
 ></img
 > pour voir (ou adjuster) le découpage. Il et fortement conseiller de faire les grandes changements de la segmentation AVANT de faire les transcriptions.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >S'il faut modifier la segmentation, voir section <sectionRef
 sec="sChangeSegmentation"
 ></sectionRef
 >.</li
+><li
+contentType="en"
+></li
 ></ol
 ></section2
-></section1
-><section1
-id="sChangeSegmentation"
+><section2
+id="sAdjustSeg"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -2595,13 +2672,26 @@ type="tresult"
 >La boîte de dialogue segmenter manuel apparaîtra.</object
 ><br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.3..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/resegment%20-%20fr.png"
 ></img
+></chart
+><caption
+>Segmenteur Manuel</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
 >Vous pouvez tirer les barres oranges à gauche ou à droite avec le souris.</li
+><li
+contentType="en"
+></li
 ><li
 contentType="fr"
 >Pour ajouter un segment cliquez là ou il faut couper l'audio et tapez <object
@@ -2609,15 +2699,21 @@ type="tmenu"
 >Entrée</object
 >.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Pour ignorer les segments vides, cliquez dans le segment et cochez le case <object
 type="tmenu"
 >Ignoré</object
 >.</li
+><li
+contentType="en"
+></li
 ></ol
-></section1
-><section1
-id="sSegMan"
+></section2
+><section2
+id="sManSeg"
 ><secTitle
 ><titleContentChoices
 ><titleContent
@@ -2641,9 +2737,21 @@ type="tmenu"
 >Commencer à annoter</object
 >.<br
 ></br
+><br
+></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.4..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/segman.png"
 ></img
+></chart
+><caption
+>Segmentation manuelle</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
@@ -2660,9 +2768,16 @@ type="tresult"
 >Le Segmenteur Manuelle affichera</object
 >.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.4..ol.1..li.3..figure.1."
+><chart
 ><img
 src="images/fr/segmanwav.png"
 ></img
+></chart
+><caption
+>Segmenteur</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2689,6 +2804,7 @@ type="tmenu"
 >Bien</object
 > (OK)..</li
 ></ol
+></section2
 ></section1
 ><section1
 id="sCarefulSpeech"
@@ -2725,17 +2841,31 @@ type="tmenu"
 >Discours soigneux...</object
 >.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.4..ol.1..li.2..figure.1."
+><chart
 ><img
 src="images/fr/commencerdiscours.png"
 ></img
+></chart
+><caption
+>Discours soigneux</caption
+></figure
 ></li
 ><li
 contentType="fr"
 >La boîte de dialogue Enregistreur de discours soigneux s'affiche.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.4..ol.1..li.3..figure.1."
+><chart
 ><img
 src="images/fr/ecoutersource.png"
 ></img
+></chart
+><caption
+>Enregistreur de discours soigneux</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2833,17 +2963,31 @@ type="tmenu"
 >Traduction orale...</object
 >.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.5..ol.1..li.2..figure.1."
+><chart
 ><img
 src="images/fr/starttrans.png"
 ></img
+></chart
+><caption
+>Traduction Orale</caption
+></figure
 ></li
 ><li
 contentType="fr"
 >La boîte de dialogue Enregistreur de discours soigneux s'affiche.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.5..ol.1..li.3..figure.1."
+><chart
 ><img
 src="images/fr/oraltranswindow.png"
 ></img
+></chart
+><caption
+>Enregistreur de traduction orale</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2944,9 +3088,19 @@ contentType="fr"
 ></br
 >L'onglet ci-dessous s'affiche.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.6..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/empty%20fields%20fr.png"
 ></img
+></chart
+><caption
+>Annotations</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
@@ -2960,14 +3114,23 @@ type="tresult"
 >Le son jouera cinq fois.</object
 ></li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Si le son joue trop vite pour bien comprendre, choisir une autre pourcentage (<img
 src="images/fr/percentage.png"
 ></img
 >) de la vitesse pour ralentir le son.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Saisir une transcription (dans la même langue que l'enregistrement) pour ce segment. Selon vos besoins, vous pouvez le faire selon l'orthographe de la langue, ou l'Alphabet Phonétique Internationale.</li
+><li
+contentType="en"
+></li
 ><li
 contentType="fr"
 >Tapez <object
@@ -2975,11 +3138,20 @@ type="tmenu"
 >Entrée</object
 >.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Saisir le prochaine transcription.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Répétez étapes 3 à 5.</li
+><li
+contentType="en"
+></li
 ></ol
 ></section1
 ><section1
@@ -3023,9 +3195,19 @@ contentType="fr"
 ></br
 >L'onglet ci-dessous s'affiche.<br
 ></br
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.7..ol.1..li.1..figure.1."
+><chart
 ><img
 src="images/fr/cliquez%20traduction.png"
 ></img
+></chart
+><caption
+>list des fichiers</caption
+></figure
+></li
+><li
+contentType="en"
 ></li
 ><li
 contentType="fr"
@@ -3039,14 +3221,23 @@ type="tresult"
 >Le son jouera cinq fois.</object
 ></li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Si le son joue trop vite pour bien comprendre le sens, choisir une autre pourcentage (<img
 src="images/fr/percentage.png"
 ></img
 >) de la vitesse pour ralentir le son.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Saisir une traduction libre (dans une langue véhiculaire comme anglais ou français) pour ce segment.</li
+><li
+contentType="en"
+></li
 ><li
 contentType="fr"
 >Tapez <object
@@ -3054,11 +3245,20 @@ type="tmenu"
 >Entrée</object
 >.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Saisir le prochaine transcription.</li
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Répétez étapes 3 à 5.</li
+><li
+contentType="en"
+></li
 ></ol
 ></section1
 ></chapter
@@ -3391,7 +3591,10 @@ contentType="en"
 ><object
 type="tmenu"
 >Archive using IMDI....</object
-> This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal langage resources. When you archive with IMDI, files in Descriptive Documents are exported to a special session named 'Project Descriptive Documents' and files in Other Documents are exported to a special session named 'Other Project Documents'.</p
+> This allows you to<object
+type="tmenu"
+>archive</object
+> the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal langage resources. When you archive with IMDI, files in Descriptive Documents are exported to a special session named 'Project Descriptive Documents' and files in Other Documents are exported to a special session named 'Other Project Documents'.</p
 ><framedUnit
 contentType="en"
 framedtype="tTeacher"
@@ -3399,14 +3602,17 @@ framedtype="tTeacher"
 >Related Topics:</p
 ><ul
 ><li
->Access Protocol</li
+>Accès Protocol</li
 ><li
 >Archiving overview</li
 ></ul
 ></framedUnit
 ><p
 contentType="fr"
-></p
+>Cela vous permet d'archiver la <object
+type="tmenu"
+>session</object
+> en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales. Lorsque vous archivez avec IMDI, les fichiers dans Descriptive Documents sont exportés vers une session spéciale nommée 'Project Descriptive Documents' et les fichiers dans Other Documents sont exportés vers une session spéciale nommée 'Other Project Documents'.</p
 ><p
 contentType="en"
 ><object
@@ -3415,10 +3621,13 @@ type="tmenu"
 > This allows you to archive the session as an ISLE Meta Data Initiative, it is a standard used to describe multi-media and multi-modal langage resources.</p
 ><p
 contentType="fr"
-></p
+>Cela vous permet d'archiver la session en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales.</p
 ><p
 contentType="en"
 >This topic is intended for archiving using IMDI (to TLA). For other archives, you must communicate with the team to learn what you need to do.</p
+><p
+contentType="fr"
+>Cette rubrique est destinée à l'archivage à l'aide d'IMDI (vers TLA). Pour les autres archives, vous devez communiquer avec l'équipe pour apprendre ce que vous devez faire.</p
 ><framedUnit
 contentType="en"
 framedtype="tTeacher"
@@ -3428,19 +3637,34 @@ contentType="en"
 type="tmenu"
 >**If this is the first archive activity since the project was moved or copied, an error message will appear and state that the path was not found. Just Try to Archive it Again.**</object
 ></p
+><p
+contentType="fr"
+>S'il s'agit de la première activité d'archivage depuis que le projet a été déplacé ou copié, un message d'erreur apparaît et indique que le chemin n'a pas été trouvé. Essayez simplement de l'archiver à nouveau. **</p
 ></framedUnit
 ><ol
 ><li
 contentType="en"
->Make sure all these metadata are as complete and accurate as possible:<ul
+>Make sure all these metadata are as complete and accurate as possible: <ul
 ><li
 >Project metadata.</li
 ><li
->Session metadata (particularly the Access selection) for each session.</li
+>Session metadata (particularly the Accès selection) for each session.</li
 ><li
 >Person metadata.</li
 ><li
 >File metadata.</li
+><li
+contentType="fr"
+>Métadonnées du projet.</li
+><li
+contentType="fr"
+>Métadonnées de session (en particulier la sélection Accès) pour chaque session.</li
+><li
+contentType="fr"
+>Métadonnées de personne</li
+><li
+contentType="fr"
+>fichier de Métadonnées.</li
 ></ul
 ></li
 ><li
@@ -3697,7 +3921,7 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
@@ -3709,7 +3933,7 @@ active="no"
 exclude="fr"
 >Exclude French</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="en"
 >Exclude English</contentControlChoice
 ></contentControlChoices

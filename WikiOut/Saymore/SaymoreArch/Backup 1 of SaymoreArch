@@ -1,0 +1,47 @@
+((SayMoreTrans|<-- Transcription des fichiers audios et vidéos))
+|((| --> ))
+!Archivage
+
+!9: Exportation des données
+
+
+----
+!!9.1: Exporter des sous-titres.
+
+
+----
+!!9.2: Exporter des étiquettes Audacity.
+
+
+----
+!!9.3: Exporter des sessions
+
+# Ouvrir un projet contenant les données des section qu'on désire exporter
+# Dans le menu projet, cliquez __Exporter les sessions.__La boîte de dialogue __Exporter les données__ apparaît.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}La boîte de dialogue exporter des données
+# Cliquez sur __Enregistrer__.Les données de sessions du projet seront exportés vers un fichier. Le fichier s'affichera dans le dossier.
+# Pour ouvrir le fichier, ouvrez le dossier, et double cliquez sur fichier.Le fichier exporté sera ouvert avec l'application défini pour ce genre de fichier.
+----
+!!9.4: Exporter des personnes
+
+Pour exporter toutes les personnes et les métadonnées associées dans le projet ouvert dans un fichier, procédez comme suit:
+# Ouvrez le projet contenant les personnes que vous souhaitez exporter
+# Dans le menu __Projet__, cliquez __Exporter des personnes__ La boîte de dialogue __Exporter les données__ apparaît:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}
+# Dans la boîte de dialogue, cliquez sur la zone Nom de fichier, puis tapez un nom.
+# Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.
+# Cliquez sur Enregistrer. __Les données de personnes dans le projet ouvert sont exportées dans un fichier. Le fichier est ensuite affiché dans le dossier.__
+# Pour ouvrir le fichier, ouvrez le dossier, puis double-cliquez sur le fichier. __Le fichier d'exportation s'ouvre avec le programme spécifié comme programme par défaut pour le type de fichier.__
+
+!10: Archivage
+
+----
+!!10.1: Archive avec RAMP (SIL) ...
+
+__Archiver avec RAMP (SIL) ...Ceci vous permet d'archiver en utilisant le référentiel de protocole d'accès de SIL pour le format d'archivage et de publication électroniques. Il est conçu pour transférer toutes les méta-données dans une archive.__
+----
+!!10.2: Achiver avec IMDI
+
+Cela vous permet d'archiver la __session__ en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales. Lorsque vous archivez avec IMDI, les fichiers dans Descriptive Documents sont exportés vers une session spéciale nommée 'Project Descriptive Documents' et les fichiers dans Other Documents sont exportés vers une session spéciale nommée 'Other Project Documents'.
+Cela vous permet d'archiver la session en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales.
+Cette rubrique est destinée à l'archivage à l'aide d'IMDI (vers TLA). Pour les autres archives, vous devez communiquer avec l'équipe pour apprendre ce que vous devez faire.
+((SayMoreTrans|<-- Transcription des fichiers audios et vidéos))
+|((| --> ))

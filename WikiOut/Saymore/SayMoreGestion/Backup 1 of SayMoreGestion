@@ -1,0 +1,122 @@
+((SayMoreIntro|<-- Introduction)) |((SayMoreTrans|Transcription des fichiers audios et vidéos --> ))
+!Gestion d'un projet, des sessions, ou des personnes
+
+
+!4: La Creation ou l'ouverture d'un projet
+
+Avant de travailler dans SayMore, vous devez créer un projet. Vous devez créer un projet distinct pour chaque langue que vous analysez, mais vous n'avez pas besoin de créer un nouveau projet pour chaque fichier analysé.
+----
+!!4.1: Créer un projet
+
+Quand vous cliquez sur le menu projet, vous allez dans __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+En cliquant sur Créer un nouveau projet, vous avez cette fenêtre pour nommer le projet.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NomDeNouveauProjet_fr.png" class=img-responsive}Nommer le nouveau projet
+Une fois que vous cliquez sur OK, SayMore s'ouvre avec un nouveau projet vide. Pour continuer à aller à :((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet)) ((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet))
+----
+!!4.2: Ouvrir un projet existant
+
+Quand vous ouvrez SayMore, la boîte de dialogue suivante s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+----
+!!4.3: Ouvrir un autre projet
+
+Si vous travaillez dans un projet et désirez ouvrir un autre projet :
+Du menu __Projet__, cliquez __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+!5: Remplir les metadonnées du projet
+
+Lorsque vous créez un nouveau projet ou même ouvrez un projet existant, il est important de vous assurer que les éléments de l'onglet Projet sont remplis autant que possible. Ce sera également le premier onglet ouvert lorsque vous créez un nouveau projet. L'onglet Projet est conçu pour collecter les métadonnées qui concernent l'ensemble du projet. Ces métadonnées et documents sont essentiels pour la découverte et l'utilisation de l'archive.
+----
+!!5.1: À propos de ce projet
+
+* __Title__ -
+* __Description__ -
+* __Vernaculaire__ -
+* __Emlacement / Adresse__ -
+* __Région__ -
+* __Pays__ -
+* __Continent__ -
+* __Personne à contacter__ -
+* __Titre du project de financement__ -
+* __Disponible le__ -
+* __Titulaire de droits__ -
+* __Déposant__ -
+----
+!!5.2: Protocole d'accès
+
+L'accès est la façon dont vous déterminez qui a l'autorisation d'obtenir ou de voir vos données archivées. Le protocole d'accès est utilisé pour déterminer l'accès à attribuer à un élément dans les archives. C'est ici que vous choisissez le protocole d'accès pour le projet.
+* Si votre organization ditez contre:SIL members or others with permission to use REAP/RAMP, choose:
+* REAP
+* Tous les autres, choissiez un de suivre:
+* AILCA
+* AILLA
+* ANLA
+* ELAR
+* TLA
+* Custom
+Si vous choisissez "Personnalisé", une boîte vide s'affiche dans laquelle vous pouvez saisir des options d'accès personnalisées séparées par des virgules. Cela vous permet de définir différentes sessions enregistrées pour différents protocoles d'accès.
+----
+!!5.3: Documents de description du projet
+
+C’est où vous ajoutez des documents décrivant le projet et le corpus. Lorsque le projet est archivé avec IMDI, les fichiers sont exportés vers une session spéciale nommée « Documents descriptifs de projet ».
+----
+!!5.4: Autre documents
+
+C’est où vous ajoutez tous les autres documents au niveau du projet qui n’appartient pas dans les Documents de Description. Lorsque le projet est archivé avec IMDI ici, les fichiers sont exportés vers une session spéciale nommée « Other Project Documents ».
+----
+!!5.5: Progrès du projet
+
+Cette fenêtre est où vous pouvez suivre l’état d’avancement des projets :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Progress_fr.png" class=img-responsive}Progres
+Comme vous pouvez le voir dans l’image ci-dessus, c’est un graphique très utile qui peut être copié, pour être collées dans un rapport, enregistré comme un fichier __HTML__ individuel ou imprimé.
+!6: Gestion des sessions
+
+Si vous venez de créer un nouveau projet, l'onglet sessions sera vide. Sinon, vous verrez toutes vos sessions précédentes et ce qui a été enregistré dans chaque session.
+----
+!!6.1: Ajouter une Session
+
+__Nouveau__ vous permet de créer une nouvelle session vide. Vous devez ensuite ajouter manuellement tous les fichiers que vous souhaitez associer à la nouvelle session. Ceci est fait sur le côté droit de la fenêtre de l'onglet Sessions. Pour créer une nouvelle session, vous pouvez utiliser le menu déroulant Session ou, en bas de la fenêtre de l'onglet Session, des boutons:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Onglet_Sessions_Buttons_fr.png" class=img-responsive}Buttons de Onglet Sessions
+Vous pouvez ajouter une session vide ou une session avec le contenu d'un nouvel enregistrement. De plus, vous pouvez ajouter plusieurs sessions en téléchargeant les enregistrements du jour directement sur les appareils (caméra, enregistreur audio, etc.). Dans ce cas, SayMore crée des ID pour chaque session. Chaque ID deviendra le nom de son dossier, ainsi que la première partie de la plupart des noms de fichiers dans le dossier. Ceux-ci sont automatiquement mis à jour si vous modifiez ultérieurement cette métadonnée Id.
+{BOX(bg="#FFE6FF" width="60%")}
+
+* Vous pouvez ajouter d'autres fichiers, et non une nouvelle session{BOX}
+!!!6.1.1: Nouveau à partir d'un appareil...
+
+__Nouveau à Partir d'un Périphérique __Vous permet de créer une nouvelle session et ouvre
+Quand vous avez sélectionner un dossier vous pouvez le voir:
+Ici vous pouvez sélectionner tout ou partie des fichiers audio. Avec la boîte de médias, vous pouvez lire le fichier en sur brillance pour vous assurer que c'est le fichier désiré. SayMore se souviendra du chemin vers ce fichier, donc la prochaine fois que vous cliquerez sur __Nouvelle session à partir d'un appareil__ vous verrez ce dossier toujours sélectionné. Chaque fichier audio sélectionné sera créé dans sa propre session. Comme vous pouvez le voir dans Figure  qu'il y a trois fichiers sélectionnés, donc 3 nouvelles sessions seront créées.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NouvellesSessions_d_appareil_fr.png" class=img-responsive}Nouvelles sessions à partir d'appareil
+
+{BOX(bg="#FFE6FF" width="60%")}
+Si SayMore ne peut pas accéder au dossier où se trouvaient les fichiers la dernière fois que vous avez utilisé cette fonction, un avertissement {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} Le message apparaît. Naviguez simplement dans le dossier souhaité à nouveau.{BOX}
+!!!6.1.2: Nouveau d'un enregistrement...
+
+__Nouveau à partir d'un enregistrement...__ Vous permet d'utiliser le microphone de l'ordinateur pour enregistrer une session. Si vous avez un microphone externe connecté, il enregistrera à partir de là. Cliquez sur le bouton Enregistrer et une fois terminé, cliquez sur le bouton Arrêter. Vous pouvez immédiatement entendre la lecture en appuyant sur Lire l'enregistrement. Si vous êtes satisfait de l'enregistrement, cliquez sur OK.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Nouveau_d_un_enregistrement_fr.png" class=img-responsive}Enregistreur Nouveau
+{BOX(bg="#FFE6FF" width="60%")}
+Nous plaidons avec votre consentement pour éviter l'usage des microphones intégré de votre ordinateur portable. Si vous êtes prêt l'utilité pour des recherches phonétiques dans le future, un bon casque USB peut être utilisé à un coût raisonnable. Il est également à que le Zoom H2 peut également être branché et utilisé comme microphone.{BOX}
+----
+!!6.2: Supprimer une session
+
+Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans
+----
+!!6.3: Session Metadata
+
+Lorsque vous êtes dans l'onglet Sessions, et qu'une session est sélectionnée sur la gauche, sur la droite vous avez une fenêtre qui affiche tous les fichiers stockés dans cette session. Sous cette fenêtre, vous avez une autre fenêtre qui change en fonction du fichier que vous avez sélectionné. Lorsque vous avez sélectionné le fichier .Session, vous obtenez la fenêtre qui vous permet d'entrer les métadonnées pour cette session, avec Statut & Stages, et Notes:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_metaData_fr.png" class=img-responsive}Session Metadata
+SayMore ira de l'avant une copie dans les métadonnées du projet de localisation vers les champs correspondants ci-dessous Plus de champs. Si vous modifiez les métadonnées d'emplacement dans l'onglet Projet, il n'est pas mis à jour dans les sessions existantes. Vous pouvez également cliquer sur l'onglet Notes, puis entrer des notes sur la session en prose. Les Notes n'ont pas de caractéristiques de formatage.
+Lorsque vous cliquez sur l'onglet Statut & Stages, vous verrez:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_Etat&Etapes_fr.png" class=img-responsive}Sessions Etat & Etapes Onglet
+Le statut est l'endroit où vous pouvez faire une grande déclaration de l'endroit où l'enregistrement a été traité. Les étapes est l'endroit où vous définissez ce qui a été fait avec l'enregistrement de la session.
+!7: Gestion des personnes
+
+----
+!!7.1: Ajouter une Nouvelle Personne
+
+Quand vous cliquez sur __Nouveau__ dans menu __Personne__, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/EmptyNewPerson_en.png" class=img-responsive}Empty New Person
+Il est important de remplir autant que possible à propos de la personne
+----
+!!7.2: Consentement éclairé
+
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide.
+{BOX(bg="#FFE6FF" width="60%")}
+{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} On dit Consentement éclairé ici parce que c'est la responsabilité du chercheur à informer les participants sur leur droits du propriété intellectuels. Si une personne n'a pas compris qu'elle à la possibilité de refuser toute utilisation de son propriété intellectuel, vous ne pouvez pas, en bonne foi, utiliser les produits pour les buts académiques ni personnelles.{BOX}
+----
+!!7.3: Supprimer une personne
+
+Vous permet de supprimer une personne d'une session. Vous pouvez simplement faire un clique droit sur la personne et sélectionner __Supprimer une personne__. Une boîte d'avertissement apparaîtra avant que la suppression ne soit définitive.
+((SayMoreIntro|<-- Introduction)) |((SayMoreTrans|Transcription des fichiers audios et vidéos --> ))

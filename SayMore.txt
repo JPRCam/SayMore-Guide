@@ -1,0 +1,745 @@
+!Introduction
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Ce document n'est q'une premiere ebauche. Le document final sera disponible sur (( Outilingua.net|Outilingua.net )).{BOX}
+En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela
+En résumé, SayMore est un outil qui vous aide à organiser, transcrire, et archiver du vidéo, de l'audio, des images et divers autres fichiers avec leurs métadonnées.
+!1: Installation du logiciel Saymore
+
+Saymore peut être téléchargé par le lien (( https://software.sil.org/saymore/download/|https://software.sil.org/saymore/download/ )) . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6.
+Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé __FFmpeg__. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter une connexion Internet.
+Après l'installation, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}A la première ouverture de Saymore
+Add an overview of installation process.
+Dans cette fenêtre, vous pouvez rouvrir un projet, chercher un projet existant dans un support USB ... , et créer nouveau, ou un projet vide.
+----
+!!1.1: Changer la langue d'interface utilisateur
+
+Changez la langue d'interface utilisateur:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Langue_d_interface_utilisateur_fr.png" class=img-responsive}Langue d'Interface utilisateur menu
+LP améliorer:Si votre langue n'est pas là, ou vous voulez changez la translation d'interface utilisateur:
+* Cliquez sur la Je veux localiser SayMore pour une autre langue... Cet ourvrir le finetre pour changez, mais en anglais.
+* C'est aussi possible de téléchargez une autre langue d'interface et aussi un autre Accès au fichier de Protocole par un autre utilisateur.
+{BOX(bg="#FFE6FF" width="60%")}
+Si toutes les sélections n'ont pas été modifiées, fermer SayMore et le rouvrir{BOX}
+
+!2: Un Aperçu autour de SayMore
+
+SayMore ne contient que quatre menus et trois onglets. Les menus __Session__ et __Personne__ ont la couleur grise quand l'onglet __Project__ est activé.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/MenusetOnglet_fr.png" class=img-responsive}Les menus et les onglets
+Les prochaines sections vous aideront à trouver les mises en page
+----
+!!2.1: Onglet Projet
+
+Cet onglet projet nous permet spécifier et de conserver la description du projet{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_fr.png" class=img-responsive}Fenetre de Onglet Projet
+Dans cet onglet projet, nous avons un petit menu qui permet de modifier le projet actuel:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_petitmenu_fr.png" class=img-responsive}Onglet Projet petit menu
+* __A propos de ce projet__Ici, on peut mettre les informations se rapportant autour de votre projet, à savoir le titre, la description, la localisation etc...
+* __Protocole d'accès__ici ça nous permet de déterminer qui peut avoir accès au archives
+* __Document de description__Ici ça nous permet d'ajouter les documents qui décrivent le projet
+* __Autres documents__Ici ça nous permet d'ajouter les documents qui ne s'accordent pas ailleurs. Ex: information sur le financement des projets
+* __Progrès__Ici permet de regarder le progrès du projet, on peut également copier, enregistrer ou imprimer.
+
+----
+!!2.2: Onglet Session
+
+L'onglet Sessions est l'endroit où vous trouverez les informations relatives à chaque session ainsi que ce qui a été fait dans chaque session.
+La fenêtre de l'onglet Session:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/TAB_Sessions_avecExamples_fr.png" class=img-responsive}Sessions tab avec example
+Le côté gauche de la fenêtre est l'endroit où vous verrez vos sessions. Des colonnes permettent d'afficher l'ID, le titre, les étapes et le statut de la session. Vous pouvez activer d'autres colonnes facultatives (Date, Genre, Emplacement) en cliquant sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/TAB_Sessions_ADDCOLUMNS.png" class=img-responsive} en sélectionnant ceux que vous voulez voir.
+La fenêtre supérieure droite montre quels fichiers composent cette session. La fenêtre en bas à droite affiche les informations et le contenu à remplir en fonction de ce que vous avez sélectionné dans la fenêtre en haut à droite. Si vous souhaitez ajouter de la documentation ou ajouter le fichier audio pour cette session, cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+----
+!!2.3: Onglet Personne
+
+L'onglet Personnes vous permet de suivre tous vos participants. Voici où vous documenterez leurs informations biologiques, contributions et notes :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/OngletPersonnes_avecExamples_fr.png" class=img-responsive}Onglet Personne avec example
+Aussi vous pouvez ajouter des fichiers que vous avez besoin ici en cliquant {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+!3: Présentation des Menus
+
+
+----
+!!3.1: Menu: Projet
+
+Quand vous ouvrez le menu projet, vous avez cette présentation:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuProjet_fr.png" class=img-responsive}Menu Projet
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque:
+* Comme vous pouvez le constater il n'y a pas d'option sauvegarde, parce que SayMore le fait pour vous
+* Il n'y a pas de commande supprimer le projet. Vous pouvez supprimer le projet dans vos dossiers Windows Explorer.{BOX}
+!!!3.1.1: Quitter
+
+Cela ferme l'application
+----
+!!3.2: Tâches de l'onglet Sessions
+
+Quand cliques sur l'onglet session, tu as une nouvelle fenêtre qui s'affiche et aussi le menu Session disponibleEn cliquant le menu session tu peux voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuSession_fr.png" class=img-responsive}Menu Session
+
+----
+!!3.3: Tâches d'onglet Personnes
+
+Quand tu cliques l'onglet __personne__ tu peux sélectionner le menu __Personne__{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuPersonne_fr.png" class=img-responsive}Menu Personne
+----
+!!3.4: Tâches d'onglet Aide
+
+C'est dans cet onglet qu'on peux trouver l'aide pour l'usage de SayMore. Quand vous cliquez sur le menu aide vous pouvez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuAide_fr.png" class=img-responsive}Menu Aide
+!!!3.4.1: Ade...
+
+Quand vous cliquez __Aide...__ il ouvre une nouvelle fenêtre:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/SayMore_HelpWindow_en.png" class=img-responsive}SayMore Help Window
+À partir de cette fenêtre, vous pouvez effectuer une recherche en utilisant l'arborescence du contenu, l'index (Recherche par mot-clé) et la recherche (rechercher un mot)
+!!!3.4.2: A propos...
+
+Quand vous cliquez sur "A Propos..." une fenêtre s'ouvre en détaillant ce qui a été fait par SayMore et remercie ceux qui ont conçu SayMore. Il contient également des liens vers les composants / bibliothèques Open Source utilisés dans SayMore!Gestion d'un projet, des sessions, ou des personnes
+
+
+!4: La Creation ou l'ouverture d'un projet
+
+Avant de travailler dans SayMore, vous devez créer un projet. Vous devez créer un projet distinct pour chaque langue que vous analysez, mais vous n'avez pas besoin de créer un nouveau projet pour chaque fichier analysé.
+----
+!!4.1: Créer un projet
+
+Quand vous cliquez sur le menu projet, vous allez dans __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+En cliquant sur Créer un nouveau projet, vous avez cette fenêtre pour nommer le projet.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NomDeNouveauProjet_fr.png" class=img-responsive}Nommer le nouveau projet
+Une fois que vous cliquez sur OK, SayMore s'ouvre avec un nouveau projet vide. Pour continuer à aller à :((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet)) ((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet))
+----
+!!4.2: Ouvrir un projet existant
+
+Quand vous ouvrez SayMore, la boîte de dialogue suivante s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+----
+!!4.3: Ouvrir un autre projet
+
+Si vous travaillez dans un projet et désirez ouvrir un autre projet :
+Du menu __Projet__, cliquez __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+!5: Remplir les metadonnées du projet
+
+Lorsque vous créez un nouveau projet ou même ouvrez un projet existant, il est important de vous assurer que les éléments de l'onglet Projet sont remplis autant que possible. Ce sera également le premier onglet ouvert lorsque vous créez un nouveau projet. L'onglet Projet est conçu pour collecter les métadonnées qui concernent l'ensemble du projet. Ces métadonnées et documents sont essentiels pour la découverte et l'utilisation de l'archive.
+----
+!!5.1: À propos de ce projet
+
+* __Title__ -
+* __Description__ -
+* __Vernaculaire__ -
+* __Emlacement / Adresse__ -
+* __Région__ -
+* __Pays__ -
+* __Continent__ -
+* __Personne à contacter__ -
+* __Titre du project de financement__ -
+* __Disponible le__ -
+* __Titulaire de droits__ -
+* __Déposant__ -
+----
+!!5.2: Protocole d'accès
+
+L'accès est la façon dont vous déterminez qui a l'autorisation d'obtenir ou de voir vos données archivées. Le protocole d'accès est utilisé pour déterminer l'accès à attribuer à un élément dans les archives. C'est ici que vous choisissez le protocole d'accès pour le projet.
+* Si votre organization ditez contre:SIL members or others with permission to use REAP/RAMP, choose:
+* REAP
+* Tous les autres, choissiez un de suivre:
+* AILCA
+* AILLA
+* ANLA
+* ELAR
+* TLA
+* Custom
+Si vous choisissez "Personnalisé", une boîte vide s'affiche dans laquelle vous pouvez saisir des options d'accès personnalisées séparées par des virgules. Cela vous permet de définir différentes sessions enregistrées pour différents protocoles d'accès.
+----
+!!5.3: Documents de description du projet
+
+C’est où vous ajoutez des documents décrivant le projet et le corpus. Lorsque le projet est archivé avec IMDI, les fichiers sont exportés vers une session spéciale nommée « Documents descriptifs de projet ».
+----
+!!5.4: Autre documents
+
+C’est où vous ajoutez tous les autres documents au niveau du projet qui n’appartient pas dans les Documents de Description. Lorsque le projet est archivé avec IMDI ici, les fichiers sont exportés vers une session spéciale nommée « Other Project Documents ».
+----
+!!5.5: Progrès du projet
+
+Cette fenêtre est où vous pouvez suivre l’état d’avancement des projets :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Progress_fr.png" class=img-responsive}Progres
+Comme vous pouvez le voir dans l’image ci-dessus, c’est un graphique très utile qui peut être copié, pour être collées dans un rapport, enregistré comme un fichier __HTML__ individuel ou imprimé.
+!6: Gestion des sessions
+
+Si vous venez de créer un nouveau projet, l'onglet sessions sera vide. Sinon, vous verrez toutes vos sessions précédentes et ce qui a été enregistré dans chaque session.
+----
+!!6.1: Ajouter une Session
+
+__Nouveau__ vous permet de créer une nouvelle session vide. Vous devez ensuite ajouter manuellement tous les fichiers que vous souhaitez associer à la nouvelle session. Ceci est fait sur le côté droit de la fenêtre de l'onglet Sessions. Pour créer une nouvelle session, vous pouvez utiliser le menu déroulant Session ou, en bas de la fenêtre de l'onglet Session, des boutons:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Onglet_Sessions_Buttons_fr.png" class=img-responsive}Buttons de Onglet Sessions
+Vous pouvez ajouter une session vide ou une session avec le contenu d'un nouvel enregistrement. De plus, vous pouvez ajouter plusieurs sessions en téléchargeant les enregistrements du jour directement sur les appareils (caméra, enregistreur audio, etc.). Dans ce cas, SayMore crée des ID pour chaque session. Chaque ID deviendra le nom de son dossier, ainsi que la première partie de la plupart des noms de fichiers dans le dossier. Ceux-ci sont automatiquement mis à jour si vous modifiez ultérieurement cette métadonnée Id.
+{BOX(bg="#FFE6FF" width="60%")}
+
+* Vous pouvez ajouter d'autres fichiers, et non une nouvelle session{BOX}
+!!!6.1.1: Nouveau à partir d'un appareil...
+
+__Nouveau à Partir d'un Périphérique __Vous permet de créer une nouvelle session et ouvre
+Quand vous avez sélectionner un dossier vous pouvez le voir:
+Ici vous pouvez sélectionner tout ou partie des fichiers audio. Avec la boîte de médias, vous pouvez lire le fichier en sur brillance pour vous assurer que c'est le fichier désiré. SayMore se souviendra du chemin vers ce fichier, donc la prochaine fois que vous cliquerez sur __Nouvelle session à partir d'un appareil__ vous verrez ce dossier toujours sélectionné. Chaque fichier audio sélectionné sera créé dans sa propre session. Comme vous pouvez le voir dans Figure  qu'il y a trois fichiers sélectionnés, donc 3 nouvelles sessions seront créées.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NouvellesSessions_d_appareil_fr.png" class=img-responsive}Nouvelles sessions à partir d'appareil
+
+{BOX(bg="#FFE6FF" width="60%")}
+Si SayMore ne peut pas accéder au dossier où se trouvaient les fichiers la dernière fois que vous avez utilisé cette fonction, un avertissement {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} Le message apparaît. Naviguez simplement dans le dossier souhaité à nouveau.{BOX}
+!!!6.1.2: Nouveau d'un enregistrement...
+
+__Nouveau à partir d'un enregistrement...__ Vous permet d'utiliser le microphone de l'ordinateur pour enregistrer une session. Si vous avez un microphone externe connecté, il enregistrera à partir de là. Cliquez sur le bouton Enregistrer et une fois terminé, cliquez sur le bouton Arrêter. Vous pouvez immédiatement entendre la lecture en appuyant sur Lire l'enregistrement. Si vous êtes satisfait de l'enregistrement, cliquez sur OK.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Nouveau_d_un_enregistrement_fr.png" class=img-responsive}Enregistreur Nouveau
+{BOX(bg="#FFE6FF" width="60%")}
+Nous plaidons avec votre consentement pour éviter l'usage des microphones intégré de votre ordinateur portable. Si vous êtes prêt l'utilité pour des recherches phonétiques dans le future, un bon casque USB peut être utilisé à un coût raisonnable. Il est également à que le Zoom H2 peut également être branché et utilisé comme microphone.{BOX}
+----
+!!6.2: Supprimer une session
+
+Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans
+----
+!!6.3: Session Metadata
+
+Lorsque vous êtes dans l'onglet Sessions, et qu'une session est sélectionnée sur la gauche, sur la droite vous avez une fenêtre qui affiche tous les fichiers stockés dans cette session. Sous cette fenêtre, vous avez une autre fenêtre qui change en fonction du fichier que vous avez sélectionné. Lorsque vous avez sélectionné le fichier .Session, vous obtenez la fenêtre qui vous permet d'entrer les métadonnées pour cette session, avec Statut & Stages, et Notes:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_metaData_fr.png" class=img-responsive}Session Metadata
+SayMore ira de l'avant une copie dans les métadonnées du projet de localisation vers les champs correspondants ci-dessous Plus de champs. Si vous modifiez les métadonnées d'emplacement dans l'onglet Projet, il n'est pas mis à jour dans les sessions existantes. Vous pouvez également cliquer sur l'onglet Notes, puis entrer des notes sur la session en prose. Les Notes n'ont pas de caractéristiques de formatage.
+Lorsque vous cliquez sur l'onglet Statut & Stages, vous verrez:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_Etat&Etapes_fr.png" class=img-responsive}Sessions Etat & Etapes Onglet
+Le statut est l'endroit où vous pouvez faire une grande déclaration de l'endroit où l'enregistrement a été traité. Les étapes est l'endroit où vous définissez ce qui a été fait avec l'enregistrement de la session.
+!7: Gestion des personnes
+
+----
+!!7.1: Ajouter une Nouvelle Personne
+
+Quand vous cliquez sur __Nouveau__ dans menu __Personne__, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/EmptyNewPerson_en.png" class=img-responsive}Empty New Person
+Il est important de remplir autant que possible à propos de la personne
+----
+!!7.2: Consentement éclairé
+
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide.
+{BOX(bg="#FFE6FF" width="60%")}
+{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} On dit Consentement éclairé ici parce que c'est la responsabilité du chercheur à informer les participants sur leur droits du propriété intellectuels. Si une personne n'a pas compris qu'elle à la possibilité de refuser toute utilisation de son propriété intellectuel, vous ne pouvez pas, en bonne foi, utiliser les produits pour les buts académiques ni personnelles.{BOX}
+----
+!!7.3: Supprimer une personne
+
+Vous permet de supprimer une personne d'une session. Vous pouvez simplement faire un clique droit sur la personne et sélectionner __Supprimer une personne__. Une boîte d'avertissement apparaîtra avant que la suppression ne soit définitive.!Transcription des fichiers audios et vidéos
+
+
+!8: Survol du processus de la transcription
+
+Comme des chercheurs sur le champ, vous êtes souvent le plus intéressé par vos questions de recherche. Dans des langues peu ressourcés, c'est bien possible que le corpus que vous aurez récolté sera une ressource très important pour la communauté, et en plus pour les autres chercheurs plus tard.
+Donc, la recherche remplit plusieurs buts :
+* Consentement éclairé
+* La récolte des données primaire sur le champ.
+* Le rassemblement des ressources trouvé sur la langue cible et les langues aux alentours.
+* Vos hypothèses et vos résultats.
+Pour investigué ces questions, vous allez probablement récolté des données par enregistrement et par écrit. Si vous publiez un corpus (un ensemble) numérique de vos données primaires en addition de vos résultats, ils seront scientifiquement vérifiable par d'autres chercheurs (et vos superviseurs), et on peut aussi réutiliser vos données pour faire d'autres analyses et renforcé l'étude de ces langues.
+SayMore vous aidera a organiser, analyser, archiver, et publier les données basée sur des enregistrements.
+Il y a six grandes étapes a suivre dans SayMore par enregistrement pour que ces données soient utilisable pas simplement pour vous-même, mais pour les chercheurs plus tard.
+# Enregistrement Source (Source Recording)
+# Consentement Informé (Informed Consent)
+# Transcription prudent orale (Careful Speech)
+# Traduction orale (Oral Translation)
+# Transcription écrite (Written Transcription)
+# Traduction écrite (Written Translation)
+Ces processus ne sont pas seulement en ordre de complétion, mais chaque étape bien fait rendra les étapes suivant plus facile. Ainsi, il faut toujours planifier plus de temps pour les étapes successives. La transcription écrite est pénible, mais très utile. Si vous êtes autochtone de la langue que vous étudiez, vous pouvez vite faire étapes 1-4, transcrire et traduire (par écrit) simplement les enregistrements le plus utile pour le mémoire, et laisser le reste du travail aux autres plus tard qui reçoit votre corpus.
+Si vous avez déjà crée une session avec l'audio (ou vidéo), regarder l'onglet __État et Étapes__. La case á côte de __Source Recording__ sera coché.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Source%20Recording-fr.png" class=img-responsive}
+Vous êtes prêt à commencer la saisie des métadonnées et la transcription. Alors, SayMore vous guidera pour ces processus.
+----
+!!8.1: Metadonnées du session.
+
+Voir Section ((SayMoreGestion|#Session_Metadata|6.3: Session Metadata))
+----
+!!8.2: Ajouter les contributeurs de session
+
+Avant de commencer ici, vous devriez déjà avoir ajouter toutes les personnes qui ont travaillé pour cette enregistrement, c'est-à-dire le talent (celui ou ceux qui figure dans l'enregistrement), le technicien, et les traducteurs.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_metaData_Personnes_fr.png" class=img-responsive}Personnes
+Si on clique sur l'objet du type __Session__, il y a un champ pour __Personnes__. Cliquez sur la liste déroutante et cochez le case à côté de chaque participant. Il se peut que des personnes assisteront plus tard, et vous pouvez les ajouter ici au fuir et à mesure.
+{BOX(bg="#FFE6FF" width="60%")}
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide. Voir section ((SayMoreGestion|#Consentement_clair_|7.2: Consentement éclairé)).{BOX}
+Une fois que vous avez ajouté des personnes avec la preuve de leur accord (soit un document signé et numérisé ou un enregistrement),{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Renommer_Consentement_eclare_fr.png" class=img-responsive}Renommer Consentement éclairé
+Regarder l'onglet __État et Étapes__. Le case á côte de __Informed Consent__ sera déjà coché.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/informed%20consent-fr.png" class=img-responsive}
+----
+!!8.3: Faire l'annotation
+
+Si votre enregistrement est en format vidéo, allez vers section ((SayMoreTrans|#Cr_er_une_version_audio_du_vid_o\.|8.3.1: Créer une version audio du vidéo.)). Si c'est déjà en format Audio, sautez vers section ((SayMoreTrans|#Faire_l_annotation|8.3: Faire l'annotation))
+!!!8.3.1: Créer une version audio du vidéo.
+
+Si vous avez importé une vidéo, il faut que SayMore copie l'audio du vidéo vers un autre ficher.
+# Cliquez une fois sur le vidéo et encore sur l'onglet __Commencer à annoter__.Le texte explique que SayMore créera un ficher .wav pour l'analyse.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/commencer%20a%20annoter.png" class=img-responsive}Commencer à annoter
+# Cliquez sur __OK__.Après la conversion, le fichier .wav apparaîtra.
+!!!8.3.2: Segmentation Automatique
+
+SayMore peut essayer a découper l'enregistrement à chaque silence pour faire des segments gerables.
+# Cliquez sur le fichier audio {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/micro.png" class=img-responsive} dans la liste des fichiers, et puis sur l'onglet __Commencer à annoter__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment%20automatique.png" class=img-responsive}Utiliser le segmenteur automatique
+# Selectionnez __Utilisez le segmenteur automatique__ et cliquez sur le bouton __Commencer... __.SayMore découpera l'enregistrement à chaque silence et affichera un certain nombre des champs vide.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
+# Cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment.png" class=img-responsive} pour voir (ou adjuster) le découpage. Il et fortement conseiller de faire les grandes changements de la segmentation AVANT de faire les transcriptions.
+# S'il faut modifier la segmentation, voir section ((SayMoreTrans|#Changer_la_Segmentation|8.3.3: Changer la Segmentation)).
+!!!8.3.3: Changer la Segmentation
+
+
+# Cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment.png" class=img-responsive} pour voir (ou ajuster) le découpage. La boîte de dialogue segmenter manuel apparaîtra.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/resegment%20-%20fr.png" class=img-responsive}Segmenteur Manuel
+# Vous pouvez tirer les barres oranges à gauche ou à droite avec le souris.
+# Pour ajouter un segment cliquez là ou il faut couper l'audio et tapez __Entrée__.
+# Pour ignorer les segments vides, cliquez dans le segment et cochez le case __Ignoré__.
+!!!8.3.4: Segmentation Manuelle
+
+
+# Cliquez sur le fichier audio {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/micro.png" class=img-responsive} dans la liste des fichiers, et puis sur l'onglet __Commencer à annoter__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segman.png" class=img-responsive}Segmentation manuelle
+# Selectionnez __Utilisez le segmenteur manuelle__ et cliquez sur le bouton __Commencer... __.Le Segmenteur Manuelle affichera.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segmanwav.png" class=img-responsive}Segmenteur
+# Tapez la barre d'__espace__ pour jouer l'audio.
+# Chaque fois qu'il faut couper l'enregistrement, tapez __Éntrée__.
+# Continuez à tapez __Éntrée__ pour chaque segment j'usqu'au la fin.
+# Cliquez sur le bouton __Bien__ (OK)..
+----
+!!8.4: Transcription en discours soigneux.
+
+Souvent, pendant des discours, on parle rapidement et on ne prends pas le soin de bien prononcer chaque mot. Aussi, l'enregistreur est parfois loin de l'interlocuteur. À cet effet, les enregistrements sur le champ ne sont pas idéale pour la transcription ni la traduction.
+SayMore facilite la tâche de faire une transcription en discours soigneux. Un autre autochtone suivra l'enregistrement, et répète chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à transcrire.
+# Cliquez sur le ficher __Annotation__.
+# Dan l'onglet __Annotations__, cliquez sur Outils d'annotations orales, puis __Discours soigneux...__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/commencerdiscours.png" class=img-responsive}Discours soigneux
+# La boîte de dialogue Enregistreur de discours soigneux s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ecoutersource.png" class=img-responsive}Enregistreur de discours soigneux
+# Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra le discours soigneux.
+# Mettre le curseur dans la zone orange et cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/play.png" class=img-responsive}.
+# Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.Le bouton __Prendre la parole__ s'active.
+# Si cette section ne contienne pas des paroles à transcrire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de __Ignorer__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ignore.png" class=img-responsive}
+# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et répétez soigneusement tous que vous venez d'entendre.SayMore avance au prochaine section.
+# Vous pouvez rejouer ce que vous venez d'enregistrer.
+# Si c'est bon, avancez au prochaine section.
+# Si ce n'est pas bon, cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/rerecord.png" class=img-responsive} et essayez-la encore.
+# Continuez jusqu'à la fin du ficher, puis cliquez sur __Bien__.
+
+----
+!!8.5: Transcription Orale
+
+SayMore facilite la tâche de faire une traduction libre dans une langue véhiculaire. Un autochtone bilingue suivra l'enregistrement, et traduit chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à traduire en texte.
+# Cliquez sur le ficher __Annotation__.
+# Dan l'onglet __Annotations__, cliquez sur Outils d'annotations orales, puis __Traduction orale...__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/starttrans.png" class=img-responsive}Traduction Orale
+# La boîte de dialogue Enregistreur de discours soigneux s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/oraltranswindow.png" class=img-responsive}Enregistreur de traduction orale
+# Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra la traduction orale.
+# Mettre le curseur dans la zone orange et cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/play.png" class=img-responsive}.
+# Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.Le bouton __Prendre la parole__ s'active.
+# Si cette section ne contienne pas des paroles à traduire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de __Ignorer__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ignore.png" class=img-responsive}
+# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et traduire soigneusement tous que vous venez d'entendre.SayMore avance au prochaine section.
+# Vous pouvez rejouer ce que vous venez d'enregistrer.
+# Si c'est bon, avancez au prochaine section.
+# Si ce n'est pas bon, cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/rerecord.png" class=img-responsive} et essayez-la encore.
+# Continuez jusqu'à la fin du ficher, puis cliquez sur __Bien__.
+
+----
+!!8.6: Rédiger la Transcription
+
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Si vous avez déjà enregistré un discours soigneux, vous avez le choix des sons á écouter et transcrire. (Le discours soigneux sera probablement plus facile à comprendre. Cliquez sur Options à côté do Transcription, et choisir une option.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/transcription%20options.png" class=img-responsive}{BOX}
+# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
+# Cliquez dans le premier champ __Transcription__.Le son jouera cinq fois.
+# Si le son joue trop vite pour bien comprendre, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Saisir une transcription (dans la même langue que l'enregistrement) pour ce segment. Selon vos besoins, vous pouvez le faire selon l'orthographe de la langue, ou l'Alphabet Phonétique Internationale.
+# Tapez __Entrée__.
+# Saisir le prochaine transcription.
+# Répétez étapes 3 à 5.
+----
+!!8.7: Rédiger la traduction
+
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Si vous avez déjà enregistré une traduction libre, vous avez le choix des sons á écouter. (Cliquez sur __Options__ à côté du __Traduction Libre__, et choisir une option.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/TradClick.png" class=img-responsive}{BOX}
+# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/cliquez%20traduction.png" class=img-responsive}list des fichiers
+# Cliquez dans le premier champ __Traduction Libre__.Le son jouera cinq fois.
+# Si le son joue trop vite pour bien comprendre le sens, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Saisir une traduction libre (dans une langue véhiculaire comme anglais ou français) pour ce segment.
+# Tapez __Entrée__.
+# Saisir le prochaine transcription.
+# Répétez étapes 3 à 5.!Archivage
+
+!9: Exportation des données
+
+
+----
+!!9.1: Exporter des sous-titres.
+
+
+----
+!!9.2: Exporter des étiquettes Audacity.
+
+
+----
+!!9.3: Exporter des sessions
+
+# Ouvrir un projet contenant les données des section qu'on désire exporter
+# Dans le menu projet, cliquez __Exporter les sessions.__La boîte de dialogue __Exporter les données__ apparaît.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}La boîte de dialogue exporter des données
+# Cliquez sur __Enregistrer__.Les données de sessions du projet seront exportés vers un fichier. Le fichier s'affichera dans le dossier.
+# Pour ouvrir le fichier, ouvrez le dossier, et double cliquez sur fichier.Le fichier exporté sera ouvert avec l'application défini pour ce genre de fichier.
+----
+!!9.4: Exporter des personnes
+
+Pour exporter toutes les personnes et les métadonnées associées dans le projet ouvert dans un fichier, procédez comme suit:
+# Ouvrez le projet contenant les personnes que vous souhaitez exporter
+# Dans le menu __Projet__, cliquez __Exporter des personnes__ La boîte de dialogue __Exporter les données__ apparaît:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}
+# Dans la boîte de dialogue, cliquez sur la zone Nom de fichier, puis tapez un nom.
+# Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.
+# Cliquez sur Enregistrer. __Les données de personnes dans le projet ouvert sont exportées dans un fichier. Le fichier est ensuite affiché dans le dossier.__
+# Pour ouvrir le fichier, ouvrez le dossier, puis double-cliquez sur le fichier. __Le fichier d'exportation s'ouvre avec le programme spécifié comme programme par défaut pour le type de fichier.__
+
+!10: Archivage
+
+----
+!!10.1: Archive avec RAMP (SIL) ...
+
+__Archiver avec RAMP (SIL) ...Ceci vous permet d'archiver en utilisant le référentiel de protocole d'accès de SIL pour le format d'archivage et de publication électroniques. Il est conçu pour transférer toutes les méta-données dans une archive.__
+----
+!!10.2: Achiver avec IMDI
+
+Cela vous permet d'archiver la __session__ en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales. Lorsque vous archivez avec IMDI, les fichiers dans Descriptive Documents sont exportés vers une session spéciale nommée 'Project Descriptive Documents' et les fichiers dans Other Documents sont exportés vers une session spéciale nommée 'Other Project Documents'.
+Cela vous permet d'archiver la session en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales.
+Cette rubrique est destinée à l'archivage à l'aide d'IMDI (vers TLA). Pour les autres archives, vous devez communiquer avec l'équipe pour apprendre ce que vous devez faire.!Introduction
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Ce document n'est q'une premiere ebauche. Le document final sera disponible sur (( Outilingua.net|Outilingua.net )).{BOX}
+En tant que préparateur des documents relatifs à l'organisation et au fonctionnement de langue, vous accumulez rapidement un grand nombre d'enregistrements source et de modification basés sur eux. Vous devez gérer ces enregistrements, documenter le consentement éclairé, transcrire, traduire, entrer des métadonnées et, enfin, soumettre à une archive numérique. En cours de route, vous devez garder tous ces fichiers bien organisés et étiquetés. Vous aurez envie de garder une trace des objectifs du projet afin d'émerger avec la couverture souhaitée dans des domaines tels que le genre, la spontanéité et les rôles sociaux de l'orateur. Vous aurez besoin d'aide pour suivre l'emplacement de chaque session dans votre flux de travail. Ainsi, SayMore peut vous aider à faire tout cela
+En résumé, SayMore est un outil qui vous aide à organiser, transcrire, et archiver du vidéo, de l'audio, des images et divers autres fichiers avec leurs métadonnées.
+!1: Installation du logiciel Saymore
+
+Saymore peut être téléchargé par le lien (( https://software.sil.org/saymore/download/|https://software.sil.org/saymore/download/ )) . Il est à noter que SayMore exige des conditions techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6.
+Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé __FFmpeg__. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter une connexion Internet.
+Après l'installation, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}A la première ouverture de Saymore
+Add an overview of installation process.
+Dans cette fenêtre, vous pouvez rouvrir un projet, chercher un projet existant dans un support USB ... , et créer nouveau, ou un projet vide.
+----
+!!1.1: Changer la langue d'interface utilisateur
+
+Changez la langue d'interface utilisateur:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Langue_d_interface_utilisateur_fr.png" class=img-responsive}Langue d'Interface utilisateur menu
+LP améliorer:Si votre langue n'est pas là, ou vous voulez changez la translation d'interface utilisateur:
+* Cliquez sur la Je veux localiser SayMore pour une autre langue... Cet ourvrir le finetre pour changez, mais en anglais.
+* C'est aussi possible de téléchargez une autre langue d'interface et aussi un autre Accès au fichier de Protocole par un autre utilisateur.
+{BOX(bg="#FFE6FF" width="60%")}
+Si toutes les sélections n'ont pas été modifiées, fermer SayMore et le rouvrir{BOX}
+
+!2: Un Aperçu autour de SayMore
+
+SayMore ne contient que quatre menus et trois onglets. Les menus __Session__ et __Personne__ ont la couleur grise quand l'onglet __Project__ est activé.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/MenusetOnglet_fr.png" class=img-responsive}Les menus et les onglets
+Les prochaines sections vous aideront à trouver les mises en page
+----
+!!2.1: Onglet Projet
+
+Cet onglet projet nous permet spécifier et de conserver la description du projet{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_fr.png" class=img-responsive}Fenetre de Onglet Projet
+Dans cet onglet projet, nous avons un petit menu qui permet de modifier le projet actuel:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_petitmenu_fr.png" class=img-responsive}Onglet Projet petit menu
+* __A propos de ce projet__Ici, on peut mettre les informations se rapportant autour de votre projet, à savoir le titre, la description, la localisation etc...
+* __Protocole d'accès__ici ça nous permet de déterminer qui peut avoir accès au archives
+* __Document de description__Ici ça nous permet d'ajouter les documents qui décrivent le projet
+* __Autres documents__Ici ça nous permet d'ajouter les documents qui ne s'accordent pas ailleurs. Ex: information sur le financement des projets
+* __Progrès__Ici permet de regarder le progrès du projet, on peut également copier, enregistrer ou imprimer.
+
+----
+!!2.2: Onglet Session
+
+L'onglet Sessions est l'endroit où vous trouverez les informations relatives à chaque session ainsi que ce qui a été fait dans chaque session.
+La fenêtre de l'onglet Session:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/TAB_Sessions_avecExamples_fr.png" class=img-responsive}Sessions tab avec example
+Le côté gauche de la fenêtre est l'endroit où vous verrez vos sessions. Des colonnes permettent d'afficher l'ID, le titre, les étapes et le statut de la session. Vous pouvez activer d'autres colonnes facultatives (Date, Genre, Emplacement) en cliquant sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/TAB_Sessions_ADDCOLUMNS.png" class=img-responsive} en sélectionnant ceux que vous voulez voir.
+La fenêtre supérieure droite montre quels fichiers composent cette session. La fenêtre en bas à droite affiche les informations et le contenu à remplir en fonction de ce que vous avez sélectionné dans la fenêtre en haut à droite. Si vous souhaitez ajouter de la documentation ou ajouter le fichier audio pour cette session, cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+----
+!!2.3: Onglet Personne
+
+L'onglet Personnes vous permet de suivre tous vos participants. Voici où vous documenterez leurs informations biologiques, contributions et notes :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/OngletPersonnes_avecExamples_fr.png" class=img-responsive}Onglet Personne avec example
+Aussi vous pouvez ajouter des fichiers que vous avez besoin ici en cliquant {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+!3: Présentation des Menus
+
+
+----
+!!3.1: Menu: Projet
+
+Quand vous ouvrez le menu projet, vous avez cette présentation:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuProjet_fr.png" class=img-responsive}Menu Projet
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque:
+* Comme vous pouvez le constater il n'y a pas d'option sauvegarde, parce que SayMore le fait pour vous
+* Il n'y a pas de commande supprimer le projet. Vous pouvez supprimer le projet dans vos dossiers Windows Explorer.{BOX}
+!!!3.1.1: Quitter
+
+Cela ferme l'application
+----
+!!3.2: Tâches de l'onglet Sessions
+
+Quand cliques sur l'onglet session, tu as une nouvelle fenêtre qui s'affiche et aussi le menu Session disponibleEn cliquant le menu session tu peux voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuSession_fr.png" class=img-responsive}Menu Session
+
+----
+!!3.3: Tâches d'onglet Personnes
+
+Quand tu cliques l'onglet __personne__ tu peux sélectionner le menu __Personne__{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuPersonne_fr.png" class=img-responsive}Menu Personne
+----
+!!3.4: Tâches d'onglet Aide
+
+C'est dans cet onglet qu'on peux trouver l'aide pour l'usage de SayMore. Quand vous cliquez sur le menu aide vous pouvez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuAide_fr.png" class=img-responsive}Menu Aide
+!!!3.4.1: Ade...
+
+Quand vous cliquez __Aide...__ il ouvre une nouvelle fenêtre:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/SayMore_HelpWindow_en.png" class=img-responsive}SayMore Help Window
+À partir de cette fenêtre, vous pouvez effectuer une recherche en utilisant l'arborescence du contenu, l'index (Recherche par mot-clé) et la recherche (rechercher un mot)
+!!!3.4.2: A propos...
+
+Quand vous cliquez sur "A Propos..." une fenêtre s'ouvre en détaillant ce qui a été fait par SayMore et remercie ceux qui ont conçu SayMore. Il contient également des liens vers les composants / bibliothèques Open Source utilisés dans SayMore!Gestion d'un projet, des sessions, ou des personnes
+
+
+!4: La Creation ou l'ouverture d'un projet
+
+Avant de travailler dans SayMore, vous devez créer un projet. Vous devez créer un projet distinct pour chaque langue que vous analysez, mais vous n'avez pas besoin de créer un nouveau projet pour chaque fichier analysé.
+----
+!!4.1: Créer un projet
+
+Quand vous cliquez sur le menu projet, vous allez dans __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+En cliquant sur Créer un nouveau projet, vous avez cette fenêtre pour nommer le projet.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NomDeNouveauProjet_fr.png" class=img-responsive}Nommer le nouveau projet
+Une fois que vous cliquez sur OK, SayMore s'ouvre avec un nouveau projet vide. Pour continuer à aller à :((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet)) ((SayMoreGestion|#Remplir_les_metadonn_es_du_projet|5: Remplir les metadonnées du projet))
+----
+!!4.2: Ouvrir un projet existant
+
+Quand vous ouvrez SayMore, la boîte de dialogue suivante s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+----
+!!4.3: Ouvrir un autre projet
+
+Si vous travaillez dans un projet et désirez ouvrir un autre projet :
+Du menu __Projet__, cliquez __Ouvrir / Créer un Projet__ :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}Ouvrir / Créer un Projet
+Cliquez sur le nom de votre projet pour l'ouvrir.Le projet s'affiche.
+!5: Remplir les metadonnées du projet
+
+Lorsque vous créez un nouveau projet ou même ouvrez un projet existant, il est important de vous assurer que les éléments de l'onglet Projet sont remplis autant que possible. Ce sera également le premier onglet ouvert lorsque vous créez un nouveau projet. L'onglet Projet est conçu pour collecter les métadonnées qui concernent l'ensemble du projet. Ces métadonnées et documents sont essentiels pour la découverte et l'utilisation de l'archive.
+----
+!!5.1: À propos de ce projet
+
+* __Title__ -
+* __Description__ -
+* __Vernaculaire__ -
+* __Emlacement / Adresse__ -
+* __Région__ -
+* __Pays__ -
+* __Continent__ -
+* __Personne à contacter__ -
+* __Titre du project de financement__ -
+* __Disponible le__ -
+* __Titulaire de droits__ -
+* __Déposant__ -
+----
+!!5.2: Protocole d'accès
+
+L'accès est la façon dont vous déterminez qui a l'autorisation d'obtenir ou de voir vos données archivées. Le protocole d'accès est utilisé pour déterminer l'accès à attribuer à un élément dans les archives. C'est ici que vous choisissez le protocole d'accès pour le projet.
+* Si votre organization ditez contre:SIL members or others with permission to use REAP/RAMP, choose:
+* REAP
+* Tous les autres, choissiez un de suivre:
+* AILCA
+* AILLA
+* ANLA
+* ELAR
+* TLA
+* Custom
+Si vous choisissez "Personnalisé", une boîte vide s'affiche dans laquelle vous pouvez saisir des options d'accès personnalisées séparées par des virgules. Cela vous permet de définir différentes sessions enregistrées pour différents protocoles d'accès.
+----
+!!5.3: Documents de description du projet
+
+C’est où vous ajoutez des documents décrivant le projet et le corpus. Lorsque le projet est archivé avec IMDI, les fichiers sont exportés vers une session spéciale nommée « Documents descriptifs de projet ».
+----
+!!5.4: Autre documents
+
+C’est où vous ajoutez tous les autres documents au niveau du projet qui n’appartient pas dans les Documents de Description. Lorsque le projet est archivé avec IMDI ici, les fichiers sont exportés vers une session spéciale nommée « Other Project Documents ».
+----
+!!5.5: Progrès du projet
+
+Cette fenêtre est où vous pouvez suivre l’état d’avancement des projets :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Progress_fr.png" class=img-responsive}Progres
+Comme vous pouvez le voir dans l’image ci-dessus, c’est un graphique très utile qui peut être copié, pour être collées dans un rapport, enregistré comme un fichier __HTML__ individuel ou imprimé.
+!6: Gestion des sessions
+
+Si vous venez de créer un nouveau projet, l'onglet sessions sera vide. Sinon, vous verrez toutes vos sessions précédentes et ce qui a été enregistré dans chaque session.
+----
+!!6.1: Ajouter une Session
+
+__Nouveau__ vous permet de créer une nouvelle session vide. Vous devez ensuite ajouter manuellement tous les fichiers que vous souhaitez associer à la nouvelle session. Ceci est fait sur le côté droit de la fenêtre de l'onglet Sessions. Pour créer une nouvelle session, vous pouvez utiliser le menu déroulant Session ou, en bas de la fenêtre de l'onglet Session, des boutons:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Onglet_Sessions_Buttons_fr.png" class=img-responsive}Buttons de Onglet Sessions
+Vous pouvez ajouter une session vide ou une session avec le contenu d'un nouvel enregistrement. De plus, vous pouvez ajouter plusieurs sessions en téléchargeant les enregistrements du jour directement sur les appareils (caméra, enregistreur audio, etc.). Dans ce cas, SayMore crée des ID pour chaque session. Chaque ID deviendra le nom de son dossier, ainsi que la première partie de la plupart des noms de fichiers dans le dossier. Ceux-ci sont automatiquement mis à jour si vous modifiez ultérieurement cette métadonnée Id.
+{BOX(bg="#FFE6FF" width="60%")}
+
+* Vous pouvez ajouter d'autres fichiers, et non une nouvelle session{BOX}
+!!!6.1.1: Nouveau à partir d'un appareil...
+
+__Nouveau à Partir d'un Périphérique __Vous permet de créer une nouvelle session et ouvre
+Quand vous avez sélectionner un dossier vous pouvez le voir:
+Ici vous pouvez sélectionner tout ou partie des fichiers audio. Avec la boîte de médias, vous pouvez lire le fichier en sur brillance pour vous assurer que c'est le fichier désiré. SayMore se souviendra du chemin vers ce fichier, donc la prochaine fois que vous cliquerez sur __Nouvelle session à partir d'un appareil__ vous verrez ce dossier toujours sélectionné. Chaque fichier audio sélectionné sera créé dans sa propre session. Comme vous pouvez le voir dans Figure  qu'il y a trois fichiers sélectionnés, donc 3 nouvelles sessions seront créées.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/NouvellesSessions_d_appareil_fr.png" class=img-responsive}Nouvelles sessions à partir d'appareil
+
+{BOX(bg="#FFE6FF" width="60%")}
+Si SayMore ne peut pas accéder au dossier où se trouvaient les fichiers la dernière fois que vous avez utilisé cette fonction, un avertissement {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} Le message apparaît. Naviguez simplement dans le dossier souhaité à nouveau.{BOX}
+!!!6.1.2: Nouveau d'un enregistrement...
+
+__Nouveau à partir d'un enregistrement...__ Vous permet d'utiliser le microphone de l'ordinateur pour enregistrer une session. Si vous avez un microphone externe connecté, il enregistrera à partir de là. Cliquez sur le bouton Enregistrer et une fois terminé, cliquez sur le bouton Arrêter. Vous pouvez immédiatement entendre la lecture en appuyant sur Lire l'enregistrement. Si vous êtes satisfait de l'enregistrement, cliquez sur OK.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Nouveau_d_un_enregistrement_fr.png" class=img-responsive}Enregistreur Nouveau
+{BOX(bg="#FFE6FF" width="60%")}
+Nous plaidons avec votre consentement pour éviter l'usage des microphones intégré de votre ordinateur portable. Si vous êtes prêt l'utilité pour des recherches phonétiques dans le future, un bon casque USB peut être utilisé à un coût raisonnable. Il est également à que le Zoom H2 peut également être branché et utilisé comme microphone.{BOX}
+----
+!!6.2: Supprimer une session
+
+Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans
+----
+!!6.3: Session Metadata
+
+Lorsque vous êtes dans l'onglet Sessions, et qu'une session est sélectionnée sur la gauche, sur la droite vous avez une fenêtre qui affiche tous les fichiers stockés dans cette session. Sous cette fenêtre, vous avez une autre fenêtre qui change en fonction du fichier que vous avez sélectionné. Lorsque vous avez sélectionné le fichier .Session, vous obtenez la fenêtre qui vous permet d'entrer les métadonnées pour cette session, avec Statut & Stages, et Notes:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_metaData_fr.png" class=img-responsive}Session Metadata
+SayMore ira de l'avant une copie dans les métadonnées du projet de localisation vers les champs correspondants ci-dessous Plus de champs. Si vous modifiez les métadonnées d'emplacement dans l'onglet Projet, il n'est pas mis à jour dans les sessions existantes. Vous pouvez également cliquer sur l'onglet Notes, puis entrer des notes sur la session en prose. Les Notes n'ont pas de caractéristiques de formatage.
+Lorsque vous cliquez sur l'onglet Statut & Stages, vous verrez:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_Etat&Etapes_fr.png" class=img-responsive}Sessions Etat & Etapes Onglet
+Le statut est l'endroit où vous pouvez faire une grande déclaration de l'endroit où l'enregistrement a été traité. Les étapes est l'endroit où vous définissez ce qui a été fait avec l'enregistrement de la session.
+!7: Gestion des personnes
+
+----
+!!7.1: Ajouter une Nouvelle Personne
+
+Quand vous cliquez sur __Nouveau__ dans menu __Personne__, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/EmptyNewPerson_en.png" class=img-responsive}Empty New Person
+Il est important de remplir autant que possible à propos de la personne
+----
+!!7.2: Consentement éclairé
+
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide.
+{BOX(bg="#FFE6FF" width="60%")}
+{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/WARNING_ICON.png" class=img-responsive} On dit Consentement éclairé ici parce que c'est la responsabilité du chercheur à informer les participants sur leur droits du propriété intellectuels. Si une personne n'a pas compris qu'elle à la possibilité de refuser toute utilisation de son propriété intellectuel, vous ne pouvez pas, en bonne foi, utiliser les produits pour les buts académiques ni personnelles.{BOX}
+----
+!!7.3: Supprimer une personne
+
+Vous permet de supprimer une personne d'une session. Vous pouvez simplement faire un clique droit sur la personne et sélectionner __Supprimer une personne__. Une boîte d'avertissement apparaîtra avant que la suppression ne soit définitive.!Transcription des fichiers audios et vidéos
+
+
+!8: Survol du processus de la transcription
+
+Comme des chercheurs sur le champ, vous êtes souvent le plus intéressé par vos questions de recherche. Dans des langues peu ressourcés, c'est bien possible que le corpus que vous aurez récolté sera une ressource très important pour la communauté, et en plus pour les autres chercheurs plus tard.
+Donc, la recherche remplit plusieurs buts :
+* Consentement éclairé
+* La récolte des données primaire sur le champ.
+* Le rassemblement des ressources trouvé sur la langue cible et les langues aux alentours.
+* Vos hypothèses et vos résultats.
+Pour investigué ces questions, vous allez probablement récolté des données par enregistrement et par écrit. Si vous publiez un corpus (un ensemble) numérique de vos données primaires en addition de vos résultats, ils seront scientifiquement vérifiable par d'autres chercheurs (et vos superviseurs), et on peut aussi réutiliser vos données pour faire d'autres analyses et renforcé l'étude de ces langues.
+SayMore vous aidera a organiser, analyser, archiver, et publier les données basée sur des enregistrements.
+Il y a six grandes étapes a suivre dans SayMore par enregistrement pour que ces données soient utilisable pas simplement pour vous-même, mais pour les chercheurs plus tard.
+# Enregistrement Source (Source Recording)
+# Consentement Informé (Informed Consent)
+# Transcription prudent orale (Careful Speech)
+# Traduction orale (Oral Translation)
+# Transcription écrite (Written Transcription)
+# Traduction écrite (Written Translation)
+Ces processus ne sont pas seulement en ordre de complétion, mais chaque étape bien fait rendra les étapes suivant plus facile. Ainsi, il faut toujours planifier plus de temps pour les étapes successives. La transcription écrite est pénible, mais très utile. Si vous êtes autochtone de la langue que vous étudiez, vous pouvez vite faire étapes 1-4, transcrire et traduire (par écrit) simplement les enregistrements le plus utile pour le mémoire, et laisser le reste du travail aux autres plus tard qui reçoit votre corpus.
+Si vous avez déjà crée une session avec l'audio (ou vidéo), regarder l'onglet __État et Étapes__. La case á côte de __Source Recording__ sera coché.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Source%20Recording-fr.png" class=img-responsive}
+Vous êtes prêt à commencer la saisie des métadonnées et la transcription. Alors, SayMore vous guidera pour ces processus.
+----
+!!8.1: Metadonnées du session.
+
+Voir Section ((SayMoreGestion|#Session_Metadata|6.3: Session Metadata))
+----
+!!8.2: Ajouter les contributeurs de session
+
+Avant de commencer ici, vous devriez déjà avoir ajouter toutes les personnes qui ont travaillé pour cette enregistrement, c'est-à-dire le talent (celui ou ceux qui figure dans l'enregistrement), le technicien, et les traducteurs.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Sessions_metaData_Personnes_fr.png" class=img-responsive}Personnes
+Si on clique sur l'objet du type __Session__, il y a un champ pour __Personnes__. Cliquez sur la liste déroutante et cochez le case à côté de chaque participant. Il se peut que des personnes assisteront plus tard, et vous pouvez les ajouter ici au fuir et à mesure.
+{BOX(bg="#FFE6FF" width="60%")}
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide. Voir section ((SayMoreGestion|#Consentement_clair_|7.2: Consentement éclairé)).{BOX}
+Une fois que vous avez ajouté des personnes avec la preuve de leur accord (soit un document signé et numérisé ou un enregistrement),{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Renommer_Consentement_eclare_fr.png" class=img-responsive}Renommer Consentement éclairé
+Regarder l'onglet __État et Étapes__. Le case á côte de __Informed Consent__ sera déjà coché.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/informed%20consent-fr.png" class=img-responsive}
+----
+!!8.3: Faire l'annotation
+
+Si votre enregistrement est en format vidéo, allez vers section ((SayMoreTrans|#Cr_er_une_version_audio_du_vid_o\.|8.3.1: Créer une version audio du vidéo.)). Si c'est déjà en format Audio, sautez vers section ((SayMoreTrans|#Faire_l_annotation|8.3: Faire l'annotation))
+!!!8.3.1: Créer une version audio du vidéo.
+
+Si vous avez importé une vidéo, il faut que SayMore copie l'audio du vidéo vers un autre ficher.
+# Cliquez une fois sur le vidéo et encore sur l'onglet __Commencer à annoter__.Le texte explique que SayMore créera un ficher .wav pour l'analyse.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/commencer%20a%20annoter.png" class=img-responsive}Commencer à annoter
+# Cliquez sur __OK__.Après la conversion, le fichier .wav apparaîtra.
+!!!8.3.2: Segmentation Automatique
+
+SayMore peut essayer a découper l'enregistrement à chaque silence pour faire des segments gerables.
+# Cliquez sur le fichier audio {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/micro.png" class=img-responsive} dans la liste des fichiers, et puis sur l'onglet __Commencer à annoter__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment%20automatique.png" class=img-responsive}Utiliser le segmenteur automatique
+# Selectionnez __Utilisez le segmenteur automatique__ et cliquez sur le bouton __Commencer... __.SayMore découpera l'enregistrement à chaque silence et affichera un certain nombre des champs vide.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
+# Cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment.png" class=img-responsive} pour voir (ou adjuster) le découpage. Il et fortement conseiller de faire les grandes changements de la segmentation AVANT de faire les transcriptions.
+# S'il faut modifier la segmentation, voir section ((SayMoreTrans|#Changer_la_Segmentation|8.3.3: Changer la Segmentation)).
+!!!8.3.3: Changer la Segmentation
+
+
+# Cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segment.png" class=img-responsive} pour voir (ou ajuster) le découpage. La boîte de dialogue segmenter manuel apparaîtra.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/resegment%20-%20fr.png" class=img-responsive}Segmenteur Manuel
+# Vous pouvez tirer les barres oranges à gauche ou à droite avec le souris.
+# Pour ajouter un segment cliquez là ou il faut couper l'audio et tapez __Entrée__.
+# Pour ignorer les segments vides, cliquez dans le segment et cochez le case __Ignoré__.
+!!!8.3.4: Segmentation Manuelle
+
+
+# Cliquez sur le fichier audio {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/micro.png" class=img-responsive} dans la liste des fichiers, et puis sur l'onglet __Commencer à annoter__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segman.png" class=img-responsive}Segmentation manuelle
+# Selectionnez __Utilisez le segmenteur manuelle__ et cliquez sur le bouton __Commencer... __.Le Segmenteur Manuelle affichera.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/segmanwav.png" class=img-responsive}Segmenteur
+# Tapez la barre d'__espace__ pour jouer l'audio.
+# Chaque fois qu'il faut couper l'enregistrement, tapez __Éntrée__.
+# Continuez à tapez __Éntrée__ pour chaque segment j'usqu'au la fin.
+# Cliquez sur le bouton __Bien__ (OK)..
+----
+!!8.4: Transcription en discours soigneux.
+
+Souvent, pendant des discours, on parle rapidement et on ne prends pas le soin de bien prononcer chaque mot. Aussi, l'enregistreur est parfois loin de l'interlocuteur. À cet effet, les enregistrements sur le champ ne sont pas idéale pour la transcription ni la traduction.
+SayMore facilite la tâche de faire une transcription en discours soigneux. Un autre autochtone suivra l'enregistrement, et répète chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à transcrire.
+# Cliquez sur le ficher __Annotation__.
+# Dan l'onglet __Annotations__, cliquez sur Outils d'annotations orales, puis __Discours soigneux...__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/commencerdiscours.png" class=img-responsive}Discours soigneux
+# La boîte de dialogue Enregistreur de discours soigneux s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ecoutersource.png" class=img-responsive}Enregistreur de discours soigneux
+# Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra le discours soigneux.
+# Mettre le curseur dans la zone orange et cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/play.png" class=img-responsive}.
+# Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.Le bouton __Prendre la parole__ s'active.
+# Si cette section ne contienne pas des paroles à transcrire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de __Ignorer__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ignore.png" class=img-responsive}
+# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et répétez soigneusement tous que vous venez d'entendre.SayMore avance au prochaine section.
+# Vous pouvez rejouer ce que vous venez d'enregistrer.
+# Si c'est bon, avancez au prochaine section.
+# Si ce n'est pas bon, cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/rerecord.png" class=img-responsive} et essayez-la encore.
+# Continuez jusqu'à la fin du ficher, puis cliquez sur __Bien__.
+
+----
+!!8.5: Transcription Orale
+
+SayMore facilite la tâche de faire une traduction libre dans une langue véhiculaire. Un autochtone bilingue suivra l'enregistrement, et traduit chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à traduire en texte.
+# Cliquez sur le ficher __Annotation__.
+# Dan l'onglet __Annotations__, cliquez sur Outils d'annotations orales, puis __Traduction orale...__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/starttrans.png" class=img-responsive}Traduction Orale
+# La boîte de dialogue Enregistreur de discours soigneux s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/oraltranswindow.png" class=img-responsive}Enregistreur de traduction orale
+# Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra la traduction orale.
+# Mettre le curseur dans la zone orange et cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/play.png" class=img-responsive}.
+# Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.Le bouton __Prendre la parole__ s'active.
+# Si cette section ne contienne pas des paroles à traduire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de __Ignorer__.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ignore.png" class=img-responsive}
+# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et traduire soigneusement tous que vous venez d'entendre.SayMore avance au prochaine section.
+# Vous pouvez rejouer ce que vous venez d'enregistrer.
+# Si c'est bon, avancez au prochaine section.
+# Si ce n'est pas bon, cliquez sur le bouton {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/rerecord.png" class=img-responsive} et essayez-la encore.
+# Continuez jusqu'à la fin du ficher, puis cliquez sur __Bien__.
+
+----
+!!8.6: Rédiger la Transcription
+
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Si vous avez déjà enregistré un discours soigneux, vous avez le choix des sons á écouter et transcrire. (Le discours soigneux sera probablement plus facile à comprendre. Cliquez sur Options à côté do Transcription, et choisir une option.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/transcription%20options.png" class=img-responsive}{BOX}
+# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
+# Cliquez dans le premier champ __Transcription__.Le son jouera cinq fois.
+# Si le son joue trop vite pour bien comprendre, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Saisir une transcription (dans la même langue que l'enregistrement) pour ce segment. Selon vos besoins, vous pouvez le faire selon l'orthographe de la langue, ou l'Alphabet Phonétique Internationale.
+# Tapez __Entrée__.
+# Saisir le prochaine transcription.
+# Répétez étapes 3 à 5.
+----
+!!8.7: Rédiger la traduction
+
+
+{BOX(bg="#FFE6FF" width="60%")}
+Remarque: Si vous avez déjà enregistré une traduction libre, vous avez le choix des sons á écouter. (Cliquez sur __Options__ à côté du __Traduction Libre__, et choisir une option.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/TradClick.png" class=img-responsive}{BOX}
+# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/cliquez%20traduction.png" class=img-responsive}list des fichiers
+# Cliquez dans le premier champ __Traduction Libre__.Le son jouera cinq fois.
+# Si le son joue trop vite pour bien comprendre le sens, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Saisir une traduction libre (dans une langue véhiculaire comme anglais ou français) pour ce segment.
+# Tapez __Entrée__.
+# Saisir le prochaine transcription.
+# Répétez étapes 3 à 5.!Archivage
+
+!9: Exportation des données
+
+
+----
+!!9.1: Exporter des sous-titres.
+
+
+----
+!!9.2: Exporter des étiquettes Audacity.
+
+
+----
+!!9.3: Exporter des sessions
+
+# Ouvrir un projet contenant les données des section qu'on désire exporter
+# Dans le menu projet, cliquez __Exporter les sessions.__La boîte de dialogue __Exporter les données__ apparaît.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}La boîte de dialogue exporter des données
+# Cliquez sur __Enregistrer__.Les données de sessions du projet seront exportés vers un fichier. Le fichier s'affichera dans le dossier.
+# Pour ouvrir le fichier, ouvrez le dossier, et double cliquez sur fichier.Le fichier exporté sera ouvert avec l'application défini pour ce genre de fichier.
+----
+!!9.4: Exporter des personnes
+
+Pour exporter toutes les personnes et les métadonnées associées dans le projet ouvert dans un fichier, procédez comme suit:
+# Ouvrez le projet contenant les personnes que vous souhaitez exporter
+# Dans le menu __Projet__, cliquez __Exporter des personnes__ La boîte de dialogue __Exporter les données__ apparaît:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}
+# Dans la boîte de dialogue, cliquez sur la zone Nom de fichier, puis tapez un nom.
+# Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.
+# Cliquez sur Enregistrer. __Les données de personnes dans le projet ouvert sont exportées dans un fichier. Le fichier est ensuite affiché dans le dossier.__
+# Pour ouvrir le fichier, ouvrez le dossier, puis double-cliquez sur le fichier. __Le fichier d'exportation s'ouvre avec le programme spécifié comme programme par défaut pour le type de fichier.__
+
+!10: Archivage
+
+----
+!!10.1: Archive avec RAMP (SIL) ...
+
+__Archiver avec RAMP (SIL) ...Ceci vous permet d'archiver en utilisant le référentiel de protocole d'accès de SIL pour le format d'archivage et de publication électroniques. Il est conçu pour transférer toutes les méta-données dans une archive.__
+----
+!!10.2: Achiver avec IMDI
+
+Cela vous permet d'archiver la __session__ en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales. Lorsque vous archivez avec IMDI, les fichiers dans Descriptive Documents sont exportés vers une session spéciale nommée 'Project Descriptive Documents' et les fichiers dans Other Documents sont exportés vers une session spéciale nommée 'Other Project Documents'.
+Cela vous permet d'archiver la session en tant qu'initiative de métadonnées ISLE, c'est une norme utilisée pour décrire les ressources langagières multimédias et multimodales.
+Cette rubrique est destinée à l'archivage à l'aide d'IMDI (vers TLA). Pour les autres archives, vous devez communiquer avec l'équipe pour apprendre ce que vous devez faire.Paratext 8SIL InternationalUnited Bible SocietiesBible Translation

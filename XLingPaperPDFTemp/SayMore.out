@@ -17,7 +17,7 @@
 \BOOKMARK [2][]{sOpenProject.2}{4.2  Ouvrir un projet existant}{cCreateProjectOver.1}% 17
 \BOOKMARK [2][]{sOpenOtherProject.2}{4.3  Ouvrir un autre projet}{cCreateProjectOver.1}% 18
 \BOOKMARK [1][]{cProjectMeta.1}{5 Remplir les metadonnées du projet}{}% 19
-\BOOKMARK [2][]{s.2}{5.1  À propos de ce projet}{cProjectMeta.1}% 20
+\BOOKMARK [2][]{sAboutProj.2}{5.1  À propos de ce projet}{cProjectMeta.1}% 20
 \BOOKMARK [2][]{sAccessProt.2}{5.2  Protocole d'accès}{cProjectMeta.1}% 21
 \BOOKMARK [2][]{sProDescDoc.2}{5.3  Documents de description du projet}{cProjectMeta.1}% 22
 \BOOKMARK [2][]{sOtherDocs.2}{5.4  Autre documents}{cProjectMeta.1}% 23
@@ -34,19 +34,17 @@
 \BOOKMARK [1][]{cTranscribe.1}{8 Survol du processus de la transcription}{}% 34
 \BOOKMARK [2][]{sMetaMaybe.2}{8.1  Metadonnées du session.}{cTranscribe.1}% 35
 \BOOKMARK [2][]{sAddContributors.2}{8.2  Ajouter les contributeurs de session}{cTranscribe.1}% 36
-\BOOKMARK [2][]{sStartAnnot.2}{8.3  Commencez l'annotation}{cTranscribe.1}% 37
-\BOOKMARK [2][]{sChangeSegmentation.2}{8.4  Changer la Segmentation}{cTranscribe.1}% 38
-\BOOKMARK [2][]{sSegMan.2}{8.5  Segmentation Manuelle}{cTranscribe.1}% 39
-\BOOKMARK [2][]{sCarefulSpeech.2}{8.6  Transcription en discours soigneux.}{cTranscribe.1}% 40
-\BOOKMARK [2][]{sOralTransl.2}{8.7  Transcription Orale}{cTranscribe.1}% 41
-\BOOKMARK [2][]{sWrittenTrans.2}{8.8  Rédiger la Transcription}{cTranscribe.1}% 42
-\BOOKMARK [2][]{sWritTransl.2}{8.9  Rédiger la traduction}{cTranscribe.1}% 43
-\BOOKMARK [1][]{pArchiving.1}{Part IV Archivage}{}% 44
-\BOOKMARK [1][]{cExport.1}{9 Exportation des données}{}% 45
-\BOOKMARK [2][]{sSubtitles.2}{9.1  Exporter des sous-titres.}{cExport.1}% 46
-\BOOKMARK [2][]{sAudacityLabels.2}{9.2  Exporter des étiquettes Audacity.}{cExport.1}% 47
-\BOOKMARK [2][]{sExportSession.2}{9.3  Exporter des sessions}{cExport.1}% 48
-\BOOKMARK [2][]{sExportPeople.2}{9.4  Exporter des personnes}{cExport.1}% 49
-\BOOKMARK [1][]{cArchive.1}{10 Archivage}{}% 50
-\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive avec RAMP \(SIL\) ...}{cArchive.1}% 51
-\BOOKMARK [2][]{sIMDI.2}{10.2  Achiver avec IMDI}{cArchive.1}% 52
+\BOOKMARK [2][]{sStartAnnot.2}{8.3  Faire l'annotation}{cTranscribe.1}% 37
+\BOOKMARK [2][]{sCarefulSpeech.2}{8.4  Transcription en discours soigneux.}{cTranscribe.1}% 38
+\BOOKMARK [2][]{sOralTransl.2}{8.5  Transcription Orale}{cTranscribe.1}% 39
+\BOOKMARK [2][]{sWrittenTrans.2}{8.6  Rédiger la Transcription}{cTranscribe.1}% 40
+\BOOKMARK [2][]{sWritTransl.2}{8.7  Rédiger la traduction}{cTranscribe.1}% 41
+\BOOKMARK [1][]{pArchiving.1}{Part IV Archivage}{}% 42
+\BOOKMARK [1][]{cExport.1}{9 Exportation des données}{}% 43
+\BOOKMARK [2][]{sSubtitles.2}{9.1  Exporter des sous-titres.}{cExport.1}% 44
+\BOOKMARK [2][]{sAudacityLabels.2}{9.2  Exporter des étiquettes Audacity.}{cExport.1}% 45
+\BOOKMARK [2][]{sExportSession.2}{9.3  Exporter des sessions}{cExport.1}% 46
+\BOOKMARK [2][]{sExportPeople.2}{9.4  Exporter des personnes}{cExport.1}% 47
+\BOOKMARK [1][]{cArchive.1}{10 Archivage}{}% 48
+\BOOKMARK [2][]{sArchiveRamp.2}{10.1  Archive avec RAMP \(SIL\) ...}{cArchive.1}% 49
+\BOOKMARK [2][]{sIMDI.2}{10.2  Achiver avec IMDI}{cArchive.1}% 50
