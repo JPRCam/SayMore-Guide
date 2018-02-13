@@ -1013,6 +1013,16 @@ contentType="fr"
 >Gestion d'un projet, des sessions, ou des personnes</titleContent
 ></titleContentChoices
 ></secTitle
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMoreManagement</titleContent
+><titleContent
+contentType="fr"
+>SayMoreGestion</titleContent
+></titleContentChoices
+></shortTitle
 ><p
 contentType="en"
 ></p
@@ -1899,7 +1909,7 @@ id="sDeleteSession"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Delete Session...</titleContent
+>Delete Session(s)</titleContent
 ><titleContent
 contentType="fr"
 >Supprimer une session</titleContent
@@ -1907,16 +1917,84 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-><object
+>If you want to delete a session you need to select the session in the <object
 type="tmenu"
->Delete Session...</object
-> Allows you to delete a session you have selected in the <object
-type="tmenu"
->Sessions tab</object
+>Sessions</object
+> Tab. Once selected you can either right click on the selected session and select "Delete Session...": <br
+></br
+></p
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.1."
+><chart
+><img
+src="images/en/RC_DeleteSession.png"
+></img
+></chart
+><caption
+>Right Click to Delete Session</caption
+></figure
+><p
+contentType="en"
+>Or you can click on the menu item Session and select "Delete Session..." to delete the selected session:<br
+></br
+></p
+><figure
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.2."
+><chart
+><img
+src="images/en/DeleteSession_MENUOP.png"
+></img
+></chart
+><caption
+>Menu to Delete Selected Session</caption
+></figure
+><p
+contentType="en"
+><br
+></br
+></p
+><p
+contentType="en"
+><br
+></br
 ></p
 ><p
 contentType="fr"
->Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans</p
+>Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans<br
+></br
+></p
+><figure
+id="f"
+><chart
+><img
+src="images/fr/SupprimerLaSession_doight.png"
+></img
+></chart
+><caption
+>Supprimer la session avec button doight</caption
+></figure
+><p
+contentType="en"
+>Où vous pouvez utilizer le menu Session : <br
+></br
+></p
+><figure
+id="f"
+><chart
+><img
+src="images/fr/SupprimerLaSession_AvecMenu.png"
+></img
+></chart
+><caption
+>Supprimer la session avec le menu session</caption
+></figure
+><p
+contentType="fr"
+><br
+></br
+><br
+></br
+></p
 ></section1
 ><section1
 id="sSessMeta1"
@@ -2138,6 +2216,16 @@ contentType="fr"
 >Transcription des fichiers audios et vidéos</titleContent
 ></titleContentChoices
 ></secTitle
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SayMoreTrans</titleContent
+><titleContent
+contentType="fr"
+>SayMoreTrans</titleContent
+></titleContentChoices
+></shortTitle
 ><p
 ></p
 ><chapter
@@ -2573,6 +2661,9 @@ contentType="fr"
 >SayMore peut essayer a découper l'enregistrement à chaque silence pour faire des segments gerables.</p
 ><ol
 ><li
+contentType="en"
+></li
+><li
 contentType="fr"
 >Cliquez sur le fichier audio <img
 src="images/fr/micro.png"
@@ -2637,7 +2728,7 @@ contentType="en"
 ><li
 contentType="fr"
 >S'il faut modifier la segmentation, voir section <sectionRef
-sec="sChangeSegmentation"
+sec="sAdjustSeg"
 ></sectionRef
 >.</li
 ><li
@@ -3275,6 +3366,16 @@ contentType="fr"
 >Archivage</titleContent
 ></titleContentChoices
 ></secTitle
+><shortTitle
+><titleContentChoices
+><titleContent
+contentType="en"
+>SaymoreArch</titleContent
+><titleContent
+contentType="fr"
+>SaymoreArch</titleContent
+></titleContentChoices
+></shortTitle
 ><chapter
 id="cExport"
 ><secTitle
@@ -3918,10 +4019,10 @@ id="dn"
 ></contentTypes
 ><contentControlChoices
 ><contentControlChoice
-active="no"
+active="yes"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice

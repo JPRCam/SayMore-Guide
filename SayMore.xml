@@ -1909,7 +1909,7 @@ id="sDeleteSession"
 ><titleContentChoices
 ><titleContent
 contentType="en"
->Delete Session...</titleContent
+>Delete Session(s)</titleContent
 ><titleContent
 contentType="fr"
 >Supprimer une session</titleContent
@@ -1917,16 +1917,88 @@ contentType="fr"
 ></secTitle
 ><p
 contentType="en"
-><object
+>If you want to delete a session you need to select the session in the <object
 type="tmenu"
->Delete Session...</object
-> Allows you to delete a session you have selected in the <object
-type="tmenu"
->Sessions tab</object
+>Sessions</object
+> Tab. Once selected you can either right click on the selected session and select "Delete Session...": <br
+></br
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.1."
+><chart
+><img
+src="images/en/RC_DeleteSession.png"
+></img
+></chart
+><caption
+>Right Click to Delete Session</caption
+></figure
+><p
+contentType="en"
+>Or you can click on the menu item Session and select "Delete Session..." to delete the selected session:<br
+></br
+></p
+><figure
+contentType="en"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.2."
+><chart
+><img
+src="images/en/DeleteSession_MENUOP.png"
+></img
+></chart
+><caption
+>Menu to Delete Selected Session</caption
+></figure
+><p
+contentType="en"
+><br
+></br
+></p
+><p
+contentType="en"
+><br
+></br
 ></p
 ><p
 contentType="fr"
->Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans</p
+>Si vous voulez supprimer une session, vous pouvez selectioner la session dans l'onglet session et faire un clic droit et «Supprimer la session...»<br
+></br
+></p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.3."
+><chart
+><img
+src="images/fr/SupprimerLaSession_doight.png"
+></img
+></chart
+><caption
+>Supprimer la session avec button doight</caption
+></figure
+><p
+contentType="fr"
+>Où vous pouvez utilizer le menu Session : <br
+></br
+></p
+><figure
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.4."
+><chart
+><img
+src="images/fr/SupprimerLaSession_AvecMenu.png"
+></img
+></chart
+><caption
+>Supprimer la session avec le menu session</caption
+></figure
+><p
+contentType="fr"
+><br
+></br
+><br
+></br
+></p
 ></section1
 ><section1
 id="sSessMeta1"
