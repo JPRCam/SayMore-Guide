@@ -9,13 +9,13 @@ En résumé, SayMore est un outil qui vous aide organiser, transcrire, et archiv
 
 Saymore peut être téléchargé par le lien (( https://software.sil.org/saymore/download/|https://software.sil.org/saymore/download/ )) . Pour son installation, SayMore necessite à un certain nombre de condition techniques tels que: Windows 7, 8 ou encore 10, également PDF reader et Microsoft Net 4.6.
 Si vous allez hors connexion, SayMore peut convertir les fichiers multimédias de ceux de votre appareil pour un archivage à long terme. Pour certaines de ces conversions, il utilise un outil Open Source nommé __FFmpeg__. Normalement, il sera téléchargé la première fois que vous en aurez besoin. Mais si vous allez utiliser SayMore hors Internet à moindre coût, assurez-vous de faire une conversion de test avant de quitter une connexion Internet.
-Après l'installation, vous allez voir:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}A la première ouverture de Saymore
+Après l'installation, vous allez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Ouvrir_Creer%20un%20nouveau_fr.png" class=img-responsive}A la première ouverture de Saymore
 Add an overview of installation process.
 Dans cette fenêtre, vous pouvez rouvrir un projet, chercher un projet existant dans un support USB ... , et créer nouveau, ou un projet vide.
 ----
 !!1.1: Changer la langue d'interface utilisateur
 
-Changez la langue d'interface utilisateur: Du menu Project, selectionnez __changer la langue d'interface utilisateur__. Ensuite s'affiche la boîte de dialogue __Langue d'interface utilisateur__. Choississez la langue de votre choix du menu déroulant langue. Cliquez sur __Ok__. {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/Langue_d_interface_utilisateur_fr.png" class=img-responsive}Interface
+Changez la langue d'interface utilisateur: Du menu Project, selectionnez __changer la langue d'interface utilisateur__. Ensuite s'affiche la boîte de dialogue __Langue d'interface utilisateur__. Choississez la langue de votre choix du menu déroulant langue. Cliquez sur __Ok__. {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/Langue_d_interface_utilisateur_fr.png" class=img-responsive}Interface
 LP améliorer:Si votre langue n'est pas là, ou vous voulez changez la translation d'interface utilisateur:
 * Cliquez sur la Je veux localiser SayMore pour une autre langue... ourvrir cette fenêtre pour changez la langue, mais cette fenêtre c'est en anglais.
 * C'est aussi possible de téléchargez une autre langue d'interface et aussi un autre Accès au fichier de Protocole par un autre utilisateur.
@@ -24,13 +24,13 @@ Si toutes les sélections n'ont pas été modifiées, fermer SayMore et le rouvr
 
 !2: Un Aperçu autour de SayMore
 
-SayMore ne contient que quatre menus et trois onglets. Les menus __Session__ et __Personne__ ont la couleur grise quand l'onglet __Project__ est activé.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/MenusetOnglet_fr.png" class=img-responsive}Les menus et les onglets
+SayMore ne contient que quatre menus et trois onglets. Les menus __Session__ et __Personne__ ont la couleur grise quand l'onglet __Project__ est activé.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/MenusetOnglet_fr.png" class=img-responsive}Les menus et les onglets
 Les prochaines sections vous aideront à trouver les mises en page
 ----
 !!2.1: Onglet Projet
 
-Cet onglet projet nous permet spécifier et de conserver la description du projet{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ongletProjet_fr.png" class=img-responsive}Fenêtre de Onglet Projet
-Dans cet onglet projet, nous avons un petit menu qui permet de modifier le projet actuel:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ongletProjet_petitmenu_fr.png" class=img-responsive}Onglet Projet petit menu
+Cet onglet projet nous permet spécifier et de conserver la description du projet{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_fr.png" class=img-responsive}Fenêtre de Onglet Projet
+Dans cet onglet projet, nous avons un petit menu qui permet de modifier le projet actuel:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ongletProjet_petitmenu_fr.png" class=img-responsive}Onglet Projet petit menu
 * __A propos de ce projet__Ici, il nous peut mettre les informations se rapportant autour de votre projet, à savoir le titre, la description, la localisation etc...
 * __Protocole d'accès__ici, il nous permet de déterminer qui peut avoir accès aux archives
 * __Document de description__Ici, il nous permet d'ajouter les documents qui décrivent le projet
@@ -41,21 +41,21 @@ Dans cet onglet projet, nous avons un petit menu qui permet de modifier le proje
 !!2.2: Onglet Session
 
 L'onglet Sessions est l'endroit où vous trouverez les informations relatives à chaque session ainsi que ce qui a été fait dans chaque session.
-La fenêtre de l'onglet Session:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/TAB_Sessions_avecExamples_fr.png" class=img-responsive}Sessions tab avec example
-Le côté gauche de la fenêtre est l'endroit où vous verrez vos sessions. Des colonnes permettent d'afficher l'ID, le titre, les étapes et le statut de la session. Vous pouvez activer d'autres colonnes facultatives (Date, Genre, Emplacement) en cliquant sur {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/en/TAB_Sessions_ADDCOLUMNS.png" class=img-responsive} en sélectionnant ceux que vous voulez voir.
-La fenêtre supérieure droite montre quels fichiers composent cette session. La fenêtre en bas à droite affiche les informations et le contenu à remplir en fonction de ce que vous avez sélectionné dans la fenêtre en haut à droite. Si vous souhaitez ajouter de la documentation ou ajouter le fichier audio pour cette session, cliquez sur {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+La fenêtre de l'onglet Session:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/TAB_Sessions_avecExamples_fr.png" class=img-responsive}Sessions tab avec example
+Le côté gauche de la fenêtre est l'endroit où vous verrez vos sessions. Des colonnes permettent d'afficher l'ID, le titre, les étapes et le statut de la session. Vous pouvez activer d'autres colonnes facultatives (Date, Genre, Emplacement) en cliquant sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/TAB_Sessions_ADDCOLUMNS.png" class=img-responsive} en sélectionnant ceux que vous voulez voir.
+La fenêtre supérieure droite montre quels fichiers composent cette session. La fenêtre en bas à droite affiche les informations et le contenu à remplir en fonction de ce que vous avez sélectionné dans la fenêtre en haut à droite. Si vous souhaitez ajouter de la documentation ou ajouter le fichier audio pour cette session, cliquez sur {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
 ----
 !!2.3: Onglet Personne
 
-L'onglet Personnes vous permet de suivre tous vos participants. Voici où vous documenterez leurs informations biologiques, contributions et notes :{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/OngletPersonnes_avecExamples_fr.png" class=img-responsive}Onglet Personne avec example
-Aussi vous pouvez ajouter des fichiers que vous avez besoin ici en cliquant {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
+L'onglet Personnes vous permet de suivre tous vos participants. Voici où vous documenterez leurs informations biologiques, contributions et notes :{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/OngletPersonnes_avecExamples_fr.png" class=img-responsive}Onglet Personne avec example
+Aussi vous pouvez ajouter des fichiers que vous avez besoin ici en cliquant {img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ajouterdesfichiers_fr.png" class=img-responsive} et choisir les fichiers désirables.
 !3: Présentation des Menus
 
 
 ----
 !!3.1: Menu: Projet
 
-Quand vous ouvrez le menu projet, vous avez cette présentation:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/mnuProjet_fr.png" class=img-responsive}Menu Projet
+Quand vous ouvrez le menu projet, vous avez cette présentation:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuProjet_fr.png" class=img-responsive}Menu Projet
 {BOX(bg="#FFE6FF" width="60%")}
 Remarque:
 * Comme vous pouvez le constater il n'y a pas d'option sauvegarde, parce que SayMore le fait pour vous
@@ -66,19 +66,19 @@ Permet de fermer l'application.
 ----
 !!3.2: Tâches de l'onglet Sessions
 
-Quand tu cliques sur l'onglet session, tu as une nouvelle fenêtre qui s'affiche et aussi le menu Session disponibleEn cliquant le menu session tu peux voir:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/mnuSession_fr.png" class=img-responsive}Menu Session
+Quand tu cliques sur l'onglet session, tu as une nouvelle fenêtre qui s'affiche et aussi le menu Session disponibleEn cliquant le menu session tu peux voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuSession_fr.png" class=img-responsive}Menu Session
 
 ----
 !!3.3: Tâches d'onglet Personnes
 
-Quand tu cliques l'onglet __personne__ tu peux sélectionner le menu __Personne__{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/mnuPersonne_fr.png" class=img-responsive}Menu Personne
+Quand tu cliques l'onglet __personne__ tu peux sélectionner le menu __Personne__{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuPersonne_fr.png" class=img-responsive}Menu Personne
 ----
 !!3.4: Tâches d'onglet Aide
 
-C'est dans cet onglet qu'on peux trouver l'aide pour l'usage de SayMore. Quand vous cliquez sur le menu aide vous pouvez voir:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/mnuAide_fr.png" class=img-responsive}Menu Aide
+C'est dans cet onglet qu'on peux trouver l'aide pour l'usage de SayMore. Quand vous cliquez sur le menu aide vous pouvez voir:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/mnuAide_fr.png" class=img-responsive}Menu Aide
 !!!3.4.1: Aide...
 
-Quand vous cliquez __Aide...__ il ouvre une nouvelle fenêtre (mais cette fenêtre c'est en anglais.):{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/en/SayMore_HelpWindow_en.png" class=img-responsive}SayMore Help Window
+Quand vous cliquez __Aide...__ il ouvre une nouvelle fenêtre (mais cette fenêtre c'est en anglais.):{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/en/SayMore_HelpWindow_en.png" class=img-responsive}SayMore Help Window
 À partir de cette fenêtre, vous pouvez éffectuer une recherche en utilisant l'arborescence du contenu, l'index (Recherche par mot-clé) et la recherche (rechercher un mot)
 !!!3.4.2: A propos...
 

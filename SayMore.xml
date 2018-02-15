@@ -2706,7 +2706,7 @@ type="tmenu"
 ></br
 ><figure
 align="left"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.1..figure.1."
+id="fUseSeg"
 ><chart
 ><img
 src="images/en/Annotating_Auto_Option_en.png"
@@ -2727,7 +2727,7 @@ type="tmenu"
 >.<br
 ></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.1..figure.1."
+id="fCommenceAnnoter"
 ><chart
 ><img
 src="images/fr/segment%20automatique.png"
@@ -2757,7 +2757,7 @@ type="tresult"
 ><figure
 align="left"
 contentType="en"
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.3..figure.1."
+id="fAfterSeg"
 ><chart
 ><img
 src="images/en/AnnotationsWindow_Blank_en.png"
@@ -2785,7 +2785,7 @@ type="tresult"
 ><br
 ></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.2..ol.1..li.3..figure.1."
+id="fApresSeg"
 ><chart
 ><img
 src="images/fr/empty%20fields%20fr.png"

@@ -17,7 +17,7 @@
 !!9.3: Exporter des sessions
 
 # Ouvrir un projet contenant les données des sections qu'on désire exporter
-# Dans le menu projet, cliquez __Exporter les sessions.__La boîte de dialogue __Exporter les données__ apparaît.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ExporterDes_fr.png" class=img-responsive}La boîte de dialogue exporter des données
+# Dans le menu projet, cliquez __Exporter les sessions.__La boîte de dialogue __Exporter les données__ apparaît.{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}La boîte de dialogue exporter des données
 # Cliquez sur __Enregistrer__.Les données de sessions du projet seront exportées vers un fichier. Le fichier s'affichera dans le dossier.
 # Pour ouvrir le fichier, ouvrez le dossier, et double cliquez sur fichier.Le fichier exporté sera ouvert avec l'application défini pour ce genre de fichier.
 ----
@@ -25,7 +25,7 @@
 
 Pour exporter toutes les personnes et les métadonnées associées dans le projet ouvert dans un fichier, procédez comme suit:
 # Ouvrez le projet contenant les personnes que vous souhaitez exporter
-# Dans le menu __Projet__, cliquez __Exporter des personnes__ La boîte de dialogue __Exporter les données__ apparaît:{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ExporterDes_fr.png" class=img-responsive}
+# Dans le menu __Projet__, cliquez __Exporter des personnes__ La boîte de dialogue __Exporter les données__ apparaît:{img src="https://raw.githubusercontent.com/erros84/PTManuals/master/images/fr/ExporterDes_fr.png" class=img-responsive}
 # Dans la boîte de dialogue, cliquez sur la zone Nom de fichier, puis tapez un nom.
 # Laissez la sélection Enregistrer en tant que type CSV (délimité par des virgules) (* .csv). Il est recommandé de sauvegarder le fichier dans le dossier du projet, qui est l'emplacement par défaut.
 # Cliquez sur Enregistrer. __Les données de personnes dans le projet ouvert sont exportées dans un fichier. Le fichier est ensuite affiché dans le dossier.__

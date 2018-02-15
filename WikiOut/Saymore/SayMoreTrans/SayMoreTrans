@@ -10,52 +10,52 @@ Donc, la recherche remplit plusieurs buts :
 * La récolte des données primaire sur le champ.
 * Le rassemblement des ressources trouvé sur la langue cible et les langues aux alentours.
 * Vos hypothèses et vos résultats.
-Pour investigué ces questions, vous allez probablement récolté des données par enregistrement et par écrit. Si vous publiez un corpus (un ensemble) numérique de vos données primaires en addition de vos résultats, ils seront scientifiquement vérifiable par d'autres chercheurs (et vos superviseurs), et on peut aussi réutiliser vos données pour faire d'autres analyses et renforcé l'étude de ces langues.
+Pour investiguer ces questions, vous allez probablement récolter des données par enregistrement et par écrit. Si vous publiez un corpus (un ensemble) numérique de vos données primaires en addition de vos résultats, ils seront scientifiquement vérifiables par d'autres chercheurs (et vos superviseurs), et on peut aussi réutiliser vos données pour faire d'autres analyses et renforcer l'étude de ces langues.
 SayMore vous aidera a organiser, analyser, archiver, et publier les données basée sur des enregistrements.
-Il y a six grandes étapes a suivre dans SayMore par enregistrement pour que ces données soient utilisable pas simplement pour vous-même, mais pour les chercheurs plus tard.
+Il y a six grandes étapes a suivre dans SayMore par enregistrement pour que ces données soient utilisables pas simplement pour vous-même, mais pour les chercheurs plus tard.
 # Enregistrement Source (Source Recording)
 # Consentement Informé (Informed Consent)
 # Transcription prudent orale (Careful Speech)
 # Traduction orale (Oral Translation)
 # Transcription écrite (Written Transcription)
 # Traduction écrite (Written Translation)
-Ces processus ne sont pas seulement en ordre de complétion, mais chaque étape bien fait rendra les étapes suivant plus facile. Ainsi, il faut toujours planifier plus de temps pour les étapes successives. La transcription écrite est pénible, mais très utile. Si vous êtes autochtone de la langue que vous étudiez, vous pouvez vite faire étapes 1-4, transcrire et traduire (par écrit) simplement les enregistrements le plus utile pour le mémoire, et laisser le reste du travail aux autres plus tard qui reçoit votre corpus.
+Ces processus ne sont pas seulement en ordre de complétion, mais chaque étape bien fait rendra les étapes suivant plus facile. Ainsi, il faut toujours planifier plus de temps pour les étapes successives. La transcription écrite est pénible, mais très utile. Si vous êtes autochtone de la langue que vous étudiez, vous pouvez vite faire étapes 1-4, transcrire et traduire (par écrit) simplement les enregistrements les plus utiles pour le mémoire, et laisser le reste du travail aux autres plus tard qui reçoit votre corpus.
 Si vous avez déjà crée une session avec l'audio (ou vidéo), regarder l'onglet __État et Étapes__. La case á côte de __Source Recording__ sera coché.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/Source%20Recording-fr.png" class=img-responsive}
 Vous êtes prêt à commencer la saisie des métadonnées et la transcription. Alors, SayMore vous guidera pour ces processus.
 ----
-!!8.1: Metadonnées du session.
+!!8.1: Metadonnées de la session.
 
-Voir Section ((SayMoreGestion|#Session_Metadata|6.3: Session Metadata))
+Voir Section ((SayMoreGestion|#Session_m_tadonn_es|6.3: Session métadonnées))
 ----
 !!8.2: Ajouter les contributeurs de session
 
 Avant de commencer ici, vous devriez déjà avoir ajouter toutes les personnes qui ont travaillé pour cette enregistrement, c'est-à-dire le talent (celui ou ceux qui figure dans l'enregistrement), le technicien, et les traducteurs.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/Sessions_metaData_Personnes_fr.png" class=img-responsive}Personnes
 Si on clique sur l'objet du type __Session__, il y a un champ pour __Personnes__. Cliquez sur la liste déroutante et cochez le case à côté de chaque participant. Il se peut que des personnes assisteront plus tard, et vous pouvez les ajouter ici au fuir et à mesure.
 {BOX(bg="#FFE6FF" width="60%")}
-Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de ce recherche seront scientifiquement invalide. Voir section ((SayMoreGestion|#Consentement_clair_|7.2: Consentement éclairé)).{BOX}
+Notez bien qu'il faut marquer tout le monde qui a travailler sur l'enregistrement et l'analyse, pas simplement ceux qui figurent dans l'enregistrement. Si vous ajoutez quelqu'un de qui vous n'avez pas ajouté leur consentement, c'est bien possible que ça peut empêcher le travail, la validité légale, et la publication de votre corpus. Même un des participants qui refuse de donner son accord sur l'utilisation de ces produits intellectuelle rende le produit inutilisable au niveau légale du copyright, et il aura le droit de vous portez plainte sur toute utilisation non autorisé. Aussi, les résultats de cette recherche seront scientifiquement invalides. Voir section ((SayMoreGestion|#Consentement_clair_|7.2: Consentement éclairé)).{BOX}
 Une fois que vous avez ajouté des personnes avec la preuve de leur accord (soit un document signé et numérisé ou un enregistrement),{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/Renommer_Consentement_eclare_fr.png" class=img-responsive}Renommer Consentement éclairé
 Regarder l'onglet __État et Étapes__. Le case á côte de __Informed Consent__ sera déjà coché.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/informed%20consent-fr.png" class=img-responsive}
 ----
 !!8.3: Faire l'annotation
 
-Si votre enregistrement est en format vidéo, allez vers section ((SayMoreTrans|#Cr_er_une_version_audio_du_vid_o\.|8.3.1: Créer une version audio du vidéo.)). Si c'est déjà en format Audio, sautez vers section ((SayMoreTrans|#Faire_l_annotation|8.3: Faire l'annotation))
-!!!8.3.1: Créer une version audio du vidéo.
+Si votre enregistrement est en format vidéo, allez vers section ((SayMoreTrans|#Cr_er_une_version_audio_de_la_vid_o\.|8.3.1: Créer une version audio de la vidéo.)). Si c'est déjà en format Audio, sautez vers section ((SayMoreTrans|#Faire_l_annotation|8.3: Faire l'annotation))
+!!!8.3.1: Créer une version audio de la vidéo.
 
-Si vous avez importé une vidéo, il faut que SayMore copie l'audio du vidéo vers un autre ficher.
-# Cliquez une fois sur le vidéo et encore sur l'onglet __Commencer à annoter__.Le texte explique que SayMore créera un ficher .wav pour l'analyse.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/commencer%20a%20annoter.png" class=img-responsive}Commencer à annoter
+Si vous avez importé une vidéo, il faut que SayMore copie l'audio de la vidéo vers un autre ficher.
+# Cliquez une fois sur la vidéo et encore sur l'onglet __Commencer à annoter__.Le texte explique que SayMore créera un ficher .wav pour l'analyse.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/commencer%20a%20annoter.png" class=img-responsive}Commencer à annoter
 # Cliquez sur __OK__.Après la conversion, le fichier .wav apparaîtra.
 !!!8.3.2: Segmentation Automatique
 
 SayMore peut essayer a découper l'enregistrement à chaque silence pour faire des segments gerables.
 # Cliquez sur le fichier audio {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/micro.png" class=img-responsive} dans la liste des fichiers, et puis sur l'onglet __Commencer à annoter__.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/segment%20automatique.png" class=img-responsive}Utiliser le segmenteur automatique
 # Selectionnez __Utilisez le segmenteur automatique__ et cliquez sur le bouton __Commencer... __.SayMore découpera l'enregistrement à chaque silence et affichera un certain nombre des champs vide.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
-# Cliquez sur {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/segment.png" class=img-responsive} pour voir (ou adjuster) le découpage. Il et fortement conseiller de faire les grandes changements de la segmentation AVANT de faire les transcriptions.
+# Cliquez sur {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/segment.png" class=img-responsive} pour voir (ou adjuster) le découpage. Il est fortement conseiller de faire les grands changements de la segmentation AVANT de faire les transcriptions.
 # S'il faut modifier la segmentation, voir section ((SayMoreTrans|#Changer_la_Segmentation|8.3.3: Changer la Segmentation)).
 !!!8.3.3: Changer la Segmentation
 
 
 # Cliquez sur {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/segment.png" class=img-responsive} pour voir (ou ajuster) le découpage. La boîte de dialogue segmenter manuel apparaîtra.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/resegment%20-%20fr.png" class=img-responsive}Segmenteur Manuel
-# Vous pouvez tirer les barres oranges à gauche ou à droite avec le souris.
+# Vous pouvez tirer les barres oranges à gauche ou à droite avec la souris.
 # Pour ajouter un segment cliquez là ou il faut couper l'audio et tapez __Entrée__.
 # Pour ignorer les segments vides, cliquez dans le segment et cochez le case __Ignoré__.
 !!!8.3.4: Segmentation Manuelle
@@ -79,9 +79,9 @@ SayMore facilite la tâche de faire une transcription en discours soigneux. Un a
 # Mettre le curseur dans la zone orange et cliquez sur le bouton {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/play.png" class=img-responsive}.
 # Rejouer l'audio plusieurs fois si c'est difficile à tout saisir.Le bouton __Prendre la parole__ s'active.
 # Si cette section ne contienne pas des paroles à transcrire, vous pouvez l'ignorer. Mettez le curseur dans la région orange et cochez le case à côté de __Ignorer__.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/ignore.png" class=img-responsive}
-# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et répétez soigneusement tous que vous venez d'entendre.SayMore avance au prochaine section.
+# Appuyez sur le bouton __Prendre la parole__ {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/prendre%20la%20parole.png" class=img-responsive} (garder le bouton appuyé pendant que vous parlez, comme le talkie-walkie) et répétez soigneusement tous ce que vous venez d'entendre.SayMore avance à la prochaine section.
 # Vous pouvez rejouer ce que vous venez d'enregistrer.
-# Si c'est bon, avancez au prochaine section.
+# Si c'est bon, avancez à la prochaine section.
 # Si ce n'est pas bon, cliquez sur le bouton {img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/rerecord.png" class=img-responsive} et essayez-la encore.
 # Continuez jusqu'à la fin du ficher, puis cliquez sur __Bien__.
 
@@ -108,24 +108,24 @@ SayMore facilite la tâche de faire une traduction libre dans une langue véhicu
 
 {BOX(bg="#FFE6FF" width="60%")}
 Remarque: Si vous avez déjà enregistré un discours soigneux, vous avez le choix des sons á écouter et transcrire. (Le discours soigneux sera probablement plus facile à comprendre. Cliquez sur Options à côté do Transcription, et choisir une option.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/transcription%20options.png" class=img-responsive}{BOX}
-# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
+# Cliquez sur le fichier annotations dans la liste des fichiers pour la sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/empty%20fields%20fr.png" class=img-responsive}Annotations
 # Cliquez dans le premier champ __Transcription__.Le son jouera cinq fois.
-# Si le son joue trop vite pour bien comprendre, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Si le son joue trop vite pour bien comprendre, choisir un autre pourcentage ({img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
 # Saisir une transcription (dans la même langue que l'enregistrement) pour ce segment. Selon vos besoins, vous pouvez le faire selon l'orthographe de la langue, ou l'Alphabet Phonétique Internationale.
 # Tapez __Entrée__.
-# Saisir le prochaine transcription.
-# Répétez étapes 3 à 5.
+# Saisir la prochaine transcription.
+# Répétez les étapes 3 à 5.
 ----
 !!8.7: Rédiger la traduction
 
 
 {BOX(bg="#FFE6FF" width="60%")}
-Remarque: Si vous avez déjà enregistré une traduction libre, vous avez le choix des sons á écouter. (Cliquez sur __Options__ à côté du __Traduction Libre__, et choisir une option.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/TradClick.png" class=img-responsive}{BOX}
-# Cliquez sur le fichier annotations dans la liste des fichiers pour le sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/cliquez%20traduction.png" class=img-responsive}list des fichiers
+Remarque: Si vous avez déjà enregistré une traduction libre, vous avez le choix des sons á écouter. (Cliquez sur __Options__ à côté de __Traduction Libre__, et choisir une option.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/TradClick.png" class=img-responsive}{BOX}
+# Cliquez sur le fichier annotations dans la liste des fichiers pour la sessionL'onglet ci-dessous s'affiche.{img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/cliquez%20traduction.png" class=img-responsive}list des fichiers
 # Cliquez dans le premier champ __Traduction Libre__.Le son jouera cinq fois.
-# Si le son joue trop vite pour bien comprendre le sens, choisir une autre pourcentage ({img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
+# Si le son joue trop vite pour bien comprendre le sens, choisir un autre pourcentage ({img src="https://raw.githubusercontent.com/jprcam/SayMore-Guide/master/images/fr/percentage.png" class=img-responsive}) de la vitesse pour ralentir le son.
 # Saisir une traduction libre (dans une langue véhiculaire comme anglais ou français) pour ce segment.
 # Tapez __Entrée__.
-# Saisir le prochaine transcription.
-# Répétez étapes 3 à 5.
+# Saisir la prochaine transcription.
+# Répétez les étapes 3 à 5.
 ((SayMoreGestion|<-- Gestion d'un projet, des sessions, ou des personnes)) |((SaymoreArch|Archivage --> ))
