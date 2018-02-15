@@ -2704,6 +2704,8 @@ type="tmenu"
 >Start Annotating</object
 > <br
 ></br
+><br
+></br
 ><figure
 align="left"
 id="fUseSeg"
@@ -2797,7 +2799,7 @@ src="images/fr/empty%20fields%20fr.png"
 ></li
 ><li
 contentType="en"
->Within the annotations window you can click on each individually numbered segmented entries. This causes the clip play until you stop it. Giving you time to enter your transcription and your free translation. There is a drop down box above Transcription that lets you set the playback speed.</li
+>Within the annotations window you can click on each individually numbered segmented entries. This causes the clip play until you stop it. Giving you time to enter your transcription and your free translation. There is a drop down box above Transcription that lets you set the playback speed. Pressing F2 will also playback the segment.</li
 ><li
 contentType="fr"
 >Cliquez sur <img
@@ -2806,7 +2808,39 @@ src="images/fr/segment.png"
 > pour voir (ou adjuster) le découpage. Il est fortement conseiller de faire les grands changements de la segmentation AVANT de faire les transcriptions.</li
 ><li
 contentType="en"
-></li
+>If you wish to segment the selected entry more, click on <img
+src="images/fr/segment.png"
+></img
+> and a new window will open, this is the Manual Segmenter window: <br
+></br
+><br
+></br
+><figure
+id="fmSegmenter"
+><chart
+><img
+src="images/en/Manual_Seg_window_after_Auto_en.png"
+></img
+></chart
+><caption
+>Manual Segmenter</caption
+></figure
+><br
+></br
+> It shows the entire audio clip and each segment that has already been automatically generated. When you have figured out where you want the new segment, click at the point you wish to start the new segment from ( <object
+type="tresult"
+>a green line will appear</object
+>). Then click: <br
+></br
+> <img
+src="images/en/Add_SegBoundary_en.png"
+></img
+> <br
+></br
+> Then click <object
+type="tmenu"
+>OK</object
+>.</li
 ><li
 contentType="fr"
 >S'il faut modifier la segmentation, voir section <sectionRef
@@ -2815,7 +2849,10 @@ sec="sAdjustSeg"
 >.</li
 ><li
 contentType="en"
-></li
+>If you wish to modify the segment, see section <sectionRef
+sec="sAdjustSeg"
+></sectionRef
+>.</li
 ></ol
 ></section2
 ><section2
@@ -2832,6 +2869,12 @@ contentType="fr"
 ></secTitle
 ><p
 ></p
+><p
+contentType="en"
+>If you are unhappy with where the segment lines are set in your segmentation list you can manually readjust their position.</p
+><p
+contentType="fr"
+>Si vous n'êtes pas satisfait de l'endroit où les lignes de segments sont placées dans votre liste de segmentation, vous pouvez réajuster manuellement leur position.</p
 ><ol
 ><li
 contentType="fr"
@@ -2858,13 +2901,34 @@ src="images/fr/resegment%20-%20fr.png"
 ></li
 ><li
 contentType="en"
+>Click on <img
+src="images/fr/segment.png"
+></img
+> segment button to open the <object
+type="tmenu"
+>Manual Segmenter</object
+> window.<br
+></br
+><figure
+id="fmanSeg"
+><chart
+><img
+src="images/en/Manual_Seg_window_after_Auto_en.png"
+></img
+></chart
+><caption
+>Manual Segmenter</caption
+></figure
 ></li
 ><li
 contentType="fr"
 >Vous pouvez tirer les barres oranges à gauche ou à droite avec la souris.</li
 ><li
 contentType="en"
-></li
+>If you left click and hold down the left mouse button, you can drag the orange line to the desired new position. If you mess up the placement just click <object
+type="tmenu"
+>Cancel</object
+>. </li
 ><li
 contentType="fr"
 >Pour ajouter un segment cliquez là ou il faut couper l'audio et tapez <object
@@ -2873,6 +2937,11 @@ type="tmenu"
 >.</li
 ><li
 contentType="en"
+>If you are happy with the new resized segment, click <object
+type="tmenu"
+>OK</object
+>.<br
+></br
 ></li
 ><li
 contentType="fr"
@@ -2880,10 +2949,11 @@ contentType="fr"
 type="tmenu"
 >Ignoré</object
 >.</li
-><li
-contentType="en"
-></li
 ></ol
+><p
+><br
+></br
+></p
 ></section2
 ><section2
 id="sManSeg"
@@ -2899,6 +2969,24 @@ contentType="fr"
 ></secTitle
 ><p
 ></p
+><p
+contentType="en"
+>If you would rather do your own segmenting of the audio file, then select <object
+type="tmenu"
+>Use Manual Segemtation tool</object
+> in the <object
+type="tmenu"
+>Start Annotating</object
+> tab of an audio file in a session.</p
+><p
+contentType="fr"
+>Si vous préférez effectuer votre propre segmentation du fichier audio, sélectionnez <object
+type="tmenu"
+>Utiliser l'outil de segmentation manuelle</object
+> dans l'onglet <object
+type="tmenu"
+>Commencer à annoter</object
+> de début d'un fichier audio dans une session.</p
 ><ol
 ><li
 contentType="fr"
@@ -2913,7 +3001,7 @@ type="tmenu"
 ><br
 ></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.4..ol.1..li.1..figure.1."
+id="fCommenSegManual"
 ><chart
 ><img
 src="images/fr/segman.png"
@@ -2925,6 +3013,27 @@ src="images/fr/segman.png"
 ></li
 ><li
 contentType="en"
+>Select the <img
+src="images/fr/micro.png"
+></img
+> audio file in the session you wish to segment and in the tabbed window below the session files, select <object
+type="tmenu"
+>Start Annotating</object
+>. In this tab make sure <object
+type="tmenu"
+>Use Manual Segmentation Tool</object
+> is checked: <br
+></br
+><figure
+id="fAnnoManualSeg"
+><chart
+><img
+src="images/en/Annotating_Manual_Option_en.png"
+></img
+></chart
+><caption
+>Start Annotating tab</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2942,7 +3051,7 @@ type="tresult"
 >.<br
 ></br
 ><figure
-id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.3..chapter.1..section1.3..section2.4..ol.1..li.3..figure.1."
+id="fsegMan"
 ><chart
 ><img
 src="images/fr/segmanwav.png"
@@ -2953,11 +3062,38 @@ src="images/fr/segmanwav.png"
 ></figure
 ></li
 ><li
+contentType="en"
+>Click Get Started... and the Manual Segmenter window will open: <br
+></br
+><figure
+id="fsegManualempty"
+><chart
+><img
+src="images/en/Manual_Seg_window_Empty_en.png"
+></img
+></chart
+><caption
+>Manual Segmenter</caption
+></figure
+></li
+><li
 contentType="fr"
 >Tapez la barre d'<object
 type="tmenu"
 >espace</object
 > pour jouer l'audio.</li
+><li
+contentType="en"
+>Here you can see the source audio with how many segments <img
+src="images/en/Total_number_segemts_empty_en.png"
+></img
+> and current cursor position as to the whole duration of the segment <img
+src="images/en/Duration%20and%20cursor%20position.png"
+></img
+>. Also there is a drop down box <img
+src="images/en/Zoom_ManualSegWindow_en.png"
+></img
+> that lets you zoom in closer to make more exact boundary placements.</li
 ><li
 contentType="fr"
 >Chaque fois qu'il faut couper l'enregistrement, tapez <object
@@ -2965,17 +3101,80 @@ type="tmenu"
 >Éntrée</object
 >.</li
 ><li
+contentType="en"
+>To create a segment you need to enclose the segment with boundary markers. Click where you want the beginning boundary and press <object
+type="tmenu"
+>enter</object
+> or click <img
+src="images/en/Add_SegBoundary_en.png"
+></img
+> and do the same for the ending boundary. Once it has boundari<figureRef
+figure="f"
+></figureRef
+>es, a green play button appears in the segment and you can listen to the segment you just created. If you want to remove a boundary line just select it and press <object
+type="tmenu"
+>delete</object
+> or click <img
+src="images/en/Manual_Seg_window_DeleteBoundaryButton_en.png"
+></img
+>. <br
+></br
+><br
+></br
+><figure
+id="fmanSegwithSeg"
+><chart
+><img
+src="images/en/Manual_Seg_window_withSegments_en.png"
+></img
+></chart
+><caption
+>Segments made in Manual Segmenter</caption
+></figure
+><br
+></br
+><object
+type="tresult"
+>You can create a segment of dead space or anything you wish to ignore and then just check the ignore box and this keeps it from being placed in your segments list.</object
+> <br
+></br
+></li
+><li
 contentType="fr"
 >Continuez à tapez <object
 type="tmenu"
 >Éntrée</object
 > pour chaque segment j'usqu'au la fin.</li
 ><li
+contentType="en"
+>When you are satisfied with your segments, click <object
+type="tmenu"
+>OK</object
+>.</li
+><li
 contentType="fr"
 >Cliquez sur le bouton <object
 type="tmenu"
 >Bien</object
 > (OK)..</li
+><li
+contentType="en"
+>The Start Annotating tab will change to a new tab called Annotations, and below your original audio file there is a new file with the extinsion .annotations.eaf.<br
+></br
+><figure
+align="left"
+id="fSegmentsListAnno"
+><chart
+><img
+src="images/en/AnnotationsWindow_Blank_en.png"
+></img
+></chart
+><caption
+>Annotation Segments List</caption
+></figure
+><br
+></br
+></li
 ></ol
 ></section2
 ></section1
@@ -2995,8 +3194,20 @@ contentType="fr"
 contentType="fr"
 >Souvent, pendant des discours, on parle rapidement et on ne prends pas le soin de bien prononcer chaque mot. Aussi, l'enregistreur est parfois loin de l'interlocuteur. À cet effet, les enregistrements sur le champ ne sont pas idéale pour la transcription ni la traduction.</p
 ><p
+contentType="en"
+>Often, during speeches, you talk quickly and don't take care to pronounce every word correctly. Also, the recorder is sometimes far from the speaker. For this purpose, field recordings are not ideal for transcription or translation.</p
+><p
 contentType="fr"
 >SayMore facilite la tâche de faire une transcription en discours soigneux. Un autre autochtone suivra l'enregistrement, et répète chaque phrase lentement et clairement au studio. Cet nouveau ficher sera vite fait, et il sera plus facile à transcrire.</p
+><p
+contentType="en"
+>We need Careful Speech recordings so we can try to pronounce every word correctly. To produce a Careful Speech recording you click on the <img
+src="images/en/Oral_AnnotationsTools_icon_en.png"
+></img
+> Oral Annotations Tools drop down and select <object
+type="tmenu"
+>Careful Speech..</object
+>. It is important to have a native speaker record the Careful Speech slowly and clearly in a studio setting. This will make for an easier file to transcribe. </p
 ><ol
 ><li
 contentType="fr"
@@ -3004,6 +3215,34 @@ contentType="fr"
 type="tmenu"
 >Annotation</object
 >.</li
+><li
+contentType="en"
+>Make sure you have your annotation file selected <img
+src="images/en/Annotations_icon_en.png"
+></img
+>, and in the Annotation tab click on the <object
+type="tmenu"
+>Oral Annotations Tools</object
+> drop down and Select <object
+type="tmenu"
+>Careful Speech...</object
+> <br
+></br
+><br
+></br
+><figure
+id="foralAnnoTool"
+><chart
+><img
+src="images/en/AnnotationsWindow_OralAnnoToolDropDown_en.png"
+></img
+></chart
+><caption
+>Oral Annotations Tools Dropdown</caption
+></figure
+><br
+></br
+></li
 ><li
 contentType="fr"
 >Dan l'onglet <object
@@ -3026,6 +3265,31 @@ src="images/fr/commencerdiscours.png"
 ></figure
 ></li
 ><li
+contentType="en"
+>The Careful Speech Recorder window will open. The upper part of the window shows the whole audio file with your previous segments if you made any. The bottom part shows the Careful Speech sections of your defined segments. To record, press and hold down the left mouse button on the image of a speaking head <img
+src="images/en/CarefulSpeechHead_en.png"
+></img
+>. <br
+></br
+><figure
+id="fcareSpeachRecord"
+><chart
+><img
+src="images/en/CarefulSpeechWindow_en.png"
+></img
+></chart
+><caption
+>Careful Speech Window</caption
+></figure
+><br
+></br
+><p
+><object
+type="tresult"
+>It will make Careful Speech recording easier if you have already segmented the audio down to individual words.</object
+></p
+></li
+><li
 contentType="fr"
 >La boîte de dialogue Enregistreur de discours soigneux s'affiche.<br
 ></br
@@ -3043,6 +3307,9 @@ src="images/fr/ecoutersource.png"
 ><li
 contentType="fr"
 >Cette boîte de dialogue se compose de plusieurs rangs de l'audio. Le premier rang et l'audio source, découpé par phrase. Le deuxième rang prendra le discours soigneux.</li
+><li
+contentType="en"
+></li
 ><li
 contentType="fr"
 >Mettre le curseur dans la zone orange et cliquez sur le bouton <img
@@ -4104,11 +4371,11 @@ id="dn"
 active="no"
 >-Export Everything</contentControlChoice
 ><contentControlChoice
-active="yes"
+active="no"
 exclude="en dn"
 >Exclude English and Developer's Notes</contentControlChoice
 ><contentControlChoice
-active="no"
+active="yes"
 exclude="fr dn"
 >Exclude French and Developer's Notes</contentControlChoice
 ><contentControlChoice
