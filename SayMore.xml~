@@ -1924,6 +1924,7 @@ type="tmenu"
 ></br
 ></p
 ><figure
+contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.1."
 ><chart
 ><img
@@ -1935,10 +1936,14 @@ src="images/en/RC_DeleteSession.png"
 ></figure
 ><p
 contentType="en"
->Or you can click on the menu item Session and select "Delete Session..." to delete the selected session:<br
+>Or you can click on the menu item Session and select <object
+type="tmenu"
+>Delete Session...</object
+> to delete the selected session:<br
 ></br
 ></p
 ><figure
+contentType="en"
 id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.2."
 ><chart
 ><img
@@ -1960,11 +1965,15 @@ contentType="en"
 ></p
 ><p
 contentType="fr"
->Supprimer une session.... Vous permet de supprimer une session que vous avez sélectionné dans<br
+>Si vous voulez supprimer une session, vous pouvez selectioner la session dans l'onglet session et faire un clic droit et <object
+type="tmenu"
+>Supprimer la session...</object
+><br
 ></br
 ></p
 ><figure
-id="f"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.3."
 ><chart
 ><img
 src="images/fr/SupprimerLaSession_doight.png"
@@ -1974,12 +1983,16 @@ src="images/fr/SupprimerLaSession_doight.png"
 >Supprimer la session avec button doight</caption
 ></figure
 ><p
-contentType="en"
->Où vous pouvez utilizer le menu Session : <br
+contentType="fr"
+>Où vous pouvez utilizer le menu <object
+type="tmenu"
+>Session</object
+> : <br
 ></br
 ></p
 ><figure
-id="f"
+contentType="fr"
+id="f-NeedsALabel-.xlingpaper.1..styledPaper.1..lingPaper.1..part.2..chapter.3..section1.2..figure.4."
 ><chart
 ><img
 src="images/fr/SupprimerLaSession_AvecMenu.png"
@@ -2005,7 +2018,7 @@ contentType="en"
 >Session Metadata</titleContent
 ><titleContent
 contentType="fr"
->Session Metadata</titleContent
+>Métadonnées du session</titleContent
 ></titleContentChoices
 ></secTitle
 ><p
@@ -2657,11 +2670,30 @@ contentType="fr"
 ></titleContentChoices
 ></secTitle
 ><p
+contentType="en"
+>SayMore can automatically try to segment your recordings according to breaks in speech.</p
+><p
 contentType="fr"
 >SayMore peut essayer a découper l'enregistrement à chaque silence pour faire des segments gerables.</p
 ><ol
 ><li
 contentType="en"
+>Select the audio file you wish to auto segment and select the tab <object
+type="tmenu"
+>Start Annotating</object
+> <br
+></br
+><figure
+align="left"
+id="f"
+><chart
+><img
+src="images/en/Annotating_Auto_Option_en.png"
+></img
+></chart
+><caption
+>Use Auto Segmenter</caption
+></figure
 ></li
 ><li
 contentType="fr"
@@ -2686,6 +2718,35 @@ src="images/fr/segment%20automatique.png"
 ></li
 ><li
 contentType="en"
+>Make sure <object
+type="tmenu"
+>Use Auto Segmenter</object
+> is selected and then click <object
+type="tmenu"
+>GetStarted</object
+>. <br
+></br
+><p
+><object
+type="tresult"
+>A new window will open and you will see a new file created below your audio clip that is .wav.annotations.eaf</object
+> <br
+></br
+></p
+><figure
+align="left"
+contentType="en"
+id="f"
+><chart
+><img
+src="images/en/AnnotationsWindow_Blank_en.png"
+></img
+></chart
+><caption
+>Annotations window after auto segmentation</caption
+></figure
+><br
+></br
 ></li
 ><li
 contentType="fr"
@@ -2715,7 +2776,7 @@ src="images/fr/empty%20fields%20fr.png"
 ></li
 ><li
 contentType="en"
-></li
+>Within the annotations window you can click on each individually numbered segmented entries. This causes the clip play until you stop it. Giving you time to enter your transcription and your free translation. There is a drop down box above Transcription that lets you set the playback speed.</li
 ><li
 contentType="fr"
 >Cliquez sur <img
